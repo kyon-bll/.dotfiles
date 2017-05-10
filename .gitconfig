@@ -1,0 +1,9 @@
+[user]
+	name = kyosuke
+	email = kyosuke.araki611@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = emacs
+[push]
+	default = simple
