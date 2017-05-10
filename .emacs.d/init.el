@@ -51,8 +51,11 @@
 ;; 終了時にオートセーブファイルを削除する
 ;(setq delete-auto-save-files t)
 
+;; 自動保存ファイルのリストファイル作成しない
+(setq auto-save-list-file-prefix nil)
+
 ;; テーマ
-(load-theme 'spacemacs-dark t)          
+(load-theme 'spacemacs-dark t)
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ;; (load-theme 'dracula t)
 
