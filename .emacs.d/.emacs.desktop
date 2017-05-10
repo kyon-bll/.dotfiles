@@ -2,21 +2,87 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu May 11 04:58:19 2017
+;; Created Thu May 11 05:06:30 2017
 ;; Desktop file format version 206
 ;; Emacs version 24.5.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22803 28891 204264 268000) (desktop . "206") "kyon@kyon-ThinkPad" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (powerline-cache) (menu-bar-lines . 0) (tool-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 25) (width . 178) (modeline . t) (unsplittable) (alpha 0.85 0.85) (left . 200) (top . 0) (frameset--id . "9C6B-3FE4-6F57-82C7") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 178) (pixel-height . 24) (total-width . 178) (total-height . 24) (normal-height . 1.0) (normal-width . 1.0) (buffer "config.fish" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 5) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 957) (start . 663))))])
+(setq desktop-saved-frameset [frameset 1 (22803 29382 546361 437000) (desktop . "206") "kyon@kyon-ThinkPad" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (powerline-cache) (menu-bar-lines . 0) (tool-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 25) (width . 178) (modeline . t) (unsplittable) (alpha 0.85 0.85) (left . 200) (top . 0) (frameset--id . "5CDB-30C2-5373-2ACC") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 178) (pixel-height . 24) (total-width . 178) (total-height . 24) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 89) (pixel-height . 24) (total-width . 89) (total-height . 24) (normal-height . 1.0) (normal-width . 0.5) (buffer ".cask" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 5) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 223) (start . 1))) (leaf (last . t) (pixel-width . 89) (pixel-height . 24) (total-width . 89) (total-height . 24) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Directory*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 5) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring '("$" "’¥Æ’¡¼’¥Þ" "’Æ©’ÌÀ" "’¥Æ’¡¼’¥Þ" "’Æ©’²á"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/" "~/.emacs.d/init.el"))
+(setq file-name-history '("~/.dotfiles/.emacs.d/" "~/.emacs.d/" "~/.emacs.d/init.el"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  nil
+  ".cask"
+  'dired-mode
+  '(linum-mode flex-autopair-mode)
+  223
+  '(nil nil)
+  t
+  '("/home/kyon/.dotfiles/.emacs.d/.cask/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "24.5"
+  'dired-mode
+  '(linum-mode flex-autopair-mode)
+  184
+  '(nil nil)
+  t
+  '("/home/kyon/.dotfiles/.emacs.d/.cask/24.5/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "elpa"
+  'dired-mode
+  '(linum-mode flex-autopair-mode)
+  190
+  '(nil nil)
+  t
+  '("/home/kyon/.dotfiles/.emacs.d/.cask/24.5/elpa/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "bootstrap"
+  'dired-mode
+  '(linum-mode flex-autopair-mode)
+  194
+  '(nil nil)
+  t
+  '("/home/kyon/.dotfiles/.emacs.d/.cask/24.5/bootstrap/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  '(linum-mode flex-autopair-mode)
+  400
+  '(nil nil)
+  t
+  '("/home/kyon/.dotfiles/.emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/kyon/.dotfiles/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(rainbow-delimiters-mode linum-mode auto-complete-mode flex-autopair-mode)
+  1566
+  '(1656 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
 (desktop-create-buffer 206
   "/home/kyon/.config/fish/config.fish"
   "config.fish"
@@ -24,17 +90,6 @@
   '(linum-mode flex-autopair-mode)
   957
   '(915 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/kyon/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(rainbow-delimiters-mode linum-mode auto-complete-mode flex-autopair-mode)
-  1566
-  '(1656 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
