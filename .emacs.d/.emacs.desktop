@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu May 11 04:58:19 2017
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22803 28891 204264 268000) (desktop . "206") "kyon@kyon-ThinkPad" nil nil ((((tty-type . "xterm") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (powerline-cache) (menu-bar-lines . 0) (tool-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 25) (width . 178) (modeline . t) (unsplittable) (alpha 0.85 0.85) (left . 200) (top . 0) (frameset--id . "9C6B-3FE4-6F57-82C7") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 178) (pixel-height . 24) (total-width . 178) (total-height . 24) (normal-height . 1.0) (normal-width . 1.0) (buffer "config.fish" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 5) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 957) (start . 663))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("$" "’¥Æ’¡¼’¥Þ" "’Æ©’ÌÀ" "’¥Æ’¡¼’¥Þ" "’Æ©’²á"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/" "~/.emacs.d/init.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/kyon/.config/fish/config.fish"
+  "config.fish"
+  'conf-space-mode
+  '(linum-mode flex-autopair-mode)
+  957
+  '(915 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/kyon/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(rainbow-delimiters-mode linum-mode auto-complete-mode flex-autopair-mode)
+  1566
+  '(1656 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+

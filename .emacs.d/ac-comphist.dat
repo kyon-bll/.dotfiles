@@ -1,0 +1,34 @@
+((("twit" .
+   [1 0 0 0])
+  ("tw" .
+   [1 0])
+  ("hc-zenburn-theme" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("twittering-display-remaining" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("twittering-icon-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("ex" .
+   [1 0])
+  ("my-window-resizer" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("import" .
+   [0 0 0 0 2 1])
+  ("numpy" .
+   [0 0 0 1 0])
+  ("twittering-oauth-access-token-alist" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("python" .
+   [1 0 0 0 0 0])
+  ("twittering-convert-fix-size" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("require" .
+   [0 0 0 0 1 0 0])
+  ("hlinum" .
+   [0 0 1 0 0 0])
+  ("a" .
+   [1])
+  ("f" .
+   [1])
+  ("as" .
+   [1 0])))
