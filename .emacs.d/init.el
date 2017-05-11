@@ -23,6 +23,10 @@
 ;; フォント
 (set-face-attribute 'default nil :family "Ricty")
 
+;; fish-mode
+(require 'fish-mode)
+(add-to-list 'auto-mode-alist '("\\.fish\\'" . fish-mode))
+
 ;; powerline
 (require 'powerline)
 (powerline-default-theme)
