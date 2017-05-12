@@ -24,11 +24,11 @@ status --is-interactive; and . (pyenv init - | psub)
 #set -x WORKON_HOME=~/.virtualenvs
 #set -x PATH="/home/kyon/.cask/bin:$PATH"
 
-set fish_theme agnoster
+#set fish_theme agnoster
 
-function fish_prompt
-    ~/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
-end
+# function fish_prompt
+#     ~/powerline-shell/powerline-shell.py $status --shell bare ^/dev/null
+# end
 
 #peco
 # function fish_user_key_bindings
@@ -42,4 +42,5 @@ function fish_user_key_bindings
 end
 
 ## rmで {$HOME}/.trash に入れる
-alias rm='mv --backup=numbered --target-directory={$HOME}/.trash'
+#alias rm='mv --backup=numbered --target-directory={$HOME}/.trash'
+alias rm=trash
