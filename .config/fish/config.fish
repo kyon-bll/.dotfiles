@@ -44,3 +44,6 @@ end
 ## rmで {$HOME}/.trash に入れる
 #alias rm='mv --backup=numbered --target-directory={$HOME}/.trash'
 alias rm=trash
+
+# terminator alias
+alias terminator='terminator -b --layout=guake-like'
