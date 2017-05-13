@@ -107,6 +107,18 @@
 ;; 反対側のウィンドウにいけるように
 (setq windmove-wrap-around t)
 
+;; バッファ読み込み
+(global-set-key
+ [f5] 'eval-buffer)
+
+;; C-M-kで行頭からカーソル位置まで削除
+(defun backward-kill-line (arg)
+  "Kill chars backward until encountering the end of a line."
+  (interactive "p")
+  (kill-line 0))
+;; C-M-kに設定
+(global-set-key (kbd "C-M-k") 'backward-kill-line)
+
 ;; C-M-{h,m,l}でウィンドウ内移動
 ;(global-set-key (kbd "C-M-h") (lambda () (interactive) (move-to-window-line 0)))
 ;(global-set-key (kbd "C-M-m") (lambda () (interactive) (move-to-window-line nil)))
