@@ -47,3 +47,13 @@ alias rm=trash
 
 # terminator alias
 alias terminator='terminator -b --layout=guake-like'
+
+# git alias
+alias g=git
+alias ga='git add'
+alias ga.='git add .'
+alias gcm='git commit -m'
+alias gcam='git commit -a -m'
+alias gs='git status'
+alias gp='git push'
+alias gd='git diff'
