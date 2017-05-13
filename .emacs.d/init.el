@@ -58,6 +58,17 @@
 ;; 自動保存ファイルのリストファイル作成しない
 (setq auto-save-list-file-prefix nil)
 
+;; バッファ読み込み
+(global-set-key [f5] 'eval-buffer)
+
+;; カーソル位置から行頭まで削除する
+(defun backward-kill-line (arg)
+  "Kill chars backward until encountering the end of a line."
+  (interactive "p")
+  (kill-line 0))
+;; C-M-kに設定
+(global-set-key (kbd "C-M-k") 'backward-kill-line)
+
 ;; テーマ
 (load-theme 'spacemacs-dark t)
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
