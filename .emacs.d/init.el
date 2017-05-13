@@ -278,6 +278,37 @@
 (setq web-mode-tag-auto-close-style t)
 ;; (setq web-mode-enable-auto-pairing t) ^の閉じカッコ自動挿入とかぶる
 
+;; ;; 色の設定 黄色くてつよい
+;; (custom-set-faces
+;;  '(web-mode-doctype-face          ((t (:foreground "#82AE46"))))
+;;  '(web-mode-html-tag-face         ((t (:foreground "#E6B422" :weight bold))))
+;;  '(web-mode-html-attr-name-face   ((t (:foreground "#C97586"))))
+;;  '(web-mode-html-attr-value-face  ((t (:foreground "#82AE46"))))
+;;  '(web-mode-comment-face          ((t (:foreground "#D9333F"))))
+;;  '(web-mode-server-comment-face   ((t (:foreground "#D9333F"))))
+;;  '(web-mode-css-rule-face         ((t (:foreground "#A0D8EF"))))
+;;  '(web-mode-css-pseudo-class-face ((t (:foreground "#FF7F00"))))
+;;  '(web-mode-css-at-rule-face      ((t (:foreground "#FF7F00"))))
+;;  )
+
+;; 色 青い
+(custom-set-faces
+ '(web-mode-doctype-face           ((t (:foreground "#4A8ACA"))))
+ '(web-mode-html-tag-face          ((t (:foreground "#4A8ACA" :weight bold))))
+ '(web-mode-html-attr-name-face    ((t (:foreground "#87CEEB"))))
+ '(web-mode-html-attr-equal-face   ((t (:foreground "#FFFFFF"))))
+ '(web-mode-html-attr-value-face   ((t (:foreground "#D78181"))))
+ '(web-mode-comment-face           ((t (:foreground "#587F35"))))
+ '(web-mode-server-comment-face    ((t (:foreground "#587F35"))))
+
+ '(web-mode-css-at-rule-face       ((t (:foreground "#DFCF44"))))
+ '(web-mode-comment-face           ((t (:foreground "#587F35"))))
+ '(web-mode-css-selector-face      ((t (:foreground "#DFCF44"))))
+ '(web-mode-css-pseudo-class       ((t (:foreground "#DFCF44"))))
+ '(web-mode-css-property-name-face ((t (:foreground "#87CEEB"))))
+ '(web-mode-css-string-face        ((t (:foreground "#D78181"))))
+  )
+
 ;;-----------python-----------
 
 ;;autopep：保存時に勝手にコードを綺麗にしてくれる
