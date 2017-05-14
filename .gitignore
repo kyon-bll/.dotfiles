@@ -4,7 +4,9 @@
 .emacs.d/ac-comphist.dat
 .emacs.d/elpa
 .emacs.desktop
+.emacs.desktop.lock
 .python-environments
+
 
 #fish
 /.config/*
