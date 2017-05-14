@@ -6,7 +6,8 @@
 .emacs.desktop
 .emacs.desktop.lock
 .python-environments
-
+.emacs.d/history
+.emacs.d/places
 
 #fish
 /.config/*
