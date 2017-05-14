@@ -20,8 +20,28 @@
 (set-language-environment "Japanese")
 (setq default-input-method "japanese-mozc")
 
+;;; 右から左に読む言語に対応させないことで描画高速化
+(setq-default bidi-display-reordering nil)
+
+;; C-u C-SPC C-SPC …でどんどん過去のマークを遡る
+(setq set-mark-command-repeat-pop t)
+
+;;; ファイルを開いた位置を保存する
+(require 'saveplace)
+(setq-default save-place t)
+(setq save-place-file (concat user-emacs-directory "places"))
+
+;;; ミニバッファ履歴を次回Emacs起動時にも保存する
+(savehist-mode 1)
+
+;;; ログの記録行数を増やす
+(setq message-log-max 10000)
+
+;;; 履歴をたくさん保存する
+(setq history-length 1000)
+
 ;; フォント
-(set-face-attribute 'default nil :family "Ricty")
+(set-face-attribute 'default nil :family "Ricty for Powerline")
 
 ;; fish-mode
 (require 'fish-mode)
