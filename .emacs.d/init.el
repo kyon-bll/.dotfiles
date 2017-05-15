@@ -62,7 +62,6 @@
   (migemo-init))
 
 ;; 画面内検索
-
 (require 'ace-jump-mode)
 (setq ace-jump-mode-gray-background nil)
 (setq ace-jump-word-mode-use-query-char nil)
@@ -90,6 +89,11 @@
       '("/TAGS$" "/var/tmp/"))
 (require 'recentf-ext)
 (global-set-key (kbd "C-x f") 'recentf-open-files)
+
+;; カーソルを戻す
+(require 'point-undo)
+(global-set-key [f7] 'point-undo)
+(global-set-key [M-f7] 'point-redo)
 
 ;; bs バッファリスト
 (global-set-key (kbd "C-x C-b") 'bs-show)
