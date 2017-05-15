@@ -98,6 +98,11 @@
 ;; bs バッファリスト
 (global-set-key (kbd "C-x C-b") 'bs-show)
 
+;; 変更履歴を戻る
+(require 'goto-chg)
+(global-set-key [f8] 'goto-last-change)
+(global-set-key [M-f8] 'goto-last-change-reverse)
+
 ;; フォント
 (set-face-attribute 'default nil :family "Ricty for Powerline")
 
