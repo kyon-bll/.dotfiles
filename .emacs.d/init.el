@@ -82,7 +82,7 @@
 (ido-mode 1)
 (ido-everywhere 1)
 
-;; bs バッファ
+;; bs バッファリスト
 (global-set-key (kbd "C-x C-b") 'bs-show)
 
 ;; フォント
