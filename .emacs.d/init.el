@@ -103,6 +103,9 @@
 (global-set-key [f8] 'goto-last-change)
 (global-set-key [M-f8] 'goto-last-change-reverse)
 
+;; browse-kill-ring M-y
+(global-set-key (kbd "M-y") 'browse-kill-ring)
+
 ;; フォント
 (set-face-attribute 'default nil :family "Ricty for Powerline")
 
