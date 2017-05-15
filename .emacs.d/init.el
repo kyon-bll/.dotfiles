@@ -49,6 +49,18 @@
 (require 'dired-x)
 (global-set-key "\C-x\C-j" 'skk-mode)
 
+;; アルファベットで日本語検索
+(when (locate-library "migemo")
+  (setq migemo-command "/usr/bin/cmigemo") ; HERE cmigemoバイナリ
+  (setq migemo-options '("-q" "--emacs"))
+  (setq migemo-dictionary
+        "/usr/share/cmigemo/utf-8/migemo-dict") ; HERE Migemo辞書
+  (setq migemo-user-dictionary nil)
+  (setq migemo-regex-dictionary nil)
+  (setq migemo-coding-system 'utf-8-unix)
+  (load-library "migemo")
+  (migemo-init))
+
 ;; フォント
 (set-face-attribute 'default nil :family "Ricty for Powerline")
 
