@@ -11,6 +11,7 @@
 \#*
 .\#*
 .emacs.d/eshell
+.emacs.d/recentf
 
 #fish
 /.config/*
