@@ -10,6 +10,7 @@
 .emacs.d/places
 \#*
 .\#*
+.emacs.d/eshell
 
 #fish
 /.config/*
