@@ -82,6 +82,15 @@
 (ido-mode 1)
 (ido-everywhere 1)
 
+;; recentf 最近使ったファイルを開く C-x f
+;; 最近のファイル500個を保存する
+(setq recentf-max-saved-items 500)
+;; 最近使ったファイルに加えないファイルを正規表現で指定する
+(setq recentf-exclude
+      '("/TAGS$" "/var/tmp/"))
+(require 'recentf-ext)
+(global-set-key (kbd "C-x f") 'recentf-open-files)
+
 ;; bs バッファリスト
 (global-set-key (kbd "C-x C-b") 'bs-show)
 
