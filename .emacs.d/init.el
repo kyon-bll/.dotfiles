@@ -70,6 +70,21 @@
       (append "asdfghjkl;:]qwertyuiop@zxcvbnm,." nil))
 (global-set-key (kbd "C-o") 'ace-jump-word-mode)
 
+;; 2画面ファイラー
+(setq dired-dwim-target t)
+
+;; wdired
+(require 'wdired)
+(setq wdired-allow-to-change-permissions t)
+(define-key dired-mode-map "e" 'wdired-change-to-wdired-mode)
+
+;; ido ファイル検索簡略化
+(ido-mode 1)
+(ido-everywhere 1)
+
+;; bs バッファ
+(global-set-key (kbd "C-x C-b") 'bs-show)
+
 ;; フォント
 (set-face-attribute 'default nil :family "Ricty for Powerline")
 
