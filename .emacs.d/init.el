@@ -69,6 +69,13 @@
       (append "asdfghjklqwertyuiopzxcvbnm,." nil))
 (global-set-key (kbd "C-o") 'ace-jump-word-mode)
 
+;; mwim C-a, C-eでコードの先頭から行頭
+(global-set-key (kbd "C-a") 'mwim-beginning-of-code-or-line)
+(global-set-key (kbd "C-e") 'mwim-end-of-code-or-line)
+;; 行頭からコードの先頭に
+;; (global-set-key (kbd "C-a") 'mwim-beginning-of-line-or-code)
+;; (global-set-key (kbd "C-e") 'mwim-end-of-line-or-code)
+
 ;; 2画面ファイラー
 (setq dired-dwim-target t)
 
@@ -261,6 +268,8 @@
 (require 'hlinum)
 ;; 前景色を黒，背景色を赤にする．
 (custom-set-faces '(linum-highlight-face ((t (:foreground "black" :background "red")))))
+
+
 
 ;; カーソルの点滅をやめる
 (blink-cursor-mode 0)
