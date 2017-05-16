@@ -106,6 +106,10 @@
 ;; browse-kill-ring M-y
 (global-set-key (kbd "M-y") 'browse-kill-ring)
 
+;; C-\でredo
+(require 'redo+)
+(global-set-key (kbd "C-\\") 'redo)
+
 ;; フォント
 (set-face-attribute 'default nil :family "Ricty for Powerline")
 
