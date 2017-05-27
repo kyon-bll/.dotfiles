@@ -12,6 +12,7 @@
 .\#*
 .emacs.d/eshell
 .emacs.d/recentf
+.emacs.d/ido.last
 
 #fish
 /.config/*
@@ -19,3 +20,10 @@
 /.config/fish/*
 !/.config/fish/config.fish
 
+#savedata
+#/.config/*
+!/.config/PCSX2/
+/.config/PCSX2/*
+!/.config/PCSX2/memcards/
+#/.config/PCSX2/memcards/*
+#!/.config/PCSX2/memcards/a
