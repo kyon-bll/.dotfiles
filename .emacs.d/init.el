@@ -270,8 +270,8 @@
 (custom-set-faces '(linum-highlight-face ((t (:foreground "black" :background "red")))))
 
 ;; カーソル行ハイライト
-(global-hl-line-mode t)
-(custom-set-faces '(hl-line ((t (:background "#242424")))))
+;; (global-hl-line-mode t)
+;; (custom-set-faces '(hl-line ((t (:background "#242424")))))
 
 ;; カーソルの点滅をやめる
 (blink-cursor-mode 0)
