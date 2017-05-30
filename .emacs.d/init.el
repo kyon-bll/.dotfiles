@@ -88,6 +88,15 @@
 (ido-mode 1)
 (ido-everywhere 1)
 
+;; query-replace fix
+(defun query-replace-read-from--fix-error (&rest them)
+  (condition-case _
+      (apply them)
+    (error (setq query-replace-defaults nil)
+           (apply them))))
+(advice-add 'query-replace-read-from :around
+            'query-replace-read-from--fix-error)
+
 ;; recentf 最近使ったファイルを開く C-x f
 ;; 最近のファイル500個を保存する
 (setq recentf-max-saved-items 500)
