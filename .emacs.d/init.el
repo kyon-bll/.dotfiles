@@ -98,8 +98,8 @@
             'query-replace-read-from--fix-error)
 
 ;; recentf 最近使ったファイルを開く C-x f
-;; 最近のファイル500個を保存する
-(setq recentf-max-saved-items 500)
+;; 最近のファイルを無限個保存する
+(setq recentf-max-saved-items nil)
 ;; 最近使ったファイルに加えないファイルを正規表現で指定する
 (setq recentf-exclude
       '("/TAGS$" "/var/tmp/"))
