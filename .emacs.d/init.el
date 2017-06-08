@@ -386,7 +386,14 @@
         ))
 (setq web-mode-auto-close-style 1)
 (setq web-mode-tag-auto-close-style t)
-;; (setq web-mode-enable-auto-pairing t) ^の閉じカッコ自動挿入とかぶる
+(setq web-mode-enable-auto-pairing t)
+
+;; emmet-mode ; div TAB で <div>|</div>とか html>div TAB とか
+(require 'emmet-mode)
+(add-hook 'sgml-mode-hook 'emmet-mode)
+(add-hook 'php-mode-hook 'emmet-mode)
+(add-hook 'emmet-mode-hook (lambda () (setq emmet-indentation 2)))
+(define-key emmet-mode-keymap (kbd "C-i") 'emmet-expand-line)
 
 ;; ;; 色の設定 黄色くてつよい
 ;; (custom-set-faces
@@ -515,3 +522,4 @@
        "%FACE[font-lock-warning-face]{%FIELD-IF-NONZERO[↺%d]{retweet_count}}"
        "\n--------------------------------------------------------"
        ))
+
