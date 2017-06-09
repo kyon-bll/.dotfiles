@@ -76,6 +76,14 @@
 ;; (global-set-key (kbd "C-a") 'mwim-beginning-of-line-or-code)
 ;; (global-set-key (kbd "C-e") 'mwim-end-of-line-or-code)
 
+;; 一括インデント
+(defun all-indent ()
+  (interactive)
+  (mark-whole-buffer)
+  (indent-region (region-beginning) (region-end))
+  (point-undo))
+(global-set-key (kbd  "C-M-i") 'all-indent) 
+
 ;; 2画面ファイラー
 (setq dired-dwim-target t)
 
@@ -156,10 +164,10 @@
 (setq inhibit-startup-message t)
 
 ;; バックアップファイルを作成させない
-;(setq make-backup-files nil)
+;; (setq make-backup-files nil)
 
 ;; 終了時にオートセーブファイルを削除する
-;(setq delete-auto-save-files t)
+;; (setq delete-auto-save-files t)
 
 ;; 自動保存ファイルのリストファイル作成しない
 (setq auto-save-list-file-prefix nil)
@@ -237,9 +245,9 @@
 (global-set-key (kbd "C-M-k") 'backward-kill-line)
 
 ;; C-M-{h,m,l}でウィンドウ内移動
-;(global-set-key (kbd "C-M-h") (lambda () (interactive) (move-to-window-line 0)))
-;(global-set-key (kbd "C-M-m") (lambda () (interactive) (move-to-window-line nil)))
-;(global-set-key (kbd "C-M-l") (lambda () (interactive) (move-to-window-line -1)))
+;; (global-set-key (kbd "C-M-h") (lambda () (interactive) (move-to-window-line 0)))
+;; (global-set-key (kbd "C-M-m") (lambda () (interactive) (move-to-window-line nil)))
+;; (global-set-key (kbd "C-M-l") (lambda () (interactive) (move-to-window-line -1)))
 
 ;; カーソルキーでウィンドウ間を移動
 (define-key global-map (kbd "<up>") 'windmove-up)
@@ -326,9 +334,9 @@
 ;; beep音を消す
 (defun my-bell-function ()
   (unless (memq this-command
-		'(isearch-abort abort-recursive-edit exit-minibuffer
-				keyboard-quit mwheel-scroll down up next-line previous-line
-				backward-char forward-char))
+                '(isearch-abort abort-recursive-edit exit-minibuffer
+                                keyboard-quit mwheel-scroll down up next-line previous-line
+                                backward-char forward-char))
     (ding)))
 (setq ring-bell-function 'my-bell-function)
 (require 'package)
@@ -387,13 +395,24 @@
 (setq web-mode-auto-close-style 1)
 (setq web-mode-tag-auto-close-style t)
 (setq web-mode-enable-auto-pairing t)
+;; indent 2<->4
+(defun web-mode-indent (num)
+  (interactive "nIndent: ")
+  (setq web-mode-markup-indent-offset num)
+  (setq web-mode-css-indent-offset num)
+  (setq web-mode-style-padding num)
+  (setq web-mode-code-indent-offset num)
+  (setq web-mode-script-padding num)
+  (setq web-mode-block-padding num)
+  )
+(web-mode-indent 2)
 
 ;; emmet-mode ; div TAB で <div>|</div>とか html>div TAB とか
 (require 'emmet-mode)
 (add-hook 'sgml-mode-hook 'emmet-mode)
 (add-hook 'php-mode-hook 'emmet-mode)
 (add-hook 'emmet-mode-hook (lambda () (setq emmet-indentation 2)))
-(define-key emmet-mode-keymap (kbd "C-i") 'emmet-expand-line)
+(define-key emmet-mode-keymap (kbd "C-C C-i") 'emmet-expand-line)
 
 ;; ;; 色の設定 黄色くてつよい
 ;; (custom-set-faces
