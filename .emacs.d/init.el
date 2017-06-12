@@ -467,16 +467,14 @@
 ;(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
 
 ;; pyflakes：文法がただしいかを動的チェック
-;; (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
+(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
 
-;; ;; show message on mini-buffer
-;; (defun flymake-show-help ()
-;;   (when (get-char-property (point) 'flymake-overlay)
-;;     (let ((help (get-char-property (point) 'help-echo)))
-;;       (if help (message "%s" help)))))
-;; (add-hook 'post-command-hook 'flymake-show-help)
-
-;; pyflakes
+;; show message on mini-buffer
+(defun flymake-show-help ()
+  (when (get-char-property (point) 'flymake-overlay)
+    (let ((help (get-char-property (point) 'help-echo)))
+      (if help (message "%s" help)))))
+(add-hook 'post-command-hook 'flymake-show-help)
 
 ;;{M-n:次のエラーへ, M-p:前のエラーへ}
 (global-set-key "\M-n" 'flymake-goto-next-error)
