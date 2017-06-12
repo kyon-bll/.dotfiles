@@ -448,7 +448,17 @@
  '(web-mode-css-string-face        ((t (:foreground "#D78181"))))
   )
 
+;;----------------------------
 ;;-----------python-----------
+;;----------------------------
+
+;; python-mode
+(autoload 'python-mode "python-mode" "Python editing mode." t)
+(custom-set-variables
+ '(py-indent-offset 4)
+ )
+(setq-default tab-width 4)
+(setq-default indent-tabs-mode nil)
 
 ;;autopep：保存時に勝手にコードを綺麗にしてくれる
 ;(require 'py-autopep8)
@@ -457,14 +467,16 @@
 ;(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
 
 ;; pyflakes：文法がただしいかを動的チェック
-(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
+;; (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
 
-;; show message on mini-buffer
-(defun flymake-show-help ()
-  (when (get-char-property (point) 'flymake-overlay)
-    (let ((help (get-char-property (point) 'help-echo)))
-      (if help (message "%s" help)))))
-(add-hook 'post-command-hook 'flymake-show-help)
+;; ;; show message on mini-buffer
+;; (defun flymake-show-help ()
+;;   (when (get-char-property (point) 'flymake-overlay)
+;;     (let ((help (get-char-property (point) 'help-echo)))
+;;       (if help (message "%s" help)))))
+;; (add-hook 'post-command-hook 'flymake-show-help)
+
+;; pyflakes
 
 ;;{M-n:次のエラーへ, M-p:前のエラーへ}
 (global-set-key "\M-n" 'flymake-goto-next-error)
@@ -482,7 +494,6 @@
 (require 'jedi)
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
-
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
