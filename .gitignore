@@ -2,6 +2,7 @@
 *~
 *.elc
 \#*
+\.\#*
 
 #.emacs.d
 .emacs.d/ac-comphist.dat
