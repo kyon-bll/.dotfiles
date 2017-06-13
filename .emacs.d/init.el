@@ -469,6 +469,12 @@
 ;; pyflakes：文法がただしいかを動的チェック
 (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
 
+;; pyflake - flake8 - pep8
+(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
+(setq flymake-python-pyflakes-executable "/home/kyon/.pyenv/shims/flake8")
+(custom-set-variables
+ '(flymake-python-pyflakes-extra-arguments (quote ("--max-line-length=99"))))
+
 ;; show message on mini-buffer
 (defun flymake-show-help ()
   (when (get-char-property (point) 'flymake-overlay)
