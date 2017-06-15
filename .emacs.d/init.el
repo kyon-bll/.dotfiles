@@ -34,7 +34,15 @@
 (setq-default save-place t)
 (setq save-place-file (concat user-emacs-directory "places"))
 
-;;; ミニバッファ履歴を次回Emacs起動時にも保存する
+;; C-x C-fでdiredも開く
+;;; ファイル名補完キーマップで?をそのまま入力できるようにする
+(define-key minibuffer-local-filename-completion-map (kbd "?") nil)
+;;; ffapでワイルドカードを指定するとdiredを開くようにする
+(setq ffap-pass-wildcards-to-dired t)
+;;; C-x C-fなどをffap関係のコマンドに割り当てる
+(ffap-bindings)
+
+;;; ミニバッファ履歴をemacs終了時も保存する
 (savehist-mode 1)
 
 ;;; ログの記録行数を増やす
