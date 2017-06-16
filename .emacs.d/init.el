@@ -11,17 +11,12 @@
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (set-buffer-file-coding-system 'utf-8)
-(setq default-buffer-file-coding-system 'utf-8)
+(setq buffer-file-coding-system 'utf-8)
 (set-default-coding-systems 'utf-8)
 (prefer-coding-system 'utf-8)
 (set-default 'buffer-file-coding-system 'utf-8)
 (setq coding-system-for-read 'utf-8)
 (setq coding-system-for-write 'utf-8)
-
-;; mozc
-(require 'mozc)
-(set-language-environment "Japanese")
-(setq default-input-method "japanese-mozc")
 
 ;;; 右から左に読む言語に対応させないことで描画高速化
 (setq-default bidi-display-reordering nil)
@@ -43,24 +38,24 @@
 ;;; 履歴をたくさん保存する
 (setq history-length 1000)
 
-;; make what-whereでSKK modulesで表示されるディレクトリを指定
-(add-to-list 'load-path "/usr/local/share/emacs/24.3/site-lisp/skk")
-;; M-x skk-tutorialでNo file found as 〜とエラーが出たときにskk-tut-fileを設定
-;; make what-whereでSKK tutorialsで表示されるディレクトリ上のSKK.tutを指定
-(setq skk-tut-file "/usr/share/skk/SKK.tut")
-(require 'skk)
-(require 'dired-x)
-(global-set-key "\C-x\C-j" 'skk-mode)
+;; ;; make what-whereでSKK modulesで表示されるディレクトリを指定
+;; (add-to-list 'load-path "/usr/local/share/emacs/24.3/site-lisp/skk")
+;; ;; M-x skk-tutorialでNo file found as 〜とエラーが出たときにskk-tut-fileを設定
+;; ;; make what-whereでSKK tutorialsで表示されるディレクトリ上のSKK.tutを指定
+;; (setq skk-tut-file "/usr/share/skk/SKK.tut")
+;; (require 'skk)
+;; (require 'dired-x)
+;; (global-set-key "\C-x\C-j" 'skk-mode)
 
 ;; アルファベットで日本語検索
 (when (locate-library "migemo")
-  (setq migemo-command "/usr/bin/cmigemo") ; HERE cmigemoバイナリ
-  (setq migemo-options '("-q" "--emacs"))
-  (setq migemo-dictionary
+  (defvar migemo-command "/usr/bin/cmigemo") ; HERE cmigemoバイナリ
+  (defvar migemo-options '("-q" "--emacs"))
+  (defvar migemo-dictionary
         "/usr/share/cmigemo/utf-8/migemo-dict") ; HERE Migemo辞書
-  (setq migemo-user-dictionary nil)
-  (setq migemo-regex-dictionary nil)
-  (setq migemo-coding-system 'utf-8-unix)
+  (defvar migemo-user-dictionary nil)
+  (defvar migemo-regex-dictionary nil)
+  (defvar migemo-coding-system 'utf-8-unix)
   (load-library "migemo")
   (migemo-init))
 
@@ -88,7 +83,7 @@
 (global-set-key (kbd  "C-M-i") 'all-indent) 
 
 ;; 2画面ファイラー
-(setq dired-dwim-target t)
+(defvar dired-dwim-target t)
 
 ;; wdired
 (require 'wdired)
@@ -127,7 +122,7 @@
 
 ;; recentf 最近使ったファイルを開く C-x f
 ;; 最近のファイルを無限個保存する
-(setq recentf-max-saved-items nil)
+(defvar recentf-max-saved-items nil)
 ;; 最近使ったファイルに加えないファイルを正規表現で指定する
 (setq recentf-exclude
       '("/TAGS$" "/var/tmp/"))
@@ -505,9 +500,14 @@
 ;; (global-set-key "\M-p" 'flymake-goto-prev-error)
 
 ;; flycheck
-(add-hook 'after-init-hook #'global-flycheck-mode)
+(add-hook 'after-init-hook 'global-flycheck-mode)
 (global-set-key "\M-n" 'flycheck-next-error)
 (global-set-key "\M-p" 'flycheck-previous-error)
+;; web-mode
+(eval-after-load 'flycheck
+  '(flycheck-add-mode 'html-tidy 'web-mode))
+;; エラー表示までの時間を変更
+(setq flycheck-display-errors-delay 0.3)
 
 ;===============
 ; jedi (package.elの設定より下に書く)
