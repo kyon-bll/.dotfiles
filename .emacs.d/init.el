@@ -461,6 +461,16 @@
  '(web-mode-css-string-face        ((t (:foreground "#D78181"))))
   )
 
+;; flycheck
+(add-hook 'after-init-hook 'global-flycheck-mode)
+(global-set-key "\M-n" 'flycheck-next-error)
+(global-set-key "\M-p" 'flycheck-previous-error)
+;; web-mode
+(eval-after-load 'flycheck
+  '(flycheck-add-mode 'html-tidy 'web-mode))
+;; エラー表示までの時間を変更
+(setq flycheck-display-errors-delay 0.3)
+
 ;;----------------------------
 ;;-----------python-----------
 ;;----------------------------
@@ -498,16 +508,6 @@
 ;; ;;{M-n:次のエラーへ, M-p:前のエラーへ}
 ;; (global-set-key "\M-n" 'flymake-goto-next-error)
 ;; (global-set-key "\M-p" 'flymake-goto-prev-error)
-
-;; flycheck
-(add-hook 'after-init-hook 'global-flycheck-mode)
-(global-set-key "\M-n" 'flycheck-next-error)
-(global-set-key "\M-p" 'flycheck-previous-error)
-;; web-mode
-(eval-after-load 'flycheck
-  '(flycheck-add-mode 'html-tidy 'web-mode))
-;; エラー表示までの時間を変更
-(setq flycheck-display-errors-delay 0.3)
 
 ;===============
 ; jedi (package.elの設定より下に書く)
