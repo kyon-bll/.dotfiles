@@ -420,7 +420,7 @@
         ))
 (setq web-mode-auto-close-style 1)
 (setq web-mode-tag-auto-close-style t)
-(setq web-mode-enable-auto-pairing t)
+;; (setq web-mode-enable-auto-pairing t)
 ;; indent 2<->4
 (defun web-mode-indent (num)
   (interactive "nIndent: ")
@@ -477,8 +477,8 @@
 (global-set-key "\M-n" 'flycheck-next-error)
 (global-set-key "\M-p" 'flycheck-previous-error)
 ;; web-mode
-(eval-after-load 'flycheck
-  '(flycheck-add-mode 'html-tidy 'web-mode))
+;; (eval-after-load 'flycheck
+;;   '(flycheck-add-mode 'html-tidy 'web-mode))
 ;; エラー表示までの時間を変更
 (setq flycheck-display-errors-delay 0.3)
 
