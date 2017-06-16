@@ -49,13 +49,13 @@
 
 ;; アルファベットで日本語検索
 (when (locate-library "migemo")
-  (defvar migemo-command "/usr/bin/cmigemo") ; HERE cmigemoバイナリ
-  (defvar migemo-options '("-q" "--emacs"))
-  (defvar migemo-dictionary
+  (setq migemo-command "/usr/bin/cmigemo") ; HERE cmigemoバイナリ
+  (setq migemo-options '("-q" "--emacs"))
+  (setq migemo-dictionary
         "/usr/share/cmigemo/utf-8/migemo-dict") ; HERE Migemo辞書
-  (defvar migemo-user-dictionary nil)
-  (defvar migemo-regex-dictionary nil)
-  (defvar migemo-coding-system 'utf-8-unix)
+  (setq migemo-user-dictionary nil)
+  (setq migemo-regex-dictionary nil)
+  (setq migemo-coding-system 'utf-8-unix)
   (load-library "migemo")
   (migemo-init))
 
@@ -74,6 +74,16 @@
 ;; (global-set-key (kbd "C-a") 'mwim-beginning-of-line-or-code)
 ;; (global-set-key (kbd "C-e") 'mwim-end-of-line-or-code)
 
+;; コード折りたたむ
+(add-hook 'python-mode-hook
+          '(lambda ()
+             (hs-minor-mode 1)))
+(add-hook 'web-mode-hook
+          '(lambda ()
+             (hs-minor-mode 1)))
+
+(define-key global-map (kbd "C-t") 'hs-toggle-hiding)
+
 ;; 一括インデント
 (defun all-indent ()
   (interactive)
@@ -83,7 +93,7 @@
 (global-set-key (kbd  "C-M-i") 'all-indent) 
 
 ;; 2画面ファイラー
-(defvar dired-dwim-target t)
+(setq dired-dwim-target t)
 
 ;; wdired
 (require 'wdired)
@@ -122,7 +132,7 @@
 
 ;; recentf 最近使ったファイルを開く C-x f
 ;; 最近のファイルを無限個保存する
-(defvar recentf-max-saved-items nil)
+(setq recentf-max-saved-items nil)
 ;; 最近使ったファイルに加えないファイルを正規表現で指定する
 (setq recentf-exclude
       '("/TAGS$" "/var/tmp/"))
@@ -334,6 +344,7 @@
 (setq dired-isearch-filenames t)
 ;; "yes or no" の選択を "y or n" にする
 (fset 'yes-or-no-p 'y-or-n-p)
+(global-set-key (kbd "C-c C-v") 'browse-url-of-dired-file)
 
 ;; 時間表示
 (display-time)
