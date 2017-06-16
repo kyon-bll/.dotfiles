@@ -431,6 +431,7 @@
 (require 'emmet-mode)
 (add-hook 'sgml-mode-hook 'emmet-mode)
 (add-hook 'php-mode-hook 'emmet-mode)
+(add-hook 'web-mode-hook 'emmet-mode)
 (add-hook 'emmet-mode-hook (lambda () (setq emmet-indentation 2)))
 (define-key emmet-mode-keymap (kbd "C-C C-i") 'emmet-expand-line)
 
@@ -483,25 +484,30 @@
 ;(setq flycheck-flake8--line-length 200)
 ;(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
 
-;; pyflakes：文法がただしいかを動的チェック
-(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
+;; ;; pyflakes：文法がただしいかを動的チェック
+;; (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
 
-;; pyflake - flake8 - pep8
-(add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
-(setq flymake-python-pyflakes-executable "/home/kyon/.pyenv/shims/flake8")
-(custom-set-variables
- '(flymake-python-pyflakes-extra-arguments (quote ("--max-line-length=99"))))
+;; ;; pyflake - flake8 - pep8
+;; (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
+;; (setq flymake-python-pyflakes-executable "/home/kyon/.pyenv/shims/flake8")
+;; (custom-set-variables
+;;  '(flymake-python-pyflakes-extra-arguments (quote ("--max-line-length=99"))))
 
-;; show message on mini-buffer
-(defun flymake-show-help ()
-  (when (get-char-property (point) 'flymake-overlay)
-    (let ((help (get-char-property (point) 'help-echo)))
-      (if help (message "%s" help)))))
-(add-hook 'post-command-hook 'flymake-show-help)
+;; ;; show message on mini-buffer
+;; (defun flymake-show-help ()
+;;   (when (get-char-property (point) 'flymake-overlay)
+;;     (let ((help (get-char-property (point) 'help-echo)))
+;;       (if help (message "%s" help)))))
+;; (add-hook 'post-command-hook 'flymake-show-help)
 
-;;{M-n:次のエラーへ, M-p:前のエラーへ}
-(global-set-key "\M-n" 'flymake-goto-next-error)
-(global-set-key "\M-p" 'flymake-goto-prev-error)
+;; ;;{M-n:次のエラーへ, M-p:前のエラーへ}
+;; (global-set-key "\M-n" 'flymake-goto-next-error)
+;; (global-set-key "\M-p" 'flymake-goto-prev-error)
+
+;; flycheck
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(global-set-key "\M-n" 'flycheck-next-error)
+(global-set-key "\M-p" 'flycheck-previous-error)
 
 ;===============
 ; jedi (package.elの設定より下に書く)
