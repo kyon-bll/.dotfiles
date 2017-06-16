@@ -31,7 +31,3 @@ alias gcam='git commit -a -m'
 alias gs='git status'
 alias gp='git push'
 alias gd='git diff'
-
-# ssh-add
-ssh-add -k ~/.ssh/id_rsa.github
-ssh-add -k ~/.ssh/id_rsa.bitbucket
