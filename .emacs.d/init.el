@@ -34,14 +34,6 @@
 (setq-default save-place t)
 (setq save-place-file (concat user-emacs-directory "places"))
 
-;; C-x C-fでdiredも開く
-;;; ファイル名補完キーマップで?をそのまま入力できるようにする
-(define-key minibuffer-local-filename-completion-map (kbd "?") nil)
-;;; ffapでワイルドカードを指定するとdiredを開くようにする
-(setq ffap-pass-wildcards-to-dired t)
-;;; C-x C-fなどをffap関係のコマンドに割り当てる
-(ffap-bindings)
-
 ;;; ミニバッファ履歴をemacs終了時も保存する
 (savehist-mode 1)
 
@@ -103,9 +95,26 @@
 (setq wdired-allow-to-change-permissions t)
 (define-key dired-mode-map "e" 'wdired-change-to-wdired-mode)
 
-;; ido ファイル検索簡略化
-(ido-mode 1)
-(ido-everywhere 1)
+;; counsel, ivy ;候補選択インターフェース (idoみたいな)
+(ivy-mode 1)
+
+;;; 下記は任意で有効化
+;(global-set-key "\C-s" 'swiper)
+(global-set-key (kbd "C-c C-r") 'ivy-resume)
+(global-set-key (kbd "<f6>") 'ivy-resume)
+(global-set-key (kbd "M-x") 'counsel-M-x)
+(global-set-key (kbd "C-x C-f") 'counsel-find-file)
+(global-set-key (kbd "<f1> f") 'counsel-describe-function)
+(global-set-key (kbd "<f1> v") 'counsel-describe-variable)
+(global-set-key (kbd "<f1> l") 'counsel-load-library)
+(global-set-key (kbd "<f2> i") 'counsel-info-lookup-symbol)
+(global-set-key (kbd "<f2> u") 'counsel-unicode-char)
+(global-set-key (kbd "C-c g") 'counsel-git)
+(global-set-key (kbd "C-c j") 'counsel-git-grep)
+(global-set-key (kbd "C-c k") 'counsel-ag)
+(global-set-key (kbd "C-x l") 'counsel-locate)
+(global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
+;(define-key read-expression-map (kbd "C-r") 'counsel-expression-history)
 
 ;; query-replace fix
 (defun query-replace-read-from--fix-error (&rest them)
