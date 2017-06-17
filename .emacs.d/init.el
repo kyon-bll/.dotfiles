@@ -437,7 +437,7 @@
       '(
         ("php"    . "\\.phtml\\'")
         ("blade"  . "\\.blade\\.")
-        ("django" . "\\.html\\'")       
+        ("django" . "\\.html\\'")
         ))
 (setq web-mode-auto-close-style 1)
 (setq web-mode-tag-auto-close-style t)
