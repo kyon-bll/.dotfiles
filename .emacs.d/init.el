@@ -18,6 +18,19 @@
 (setq coding-system-for-read 'utf-8)
 (setq coding-system-for-write 'utf-8)
 
+;;ターミナルの文字コード
+(set-terminal-coding-system 'utf-8)
+;;キーボードから入力される文字コード
+(set-keyboard-coding-system 'utf-8)
+;;ファイルのバッファのデフォルト文字コード
+(set-buffer-file-coding-system 'utf-8)
+;;バッファのプロセスの文字コード
+(setq default-buffer-file-coding-system 'utf-8)
+;;ファイルの文字コード
+(setq file-name-coding-system 'utf-8)
+;;新規作成ファイルの文字コード
+(set-default-coding-systems 'utf-8)
+
 ;;; 右から左に読む言語に対応させないことで描画高速化
 (setq-default bidi-display-reordering nil)
 
@@ -412,11 +425,19 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(add-to-list 'ac-modes 'web-mode)
+(add-hook 'web-mode-hook
+          '(lambda ()
+             (defun web-mode-buffer-refresh ()
+               (interactive)
+               (web-mode-scan-buffer)
+               )
+             ))
 (setq web-mode-engines-alist
       '(
         ("php"    . "\\.phtml\\'")
         ("blade"  . "\\.blade\\.")
-        ("django" . "\\.html\\'")
+        ("django" . "\\.html\\'")       
         ))
 (setq web-mode-auto-close-style 1)
 (setq web-mode-tag-auto-close-style t)
@@ -520,9 +541,9 @@
 ;; (global-set-key "\M-n" 'flymake-goto-next-error)
 ;; (global-set-key "\M-p" 'flymake-goto-prev-error)
 
-;===============
-; jedi (package.elの設定より下に書く)
-;===============
+;; ===============
+;; jedi (package.elの設定より下に書く)
+;; ===============
 (require 'epc)
 (require 'auto-complete-config)
 (require 'python)
