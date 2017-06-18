@@ -289,6 +289,7 @@
 (define-key global-map (kbd "<right>") 'windmove-right)
 (define-key global-map (kbd "<left>") 'windmove-left)
 
+;; window-resizer
 (defun window-resizer ()
   "Control window size and position."
   (interactive)
@@ -317,6 +318,7 @@
               (t
                (message "Quit")
                (throw 'end-flag t)))))))
+(global-set-key "\C-c\C-r" 'window-resizer)
 
 ;; 改行コードを表示する
 (setq eol-mnemonic-dos "(CRLF)")
@@ -394,32 +396,6 @@
           "/usr/bin/google-chrome"))
 ;; おまけで yahtml も同じのに設定しちゃうのもアリかも。
 (setq yahtml-www-browser browse-url-generic-program)
-
-(setq view-read-only t)
-(defvar pager-keybind
-  `( ("b" . backward-word)
-     ("f" . forward-word)
-     ("n" . next-window-line)
-     ("n" . ,(lambda () (interactive) (scroll-up 1)))
-     ("p" . previous-window-line)
-     (";" . gene-word)
-     ("v" . scroll-down)
-     ("M-v" . scroll-up)
-     ))
-(defun define-many-keys (keymap key-table &optional includes)
-  (let (key cmd)
-    (dolist (key-cmd key-table)
-      (setq key (car key-cmd)
-            cmd (cdr key-cmd))
-      (if (or (not includes) (member key includes))
-          (define-key keymap key cmd))))
-  keymap)
-
-(defun view-mode-hook0 ()
-  (define-many-keys view-mode-map pager-keybind)
-  (hl-line-mode 1)
-  (define-key view-mode-map " " 'scroll-up))
-(add-hook 'view-mode-hook 'view-mode-hook0)
 
 ;; 書き込み不能なファイルはview-modeで開くように
 (defadvice find-file
