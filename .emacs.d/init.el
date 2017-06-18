@@ -117,7 +117,7 @@
 (ivy-mode 1)
 
 ;;; 下記は任意で有効化
-;(global-set-key "\C-s" 'swiper)
+                                        ;(global-set-key "\C-s" 'swiper)
 (global-set-key (kbd "C-c C-r") 'ivy-resume)
 (global-set-key (kbd "<f6>") 'ivy-resume)
 (global-set-key (kbd "M-x") 'counsel-M-x)
@@ -132,7 +132,7 @@
 (global-set-key (kbd "C-c k") 'counsel-ag)
 (global-set-key (kbd "C-x l") 'counsel-locate)
 (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
-;(define-key read-expression-map (kbd "C-r") 'counsel-expression-history)
+                                        ;(define-key read-expression-map (kbd "C-r") 'counsel-expression-history)
 
 ;; query-replace fix
 (defun query-replace-read-from--fix-error (&rest them)
@@ -270,10 +270,6 @@
 ;; 反対側のウィンドウにいけるように
 (setq windmove-wrap-around t)
 
-;; バッファ読み込み
-(global-set-key
- [f5] 'eval-buffer)
-
 ;; C-M-kで行頭からカーソル位置まで削除
 (defun backward-kill-line (arg)
   "Kill chars backward until encountering the end of a line."
@@ -292,6 +288,35 @@
 (define-key global-map (kbd "<down>") 'windmove-down)
 (define-key global-map (kbd "<right>") 'windmove-right)
 (define-key global-map (kbd "<left>") 'windmove-left)
+
+(defun window-resizer ()
+  "Control window size and position."
+  (interactive)
+  (let ((window-obj (selected-window))
+        (current-width (window-width))
+        (current-height (window-height))
+        (dx (if (= (nth 0 (window-edges)) 0) 1
+              -1))
+        (dy (if (= (nth 1 (window-edges)) 0) 1
+              -1))
+        c)
+    (catch 'end-flag
+      (while t
+        (message "size[%dx%d]"
+                 (window-width) (window-height))
+        (setq c (read-char))
+        (cond ((= c ?f)
+               (enlarge-window-horizontally dx))
+              ((= c ?b)
+               (shrink-window-horizontally dx))
+              ((= c ?n)
+               (enlarge-window dy))
+              ((= c ?p)
+               (shrink-window dy))
+              ;; otherwise
+              (t
+               (message "Quit")
+               (throw 'end-flag t)))))))
 
 ;; 改行コードを表示する
 (setq eol-mnemonic-dos "(CRLF)")
@@ -369,6 +394,40 @@
           "/usr/bin/google-chrome"))
 ;; おまけで yahtml も同じのに設定しちゃうのもアリかも。
 (setq yahtml-www-browser browse-url-generic-program)
+
+(setq view-read-only t)
+(defvar pager-keybind
+  `( ("b" . backward-word)
+     ("f" . forward-word)
+     ("n" . next-window-line)
+     ("n" . ,(lambda () (interactive) (scroll-up 1)))
+     ("p" . previous-window-line)
+     (";" . gene-word)
+     ("v" . scroll-down)
+     ("M-v" . scroll-up)
+     ))
+(defun define-many-keys (keymap key-table &optional includes)
+  (let (key cmd)
+    (dolist (key-cmd key-table)
+      (setq key (car key-cmd)
+            cmd (cdr key-cmd))
+      (if (or (not includes) (member key includes))
+          (define-key keymap key cmd))))
+  keymap)
+
+(defun view-mode-hook0 ()
+  (define-many-keys view-mode-map pager-keybind)
+  (hl-line-mode 1)
+  (define-key view-mode-map " " 'scroll-up))
+(add-hook 'view-mode-hook 'view-mode-hook0)
+
+;; 書き込み不能なファイルはview-modeで開くように
+(defadvice find-file
+    (around find-file-switch-to-view-file (file &optional wild) activate)
+  (if (and (not (file-writable-p file))
+           (not (file-directory-p file)))
+      (view-file file)
+    ad-do-it))
 
 ;; beep音を消す
 (defun my-bell-function ()
@@ -491,7 +550,7 @@
  '(web-mode-css-pseudo-class       ((t (:foreground "#DFCF44"))))
  '(web-mode-css-property-name-face ((t (:foreground "#87CEEB"))))
  '(web-mode-css-string-face        ((t (:foreground "#D78181"))))
-  )
+ )
 
 ;; flycheck
 (add-hook 'after-init-hook 'global-flycheck-mode)
@@ -516,10 +575,10 @@
 (setq-default indent-tabs-mode nil)
 
 ;;autopep：保存時に勝手にコードを綺麗にしてくれる
-;(require 'py-autopep8)
-;(setq py-autopep8-options '("--max-line-length=200"))
-;(setq flycheck-flake8--line-length 200)
-;(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+                                        ;(require 'py-autopep8)
+                                        ;(setq py-autopep8-options '("--max-line-length=200"))
+                                        ;(setq flycheck-flake8--line-length 200)
+                                        ;(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
 
 ;; ;; pyflakes：文法がただしいかを動的チェック
 ;; (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
