@@ -444,9 +444,15 @@
 (setq ac-ignore-case nil)  ;; 大文字・小文字を区別する
 
 ;; yasnippet
-(yas-global-mode t)
 ;;; スニペット名をidoで選択する
 (setq yas-prompt-functions '(yas-ido-prompt))
+;; スニペットフォルダ
+(require 'yasnippet)
+(setq yas-snippet-dirs
+      '("~/.emacs.d/mysnippets"
+        "~/.emacs.d/yasnippets"
+        ))
+;; (yas-global-mode 1)
 
 ;; 閉じカッコ自動挿入
 (require 'flex-autopair)
