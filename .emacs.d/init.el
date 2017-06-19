@@ -347,8 +347,10 @@
 
 ;; カーソル行番号をハイライトする
 (require 'hlinum)
+(hlinum-activate)
 ;; 前景色を黒，背景色を赤にする．
-(custom-set-faces '(linum-highlight-face ((t (:foreground "black" :background "red")))))
+(custom-set-faces
+ '(linum-highlight-face ((t (:foreground "black" :background "red")))))
 
 ;; カーソル行ハイライト
 ;; (global-hl-line-mode t)
@@ -435,6 +437,12 @@
                            ac-source-abbrev
                            ac-source-dictionary
                            ac-source-words-in-all-buffer))
+(setq ac-auto-start 2)  ;; n文字以上の単語の時に補完を開始
+(setq ac-delay 0.01) ;; auto-completeまでの時間
+(setq ac-auto-show-menu 0.02) ;; メニューが表示されるまで
+(setq ac-use-comphist t)  ;; 補完推測機能有効
+(setq ac-ignore-case nil)  ;; 大文字・小文字を区別する
+
 
 ;; 閉じカッコ自動挿入
 (require 'flex-autopair)
