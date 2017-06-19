@@ -443,6 +443,10 @@
 (setq ac-use-comphist t)  ;; 補完推測機能有効
 (setq ac-ignore-case nil)  ;; 大文字・小文字を区別する
 
+;; yasnippet
+(yas-global-mode t)
+;;; スニペット名をidoで選択する
+(setq yas-prompt-functions '(yas-ido-prompt))
 
 ;; 閉じカッコ自動挿入
 (require 'flex-autopair)
@@ -608,24 +612,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-;; ==================================
-;;                php
-;; ==================================
-
-;; php-mode
-(require 'php-mode)
-
-(require 'cl)
-(add-hook 'php-mode-hook
-          '(lambda ()
-             (auto-complete-mode t)
-             (require 'ac-php)
-             (setq ac-sources  '(ac-source-php ) )
-             (yas-global-mode 1)
-             (define-key php-mode-map  (kbd "C-]") 'ac-php-find-symbol-at-point)   ;goto define
-             (define-key php-mode-map  (kbd "C-t") 'ac-php-location-stack-back   ) ;go back
-             ))
 
 ;; ==================================
 ;;          twittering-mode
