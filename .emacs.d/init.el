@@ -291,8 +291,7 @@
 
 ;; window-resizer
 (defun window-resizer ()
-  "Control window size and position."
-  (interactive)
+  (interactive "p")
   (let ((window-obj (selected-window))
         (current-width (window-width))
         (current-height (window-height))
