@@ -50,7 +50,3 @@ function gacp -d "gacp 'commit message' (file;optional)"
     git commit -m $argv[1]
     git push
 end
-
-function counta
-    count $argv
-end
