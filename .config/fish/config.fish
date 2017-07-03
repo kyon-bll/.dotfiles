@@ -35,12 +35,18 @@ alias gd='git diff'
 alias gb='git branch'
 alias gc='git checkout'
 alias gl='git pull'
-function gacp -d "gacp 'commit message' (file;optional)"
-    if test argv[2]
-        git add $argv[2]
-    else
-        git add -A
-    end
-    git commit -m $argv[1]
+function gacp -d "gacp [file] 'commit message'"
+    git add $argv[1]
+    git commit -m $argv[2]
     git push
 end
+# うまく動かん
+# function gacp -d "gacp 'commit message' (file;optional)"
+#     if test -n '$argv[2]'
+#         git add $argv[2]
+#     else
+#         git add -A
+#     end
+#     git commit -m $argv[1]
+#     git push
+# end
