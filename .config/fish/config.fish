@@ -40,7 +40,7 @@ function gacp -d "gacp [file] 'commit message'"
     git commit -m $argv[2]
     git push
 end
-うまく動かん
+
 function gacp -d "gacp 'commit message' (file;optional)"
     if test count $argv -eq 2 
         git add $argv[2]
@@ -49,4 +49,8 @@ function gacp -d "gacp 'commit message' (file;optional)"
     end
     git commit -m $argv[1]
     git push
+end
+
+function counta
+    count $argv
 end
