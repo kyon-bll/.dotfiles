@@ -26,6 +26,7 @@ alias rm=trash
 alias g=git
 alias ga='git add'
 alias ga.='git add .'
+alias gaA='git add -A'
 alias gcm='git commit -m'
 alias gcam='git commit -a -m'
 alias gs='git status'
@@ -34,3 +35,12 @@ alias gd='git diff'
 alias gb='git branch'
 alias gc='git checkout'
 alias gl='git pull'
+function gacp -d "gacp 'commit message' (file;optional)"
+    if argv[2]
+        git add $argv[2]
+    else
+        git add -A
+    end
+    git commit -m $argv[1]
+    git push
+end
