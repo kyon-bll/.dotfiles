@@ -36,7 +36,7 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gl='git pull'
 function gacp -d "gacp 'commit message' (file;optional)"
-    if argv[2]
+    if test argv[2]
         git add $argv[2]
     else
         git add -A
