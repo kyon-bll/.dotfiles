@@ -36,7 +36,7 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gl='git pull'
 function zubora -d "zubora 'commit message' [file;optional]"
-    if test (count $argv) -eq 2 
+    if test (count $argv) -eq 2
         git add $argv[2]
     else
         git add -A
