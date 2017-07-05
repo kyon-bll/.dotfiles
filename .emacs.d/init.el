@@ -265,7 +265,7 @@
 (setq scroll-preserve-screen-position t)
 
 ;; スクロールマージン
-(setq scroll-margin 10)
+(setq scroll-margin 6)
 
 ;; 反対側のウィンドウにいけるように
 (setq windmove-wrap-around t)
