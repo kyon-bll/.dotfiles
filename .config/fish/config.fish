@@ -37,10 +37,14 @@ alias gc='git checkout'
 alias gl='git pull'
 function zubora -d "zubora 'commit message' [files to add;optional]"
     if test (count $argv) -gt 1
-        git add $argv[2..-1]
+        set_color -o; echo \$git add $argv[2..-1]  
+        set_color normal; git add $argv[2..-1]
     else
-        git add -A
+        set_color -o; echo \$git add -A
+        set_color normal; git add -A
     end
-    git commit -m $argv[1]
-    git push
+    set_color -o; echo \$git commit -m $argv[1]
+    set_color normal; git commit -m $argv[1]
+    set_color -o; echo \$git push
+    set_color normal; git push
 end
