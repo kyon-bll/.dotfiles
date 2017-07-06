@@ -35,16 +35,3 @@ alias gd='git diff'
 alias gb='git branch'
 alias gc='git checkout'
 alias gl='git pull'
-# function zubora -d "zubora 'commit message' [files to add;optional]"
-#     if test (count $argv) -gt 1
-#         set_color blue; echo -n '$ '; set_color -o white; echo -n 'git ' ; set_color normal; set_color cyan; echo add $argv[2..-1]  
-#         set_color normal; git add $argv[2..-1]
-#     else
-#         set_color blue; echo -n '$ '; set_color -o white; echo -n 'git ' ; set_color normal; set_color cyan; echo add -A
-#         set_color normal; git add -A
-#     end
-#     set_color blue; echo -n '$ '; set_color -o white; echo -n 'git ' ; set_color normal; set_color cyan; echo -n 'commit -m '; set_color yellow; echo "'"$argv[1]"'"
-#     set_color normal; git commit -m $argv[1]
-#     set_color blue; echo -n '$ '; set_color -o white; echo -n 'git ' ; set_color normal; set_color cyan; echo push
-#     set_color normal; git push
-# end
