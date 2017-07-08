@@ -41,7 +41,7 @@ function zubora -d "zubora 'commit message' [files to add;optional]"
         set_color white   ; echo -n "> ";
         set_color -o      ; echo -n "git "; set_color normal; 
         set_color cyan    ; echo -n "add -n $argv[2..-1]"
-        set_coloe magenta ; echo -n "; "
+        set_color magenta ; echo -n "; "
         set_color -o white; echo -n "git "; set_color normal; 
         set_color cyan    ; echo    "add $argv[2..-1]"
         # git add -n [files]; git add [files] を実行
@@ -51,7 +51,7 @@ function zubora -d "zubora 'commit message' [files to add;optional]"
         set_color white   ; echo -n "> ";
         set_color -o      ; echo -n "git " ; set_color normal;
         set_color cyan    ; echo    "add -n -A"
-        set_coloe magenta ; echo -n "; "
+        set_color magenta ; echo -n "; "
         set_color -o white; echo -n "git "; set_color normal; 
         set_color cyan    ; echo    "add -A"
         # git add -n -A; git add -A を実行
