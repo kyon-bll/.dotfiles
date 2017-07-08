@@ -50,7 +50,7 @@ function zubora -d "zubora 'commit message' [files to add;optional]"
         # "> git add -n -A; git add -A" を出力
         set_color white   ; echo -n "> ";
         set_color -o      ; echo -n "git " ; set_color normal;
-        set_color cyan    ; echo    "add -n -A"
+        set_color cyan    ; echo -n "add -n -A"
         set_color magenta ; echo -n "; "
         set_color -o white; echo -n "git "; set_color normal; 
         set_color cyan    ; echo    "add -A"
