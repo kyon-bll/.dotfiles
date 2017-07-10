@@ -331,6 +331,9 @@
 ;; アクティブウィンドウ／非アクティブウィンドウ（alphaの値で透明度を指定）
 (add-to-list 'default-frame-alist '(alpha . (0.86 0.86)))
 
+;; ウインドウ分割時に画面外へ出る文章を折り返す
+(setq truncate-partial-width-windows nil) 
+
 ;; メニューバーを消す
 (menu-bar-mode -1)
 
@@ -493,7 +496,8 @@
         ))
 (setq web-mode-auto-close-style 1)
 (setq web-mode-tag-auto-close-style t)
-;; (setq web-mode-enable-auto-pairing t)
+;; (setq web-mode-enable-auto-pairing t) ;;djangoのテンプレート{% %}の挙動が変
+
 ;; indent 2<->4
 (defun web-mode-indent (num)
   (interactive "nIndent: ")
