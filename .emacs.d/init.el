@@ -51,14 +51,17 @@
 ;;; 履歴をたくさん保存する
 (setq history-length 1000)
 
+;; C-hでBackspace
+(keyboard-translate ?\C-h ?\C-?)
+
 ;; ;; make what-whereでSKK modulesで表示されるディレクトリを指定
 ;; (add-to-list 'load-path "/usr/local/share/emacs/24.3/site-lisp/skk")
 ;; ;; M-x skk-tutorialでNo file found as 〜とエラーが出たときにskk-tut-fileを設定
 ;; ;; make what-whereでSKK tutorialsで表示されるディレクトリ上のSKK.tutを指定
 ;; (setq skk-tut-file "/usr/share/skk/SKK.tut")
-;; (require 'skk)
+;; ;; (require 'skk)
 ;; (require 'dired-x)
-;; (global-set-key "\C-x\C-j" 'skk-mode)
+;; (global-set-key "\C-x\M-j" 'skk-mode)
 
 ;; アルファベットで日本語検索
 (when (locate-library "migemo")
@@ -71,6 +74,7 @@
   (setq migemo-coding-system 'utf-8-unix)
   (load-library "migemo")
   (migemo-init))
+
 
 ;; 画面内検索
 (require 'ace-jump-mode)
@@ -94,8 +98,10 @@
 (add-hook 'web-mode-hook
           '(lambda ()
              (hs-minor-mode 1)))
-
 (define-key global-map (kbd "C-t") 'hs-toggle-hiding)
+
+;; キャメルケースで単語区切り
+(global-subword-mode 1)
 
 ;; 一括インデント
 (defun all-indent ()
