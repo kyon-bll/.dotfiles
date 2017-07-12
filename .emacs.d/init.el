@@ -74,6 +74,62 @@
   (load-library "migemo")
   (migemo-init))
 
+;; google-translate
+(require 'google-translate)
+(require 'google-translate-default-ui)
+
+(defvar google-translate-english-chars "[:ascii:]"
+  "これらの文字が含まれているときは英語とみなす")
+(defun google-translate-enja-or-jaen (&optional string)
+  "regionか現在位置の単語を翻訳する。C-u付きでquery指定も可能"
+  (interactive)
+  (setq string
+        (cond ((stringp string) string)
+              (current-prefix-arg
+               (read-string "Google Translate: "))
+              ((use-region-p)
+               (buffer-substring (region-beginning) (region-end)))
+              (t
+               (thing-at-point 'word))))
+  (let* ((asciip (string-match
+                  (format "\\`[%s]+\\'" google-translate-english-chars)
+                  string)))
+    (run-at-time 0.1 nil 'deactivate-mark)
+    (google-translate-translate
+     (if asciip "en" "ja")
+     (if asciip "ja" "en")
+     string)))
+
+(global-set-key (kbd "C-M-t") 'google-translate-enja-or-jaen)
+
+;; 英単語補完
+(require 'auto-complete-config)
+
+(defun my-ac-look ()
+  "look コマンドの出力をリストで返す"
+  (interactive)
+  (unless (executable-find "look")
+    (error "look コマンドがありません"))
+  (let ((search-word (thing-at-point 'word)))
+    (with-temp-buffer
+      (call-process-shell-command "look" nil t 0 search-word)
+      (split-string-and-unquote (buffer-string) "\n"))))
+
+(defun ac-complete-look ()
+  (interactive)
+  (let ((ac-menu-height 50)
+        (ac-candidate-limit t))
+    (auto-complete '(ac-source-look))))
+
+;; 表示数制限を変更しない場合
+;; (defun ac-complete-look ()
+;;  (interactive)
+;;  (auto-complete '(ac-source-look)))
+
+(defvar ac-source-look
+  '((candidates . my-ac-look)
+    (requires . 2)))  ;; 2文字以上ある場合にのみ対応させる
+(global-set-key [(backtab)] 'ac-complete-look)
 
 ;; 画面内検索
 (require 'ace-jump-mode)
