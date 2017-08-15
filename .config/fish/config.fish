@@ -3,9 +3,6 @@ set -gx PYENV_ROOT "$HOME/.pyenv"
 set -x PATH $PATH "$PYENV_ROOT/bin"
 status --is-interactive; and . (pyenv init - | psub)
 
-# emacs alias
-alias e="emacs -nw"
-
 # peco
 function peco_select_history
     if set -q $argv
@@ -18,6 +15,10 @@ end
 function fish_user_key_bindings
     bind \cr peco_select_history
 end
+
+# emacs alias
+alias e="emacs -nw"
+alias sue='sudo emacs -nw'
 
 # rmでゴミ箱へ移す
 alias rm=trash
