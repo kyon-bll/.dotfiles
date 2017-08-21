@@ -328,8 +328,6 @@
 ;; スクロールマージン
 (setq scroll-margin 6)
 
-;; 反対側のウィンドウにいけるように
-(setq windmove-wrap-around t)
 
 ;; C-M-kで行頭からカーソル位置まで削除
 (defun backward-kill-line (arg)
@@ -349,6 +347,9 @@
 (define-key global-map (kbd "<down>") 'windmove-down)
 (define-key global-map (kbd "<right>") 'windmove-right)
 (define-key global-map (kbd "<left>") 'windmove-left)
+
+;; 反対側のウィンドウにいけるように
+;; (setq windmove-wrap-around t)
 
 ;; window-resizer
 (defun window-resizer ()
