@@ -213,18 +213,18 @@
 (require 'recentf-ext)
 (global-set-key (kbd "C-x f") 'recentf-open-files)
 
-;; カーソルを戻す
-(require 'point-undo)
-(global-set-key [f7] 'point-undo)
-(global-set-key [M-f7] 'point-redo)
-
 ;; bs バッファリスト
 (global-set-key (kbd "C-x C-b") 'bs-show)
 
 ;; 変更履歴を戻る
 (require 'goto-chg)
 (global-set-key [f8] 'goto-last-change)
-(global-set-key [M-f8] 'goto-last-change-reverse)
+(global-set-key [C-f8] 'goto-last-change-reverse)
+
+;; カーソルを戻す
+(require 'point-undo)
+(global-set-key [f7] 'point-undo)
+(global-set-key [C-f7] 'point-redo)
 
 ;; browse-kill-ring M-y
 (global-set-key (kbd "M-y") 'browse-kill-ring)
@@ -415,7 +415,23 @@
 (hlinum-activate)
 ;; 前景色を黒，背景色を赤にする．
 (custom-set-faces
- '(linum-highlight-face ((t (:foreground "black" :background "red")))))
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(linum-highlight-face ((t (:foreground "black" :background "red"))))
+ '(web-mode-comment-face ((t (:foreground "#587F35"))))
+ '(web-mode-css-at-rule-face ((t (:foreground "#DFCF44"))))
+ '(web-mode-css-property-name-face ((t (:foreground "#87CEEB"))))
+ '(web-mode-css-pseudo-class ((t (:foreground "#DFCF44"))))
+ '(web-mode-css-selector-face ((t (:foreground "#DFCF44"))))
+ '(web-mode-css-string-face ((t (:foreground "#D78181"))))
+ '(web-mode-doctype-face ((t (:foreground "#4A8ACA"))))
+ '(web-mode-html-attr-equal-face ((t (:foreground "#FFFFFF"))))
+ '(web-mode-html-attr-name-face ((t (:foreground "#87CEEB"))))
+ '(web-mode-html-attr-value-face ((t (:foreground "#D78181"))))
+ '(web-mode-html-tag-face ((t (:foreground "#4A8ACA" :weight bold))))
+ '(web-mode-server-comment-face ((t (:foreground "#587F35")))))
 
 ;; カーソル行ハイライト
 ;; (global-hl-line-mode t)
@@ -485,6 +501,15 @@
 (when (< emacs-major-version 24)
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
+
+;;------------------------------------------
+;;------------------------------------------
+;;---------------以下入力補助---------------
+;;------------------------------------------
+;;------------------------------------------
+
+;; editorconfig
+(editorconfig-mode 1)
 
 ;; auto-complete
 (require 'auto-complete-config)
@@ -594,22 +619,7 @@
 ;;  )
 
 ;; 色 青い
-(custom-set-faces
- '(web-mode-doctype-face           ((t (:foreground "#4A8ACA"))))
- '(web-mode-html-tag-face          ((t (:foreground "#4A8ACA" :weight bold))))
- '(web-mode-html-attr-name-face    ((t (:foreground "#87CEEB"))))
- '(web-mode-html-attr-equal-face   ((t (:foreground "#FFFFFF"))))
- '(web-mode-html-attr-value-face   ((t (:foreground "#D78181"))))
- '(web-mode-comment-face           ((t (:foreground "#587F35"))))
- '(web-mode-server-comment-face    ((t (:foreground "#587F35"))))
 
- '(web-mode-css-at-rule-face       ((t (:foreground "#DFCF44"))))
- '(web-mode-comment-face           ((t (:foreground "#587F35"))))
- '(web-mode-css-selector-face      ((t (:foreground "#DFCF44"))))
- '(web-mode-css-pseudo-class       ((t (:foreground "#DFCF44"))))
- '(web-mode-css-property-name-face ((t (:foreground "#87CEEB"))))
- '(web-mode-css-string-face        ((t (:foreground "#D78181"))))
- )
 
 ;; flycheck
 (add-hook 'after-init-hook 'global-flycheck-mode)
@@ -628,8 +638,15 @@
 ;; python-mode
 (autoload 'python-mode "python-mode" "Python editing mode." t)
 (custom-set-variables
- '(py-indent-offset 4)
- )
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(desktop-save-mode t)
+ '(package-selected-packages
+   (quote
+    (editorconfig js2-mode yasnippet yaml-mode web-mode twittering-mode spacemacs-theme redo+ recentf-ext rainbow-delimiters powerline point-undo mwim migemo jedi hlinum goto-chg google-translate flycheck flex-autopair fish-mode emmet-mode counsel browse-kill-ring ace-jump-mode)))
+ '(py-indent-offset 4))
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
 
@@ -672,18 +689,8 @@
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(desktop-save-mode t))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
+
 
 ;; ==================================
 ;;          twittering-mode
