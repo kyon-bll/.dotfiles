@@ -413,13 +413,15 @@
 ;; カーソル行番号をハイライトする
 (require 'hlinum)
 (hlinum-activate)
-;; 前景色を黒，背景色を赤にする．
 (custom-set-faces
+ ;; 前景色を黒，背景色を赤にする．
+ '(linum-highlight-face ((t (:foreground "black" :background "red")))))
+
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(linum-highlight-face ((t (:foreground "black" :background "red"))))
+(custom-set-faces
  '(web-mode-comment-face ((t (:foreground "#587F35"))))
  '(web-mode-css-at-rule-face ((t (:foreground "#DFCF44"))))
  '(web-mode-css-property-name-face ((t (:foreground "#87CEEB"))))
@@ -618,7 +620,8 @@
 ;;  '(web-mode-css-at-rule-face      ((t (:foreground "#FF7F00"))))
 ;;  )
 
-;; 色 青い
+;; コメント色 red => cyan
+(set-face-foreground 'font-lock-comment-face "cyan")
 
 
 ;; flycheck
