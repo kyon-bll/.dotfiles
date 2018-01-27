@@ -4,6 +4,8 @@
 (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t) ; Org-mo
+;; package-check-signature を allow-unsigned に 署名なしパッケージを許可する
+(setq package-check-signature 'allow-unsigned)
 
 ;; 環境を日本語、UTF-8にする
 (set-locale-environment nil)
@@ -414,14 +416,12 @@
 (require 'hlinum)
 (hlinum-activate)
 (custom-set-faces
- ;; 前景色を黒，背景色を赤にする．
- '(linum-highlight-face ((t (:foreground "black" :background "red")))))
-
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
-(custom-set-faces
+ '(linum-highlight-face ((t (:foreground "black" :background "red"))))
+ '(org-table ((t (:foreground "white"))))
  '(web-mode-comment-face ((t (:foreground "#587F35"))))
  '(web-mode-css-at-rule-face ((t (:foreground "#DFCF44"))))
  '(web-mode-css-property-name-face ((t (:foreground "#87CEEB"))))
@@ -434,6 +434,12 @@
  '(web-mode-html-attr-value-face ((t (:foreground "#D78181"))))
  '(web-mode-html-tag-face ((t (:foreground "#4A8ACA" :weight bold))))
  '(web-mode-server-comment-face ((t (:foreground "#587F35")))))
+
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+
 
 ;; カーソル行ハイライト
 ;; (global-hl-line-mode t)
@@ -623,7 +629,6 @@
 ;; コメント色 red => cyan
 (set-face-foreground 'font-lock-comment-face "cyan")
 
-
 ;; flycheck
 (add-hook 'after-init-hook 'global-flycheck-mode)
 (global-set-key "\M-n" 'flycheck-next-error)
@@ -648,7 +653,7 @@
  '(desktop-save-mode t)
  '(package-selected-packages
    (quote
-    (editorconfig js2-mode yasnippet yaml-mode web-mode twittering-mode spacemacs-theme redo+ recentf-ext rainbow-delimiters powerline point-undo mwim migemo jedi hlinum goto-chg google-translate flycheck flex-autopair fish-mode emmet-mode counsel browse-kill-ring ace-jump-mode)))
+    (csv-mode editorconfig js2-mode yasnippet yaml-mode web-mode twittering-mode spacemacs-theme redo+ recentf-ext rainbow-delimiters powerline point-undo mwim migemo jedi hlinum goto-chg google-translate flycheck flex-autopair fish-mode emmet-mode counsel browse-kill-ring ace-jump-mode)))
  '(py-indent-offset 4))
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
