@@ -25,3 +25,4 @@
 (package-install 'flycheck)
 (package-install 'python-mode)
 (package-install 'fish-mode)
+(package-install 'csharp-mode)
