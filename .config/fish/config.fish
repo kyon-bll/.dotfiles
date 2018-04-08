@@ -20,8 +20,14 @@ end
 alias e="emacs -nw"
 alias sue='sudo emacs -nw'
 
+# tmux alias
+alias t="tmux"
+
 # rmでゴミ箱へ移す
 alias rm=trash
+
+# androidstudio
+set -x  PATH $PATH "$HOME/Library/Android/sdk/platform-tools"
 
 # git alias
 alias g=git
@@ -37,7 +43,7 @@ alias gb='git branch'
 alias gm='git merge'
 alias gc='git checkout'
 alias gcm='git checkout master'
-alias gcm='git checkout develop'
+alias gcd='git checkout develop'
 alias gmm='git merge master'
 alias gcb='git checkout -b'
 alias gf='git fetch'
