@@ -26,3 +26,4 @@
 (package-install 'python-mode)
 (package-install 'fish-mode)
 (package-install 'csharp-mode)
+(package-install 'jedi)
