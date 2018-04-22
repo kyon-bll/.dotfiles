@@ -17,7 +17,7 @@ function fish_user_key_bindings
 end
 
 # emacs alias
-alias e="emacs -nw"
+alias e="emacs -nw ."
 alias sue='sudo emacs -nw'
 
 # tmux alias
@@ -26,8 +26,20 @@ alias t="tmux"
 # rmでゴミ箱へ移す
 alias rm=trash
 
+########################
+#        macOS         #
+########################
+
 # androidstudio
 set -x  PATH $PATH "$HOME/Library/Android/sdk/platform-tools"
+
+# nodebrew
+set -x  PATH $PATH "$HOME/.nodebrew/current/bin"
+
+# postgres
+set -g fish_user_paths "/usr/local/opt/postgresql@9.6/bin" $fish_user_paths
+
+########################
 
 # git alias
 alias g=git
@@ -40,6 +52,7 @@ alias gs='git status'
 alias gp='git push'
 alias gd='git diff'
 alias gb='git branch'
+alias gba='git branch -a'
 alias gm='git merge'
 alias gc='git checkout'
 alias gcm='git checkout master'

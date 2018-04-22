@@ -11,5 +11,13 @@
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)
 
+;; _ を単語の区切りとする
+(add-hook 'python-mode-hook #'superword-mode)
+
+;; flycheck
+(defun tnoda/turn-on-flycheck-mode ()
+  (flycheck-mode 1))
+(add-hook 'python-mode-hook 'tnoda/turn-on-flycheck-mode)
+
 ;; C-t でコード折りたたむ、は 99_keybind.el に記述
 ;; なんかうまく動かん

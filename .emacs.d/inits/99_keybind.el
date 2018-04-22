@@ -39,8 +39,3 @@
 
 ;; C-x C-b で便利なバッファリスト
 (global-set-key (kbd "C-x C-b") 'bs-show)
-
-
-
-;; (require 'rainbow-delimiters)
-;; (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
