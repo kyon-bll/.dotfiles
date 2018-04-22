@@ -22,7 +22,9 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (web-mode recentf-ext pos-tip mwim migemo init-loader hlinum goto-chg google-translate flycheck flex-autopair emmet-mode counsel browse-kill-ring auto-complete))))
+    (web-mode recentf-ext pos-tip mwim migemo init-loader hlinum goto-chg google-translate flycheck flex-autopair emmet-mode counsel browse-kill-ring auto-complete)))
+ '(py-keep-windows-configuration (quote t))
+ '(py-split-windows-on-execute-function (quote split-window-vertically)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

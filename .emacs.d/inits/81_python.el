@@ -21,3 +21,6 @@
 
 ;; C-t でコード折りたたむ、は 99_keybind.el に記述
 ;; なんかうまく動かん
+
+;; *Python* ウィンドウが邪魔なのをなんとかする
+(custom-set-variables '(py-keep-windows-configuration (quote t)))
