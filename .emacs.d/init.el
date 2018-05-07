@@ -1,3 +1,11 @@
+;; ========================== ;;
+;;        auto install        ;;
+;; ========================== ;;
+
+;; 以下参考に auto-install をインストール
+;; https://www-he.scphys.kyoto-u.ac.jp/member/shotakaha/dokuwiki/doku.php?id=toolbox:emacs:package:start
+
+
 ;; ========================= ;;
 ;;        init loader        ;;
 ;; ========================= ;;

@@ -24,3 +24,6 @@
 
 ;; *Python* ウィンドウが邪魔なのをなんとかする
 (custom-set-variables '(py-keep-windows-configuration (quote t)))
+
+;; 折りたたみ
+
