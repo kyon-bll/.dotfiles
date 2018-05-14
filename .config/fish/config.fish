@@ -16,16 +16,6 @@ function fish_user_key_bindings
     bind \cr peco_select_history
 end
 
-# emacs alias
-alias e="emacs -nw ."
-alias sue='sudo emacs -nw'
-
-# tmux alias
-alias t="tmux"
-
-# rmでゴミ箱へ移す
-alias rm=trash
-
 ########################
 #        macOS         #
 ########################
@@ -40,6 +30,18 @@ set -x  PATH $PATH "$HOME/.nodebrew/current/bin"
 set -g fish_user_paths "/usr/local/opt/postgresql@9.6/bin" $fish_user_paths
 
 ########################
+#       aliases        #
+########################
+
+# emacs alias
+alias e="emacs -nw ."
+alias sue='sudo emacs -nw'
+
+# tmux alias
+alias t="tmux"
+
+# rmでゴミ箱へ
+alias rm=trash
 
 # git alias
 alias g=git
@@ -64,3 +66,8 @@ alias gmd='git merge develop'
 alias gcb='git checkout -b'
 alias gf='git fetch'
 alias gl='git pull'
+
+########################
+#       startup        #
+########################
+t
