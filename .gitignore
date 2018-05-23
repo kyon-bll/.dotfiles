@@ -1,3 +1,5 @@
+## dotfiles リポジトリ自体の gitignore
+
 #emacs
 *~
 *.elc
