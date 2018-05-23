@@ -37,10 +37,13 @@ alias e="emacs -nw ."
 alias sue='sudo emacs -nw'
 
 # tmux alias
-alias t="tmux"
+alias t=tmux
 
 # rmでゴミ箱へ
 alias rm=trash
+
+# bundle exec
+alias be="bundle exec"
 
 # git alias
 alias g=git
@@ -69,4 +72,6 @@ alias gl='git pull'
 ########################
 #       startup        #
 ########################
+
+# tmux 起動
 t
