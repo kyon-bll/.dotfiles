@@ -1,7 +1,6 @@
-# pyenv fish
-set -gx PYENV_ROOT "$HOME/.pyenv"
-set -x PATH $PATH "$PYENV_ROOT/bin"
-status --is-interactive; and . (pyenv init - | psub)
+# anyenv
+set -x PATH $HOME/.anyenv/bin $PATH
+status --is-interactive; and source (anyenv init -|psub)
 
 # peco
 function peco_select_history
