@@ -74,4 +74,4 @@ alias gl='git pull'
 ########################
 
 # tmux 起動
-t
+t a; t
