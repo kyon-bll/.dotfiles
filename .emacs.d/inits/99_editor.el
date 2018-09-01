@@ -1,6 +1,9 @@
 ;; タブにスペースを使用する
 (setq-default tab-width 4 indent-tabs-mode nil)
 
+;; キャメルケースで単語区切り
+(global-subword-mode 1)
+
 ;; 閉じカッコ自動挿入
 (require 'flex-autopair)
 (flex-autopair-mode 1)

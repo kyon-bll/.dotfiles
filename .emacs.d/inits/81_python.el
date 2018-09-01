@@ -12,7 +12,7 @@
 (setq jedi:complete-on-dot t)
 
 ;; _ を単語の区切りとする
-(add-hook 'python-mode-hook #'superword-mode)
+;; できません！
 
 ;; flycheck
 (defun tnoda/turn-on-flycheck-mode ()

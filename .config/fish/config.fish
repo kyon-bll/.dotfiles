@@ -38,6 +38,7 @@ alias sue='sudo emacs -nw'
 
 # tmux alias
 alias t=tmux
+alias ta=tmux attach
 
 # rmでゴミ箱へ
 alias rm=trash
@@ -74,4 +75,4 @@ alias gl='git pull'
 ########################
 
 # tmux 起動
-t a; t
+ta; t
