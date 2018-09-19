@@ -38,7 +38,7 @@ alias sue='sudo emacs -nw'
 
 # tmux alias
 alias t=tmux
-alias ta=tmux attach
+alias ta='tmux attach'
 
 # rmでゴミ箱へ
 alias rm=trash
