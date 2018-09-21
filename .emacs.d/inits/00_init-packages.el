@@ -28,3 +28,4 @@
 (package-install 'csharp-mode)
 (package-install 'jedi)
 (package-install 'php-mode)
+(package-install 'editorconfig)

@@ -16,3 +16,6 @@
 (defun python-hook-function ()
   (add-to-list 'flex-autopair-pairs '(?\' . ?\')))
 (add-hook 'web-mode-hook 'python-hook-function)
+
+;; editorconfig
+(editorconfig-mode 1)
