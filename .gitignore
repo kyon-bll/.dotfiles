@@ -24,6 +24,7 @@
 !/.config/fish/
 /.config/fish/*
 !/.config/fish/config.fish
+!/.config/fish/functions
 
 #others
 .python-environments

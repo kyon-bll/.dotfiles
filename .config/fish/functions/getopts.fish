@@ -1,0 +1,1 @@
+/Users/kyon/.config/fisherman/getopts/getopts.fish
