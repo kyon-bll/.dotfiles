@@ -28,6 +28,7 @@ set -x  PATH $PATH "$HOME/.nodebrew/current/bin"
 # postgres
 set -g fish_user_paths "/usr/local/opt/postgresql@9.6/bin" $fish_user_paths
 
+
 ########################
 #       aliases        #
 ########################
@@ -73,6 +74,9 @@ alias gl='git pull'
 ########################
 #       startup        #
 ########################
+
+# mldb コマンド追加
+# exec bash -c "source $HOME/MagicLeap/mlsdk/v0.23.0/envsetup.sh; exec fish"
 
 # tmux 起動
 ta; t

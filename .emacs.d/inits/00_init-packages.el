@@ -29,3 +29,5 @@
 (package-install 'jedi)
 (package-install 'php-mode)
 (package-install 'editorconfig)
+(package-install 'omnisharp)
+(package-install 'js2-mode)
