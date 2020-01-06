@@ -1,6 +1,7 @@
 # anyenv
-set -x PATH $HOME/.anyenv/bin $PATH
-status --is-interactive; and source (anyenv init -|psub)
+# set -x PATH $HOME/.anyenv/bin $PATH
+# status --is-interactive; and source (anyenv init -|psub)
+# なんかエラー出るからコメントアウト
 
 # peco
 function peco_select_history

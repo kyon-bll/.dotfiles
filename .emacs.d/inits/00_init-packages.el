@@ -7,7 +7,7 @@
 (setq package-check-signature 'allow-unsigned)
 
 ;; パッケージ初期化
-;; (package-refresh-contents)
+(package-refresh-contents)
 
 ;; パッケージ指定
 (package-install 'migemo)
@@ -31,3 +31,5 @@
 (package-install 'editorconfig)
 (package-install 'omnisharp)
 (package-install 'js2-mode)
+
+(package-install 'cmigemo)
