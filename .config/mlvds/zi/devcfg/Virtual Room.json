@@ -1,0 +1,447 @@
+{
+  "ConfigurationSettings": {
+    "AccelerateMultiplier": 3,
+    "CoPlanarDistanceThreshold": 1.200000047683716,
+    "CoPlanarHalfThicknessThreshold": 0.04500000178813934,
+    "CoPlanarHorizontalThreshold": 20,
+    "CoPlanarMaxPlanarFeatures": 200,
+    "CoPlanarMinFragmentArea": 0.300000011920929,
+    "CoPlanarMinHoleSize": 0.05000000074505806,
+    "CoPlanarMinInnerPlaneArea": 0.2000000029802322,
+    "CoPlanarMinInnerPlaneSize": 0.1000000014901161,
+    "CoPlanarMinOuterPlaneArea": 0.5,
+    "CoPlanarNormalThreshold": 10,
+    "CoPlanarRenderColor": [
+      1,
+      0,
+      0
+    ],
+    "CoPlanarRenderMode": "Outer",
+    "CoPlanarRenderOrientToGravity": true,
+    "CoPlanarRenderRandomizeColor": true,
+    "CoPlanarRenderUpdateIntervalMs": 500,
+    "CoPlanarRenderWireframe": false,
+    "CoPlanarSampleRotationStepSize": 15,
+    "CoPlanarSampleStepSize": 0.009999999776482582,
+    "CoPlanarShowFeatures": false,
+    "CoPlanarUpdateIntervalMs": 500,
+    "CoPlanarVerticalThreshold": 20,
+    "CompassGizmoEnabled": true,
+    "CompassGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "CompassGizmoModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "CompassGizmoModelScale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "CompassGizmoScreenSize": 200,
+    "CompassGizmoXAxisModel": "gizmoModels/gizmoMoveX.fbx",
+    "CompassGizmoYAxisModel": "gizmoModels/gizmoMoveY.fbx",
+    "CompassGizmoZAxisModel": "gizmoModels/gizmoMoveZ.fbx",
+    "DeviceViewCameraShowMeshingFrustum": true,
+    "DeviceViewCameraShowViewFrustum": false,
+    "DeviceViewChannel": "Device View Room",
+    "DeviceViewGradientHigh": [
+      0.02999999932944775,
+      0.03599999845027924,
+      0.06100000068545341
+    ],
+    "DeviceViewGradientLow": [
+      0.05999999865889549,
+      0.1000000014901161,
+      0.1500000059604645
+    ],
+    "DragZoomSensitivity": 1,
+    "EyeFixationEyeCenterOffset": [
+      0,
+      0,
+      -0.03500000014901161
+    ],
+    "EyeFixationGizmoDiffuseColor": [
+      0.6700000166893005,
+      0.4300000071525574,
+      0.9100000262260437,
+      1
+    ],
+    "EyeFixationGizmoEnabled": true,
+    "EyeFixationGizmoEyeFixationModel": "gizmoModels/gizmoEye.fbx",
+    "EyeFixationGizmoGazeSize": 0.1000000014901161,
+    "EyeFixationGizmoHeadposeFollow": false,
+    "EyeFixationGizmoIPD": 64,
+    "EyeFixationGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "EyeFixationGizmoModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "EyeFixationGizmoModelScale": [
+      0.01200000010430813,
+      0.01200000010430813,
+      0.01200000010430813
+    ],
+    "EyeFixationGizmoRenderGaze": false,
+    "EyeFixationGizmoRenderInDeviceView": false,
+    "EyeFixationGizmoSize": 0.1000000014901161,
+    "EyeFixationHeadposeFOV": true,
+    "EyeFixationStartingPosition": [
+      0,
+      0,
+      -1.5
+    ],
+    "EyeFixationStartingRotation": [
+      0,
+      0,
+      0
+    ],
+    "EyeTrackingStateChannel": "Eye Tracking State",
+    "FrameBufferChannel": "Frame Buffer",
+    "GeometryCacheBlockWorkerThreads": 0,
+    "GlobalAmbientColor": [
+      0.1000000014901161,
+      0.1000000014901161,
+      0.1000000014901161
+    ],
+    "GraphicsContractChannel": "Graphics Contract",
+    "HandGestureClipToMeshingFOV": false,
+    "HandGestureGizmoEnabled": true,
+    "HandGestureGizmoLeftHandModel": "gizmoModels/gizmoHandLeft.fbx",
+    "HandGestureGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "HandGestureGizmoModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "HandGestureGizmoModelScale": [
+      0.002000000094994903,
+      0.002000000094994903,
+      0.002000000094994903
+    ],
+    "HandGestureGizmoRenderInDeviceView": true,
+    "HandGestureGizmoRightHandModel": "gizmoModels/gizmoHandRight.fbx",
+    "HandTrackingDataChannel": "Hand Tracking Data",
+    "HeadposeGizmoEnabled": true,
+    "HeadposeGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "HeadposeGizmoModelRotation": [
+      0,
+      180,
+      0
+    ],
+    "HeadposeGizmoModelScale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "HeadposeGizmoWearableModel": "gizmoModels/wearable.fbx",
+    "HeadposeStartingPosition": [
+      0,
+      0,
+      0
+    ],
+    "HeadposeStartingRotation": [
+      0,
+      0,
+      0
+    ],
+    "ImageTargetFrustumTestRateMs": 64,
+    "InitialPivotPointOffset": 5,
+    "InputController0Color": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "InputController0HeadposeFollow": false,
+    "InputController0StartingPosition": [
+      -0.1000000014901161,
+      -0.1800000071525574,
+      -0.75
+    ],
+    "InputController0StartingRotation": [
+      0,
+      0,
+      0
+    ],
+    "InputController1Color": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "InputController1HeadposeFollow": false,
+    "InputController1StartingPosition": [
+      0.1000000014901161,
+      -0.1800000071525574,
+      -0.75
+    ],
+    "InputController1StartingRotation": [
+      0,
+      0,
+      0
+    ],
+    "InputController1StateChannel": "Input Controller 1",
+    "InputController2StateChannel": "Input Controller 2",
+    "InputControllerGizmoControlModel": "gizmoModels/Controller.fbx",
+    "InputControllerGizmoEnabled": true,
+    "InputControllerGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "InputControllerGizmoModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "InputControllerGizmoModelScale": [
+      0.009999999776482582,
+      0.009999999776482582,
+      0.009999999776482582
+    ],
+    "InputControllerGizmoPrimaryMaterialIndex": 3,
+    "LeftHandGestureGizmoDiffuseColor": [
+      0.6700000166893005,
+      0.4300000071525574,
+      0.9100000262260437,
+      1
+    ],
+    "LeftHandGestureHeadposeFollow": false,
+    "LeftHandGestureStartingPosition": [
+      -0.2000000029802322,
+      -0.1800000071525574,
+      -0.75
+    ],
+    "LeftHandGestureStartingRotation": [
+      0,
+      0,
+      0
+    ],
+    "MinPivotPointOffset": 0.2000000029802322,
+    "MoveGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "MoveGizmoModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "MoveGizmoModelScale": [
+      0.004999999888241291,
+      0.004999999888241291,
+      0.004999999888241291
+    ],
+    "MoveGizmoScreenSpaceModel": "gizmoModels/gizmoMoveCenter.fbx",
+    "MoveGizmoXAxisModel": "gizmoModels/gizmoMoveX.fbx",
+    "MoveGizmoXYPlaneModel": "gizmoModels/gizmoMoveXY.fbx",
+    "MoveGizmoXZPlaneModel": "gizmoModels/gizmoMoveXZ.fbx",
+    "MoveGizmoYAxisModel": "gizmoModels/gizmoMoveY.fbx",
+    "MoveGizmoYZPlaneModel": "gizmoModels/gizmoMoveYZ.fbx",
+    "MoveGizmoZAxisModel": "gizmoModels/gizmoMoveZ.fbx",
+    "MoveSnapSize": 1,
+    "MovementAcceleration": 10,
+    "MovementInitialVelocity": 0.5,
+    "MovementMaxVelocity": 50,
+    "ObservedGeometryCacheBlockSize": 1,
+    "ObservedGeometryCacheCaptureMode": "CameraFacing",
+    "ObservedGeometryCacheCleanBlockColor": [
+      1,
+      0.4099999964237213,
+      0
+    ],
+    "ObservedGeometryCacheDataColor": [
+      0.6000000238418579,
+      0.8500000238418579,
+      0.9100000262260437
+    ],
+    "ObservedGeometryCacheDataRenderColor": [
+      1,
+      1,
+      1
+    ],
+    "ObservedGeometryCacheDataRenderOnTop": false,
+    "ObservedGeometryCacheDataRenderPolygonOffset": 10,
+    "ObservedGeometryCacheDirtyBlockColor": [
+      1,
+      0,
+      1
+    ],
+    "ObservedGeometryCacheEmptyBlockColor": [
+      0.4199999868869781,
+      0.4600000083446503,
+      1
+    ],
+    "ObservedGeometryShowCacheBlocks": false,
+    "ObservedGeometryShowCacheData": false,
+    "ObservedGeometryShowCacheDataUpdateIntervalMs": 500,
+    "ObservedGeometryShowEmptyCacheBlocks": false,
+    "PCFMinSpawnDistance": 3,
+    "PCFNodeColor": [
+      0.4000000059604645,
+      1,
+      0.800000011920929
+    ],
+    "PCFNodeModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "PCFNodeModelRotation": [
+      0,
+      180,
+      0
+    ],
+    "PCFNodeModelScale": [
+      0.1000000014901161,
+      0.1000000014901161,
+      0.1000000014901161
+    ],
+    "PCFNodePCFMarkerModel": "gizmoModels/pcfMarker.fbx",
+    "PCFNodeScale": [
+      0.1000000014901161,
+      0.1000000014901161,
+      0.1000000014901161
+    ],
+    "PCFUpdateRateMs": 64,
+    "PanningSensitivityX": -1,
+    "PanningSensitivityY": 1,
+    "PivotPointSize": 0.1000000014901161,
+    "PivotPointTexture": "gizmoModels/pivot-point-icon.png",
+    "RedrawOnDemand": true,
+    "RenderLightMesh": false,
+    "RenderPCFNodes": true,
+    "RightHandGestureGizmoDiffuseColor": [
+      0.6700000166893005,
+      0.4300000071525574,
+      0.9100000262260437,
+      1
+    ],
+    "RightHandGestureHeadposeFollow": true,
+    "RightHandGestureStartingPosition": [
+      0.2000000029802322,
+      -0.1800000071525574,
+      -0.75
+    ],
+    "RightHandGestureStartingRotation": [
+      0,
+      0,
+      0
+    ],
+    "RotateSnapAngle": 30,
+    "RotationGizmoForwardArcCorrection": true,
+    "RotationGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "RotationGizmoModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "RotationGizmoModelScale": [
+      0.004999999888241291,
+      0.004999999888241291,
+      0.004999999888241291
+    ],
+    "RotationGizmoScreenSpaceModel": "gizmoModels/gizmoRotateFacing.fbx",
+    "RotationGizmoScreenSpaceModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "RotationGizmoXAxisModel": "gizmoModels/gizmoRotateX.fbx",
+    "RotationGizmoYAxisModel": "gizmoModels/gizmoRotateY.fbx",
+    "RotationGizmoZAxisModel": "gizmoModels/gizmoRotateZ.fbx",
+    "RotationSensitivity": 20,
+    "ScaleGizmoModelPosition": [
+      0,
+      0,
+      0
+    ],
+    "ScaleGizmoModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "ScaleGizmoModelScale": [
+      0.004999999888241291,
+      0.004999999888241291,
+      0.004999999888241291
+    ],
+    "ScaleGizmoScreenSpaceModel": "gizmoModels/gizmoScaleCenter.fbx",
+    "ScaleGizmoXAxisModel": "gizmoModels/gizmoScaleX.fbx",
+    "ScaleGizmoYAxisModel": "gizmoModels/gizmoScaleY.fbx",
+    "ScaleGizmoZAxisModel": "gizmoModels/gizmoScaleZ.fbx",
+    "ScaleSnapSize": 1,
+    "SceneViewCameraPosition": [
+      0,
+      5,
+      3
+    ],
+    "SceneViewCameraRotation": [
+      -30,
+      0,
+      0
+    ],
+    "SceneViewChannel": "Scene View",
+    "SceneViewGradientHigh": [
+      0.02999999932944775,
+      0.03599999845027924,
+      0.06100000068545341
+    ],
+    "SceneViewGradientLow": [
+      0.05999999865889549,
+      0.1000000014901161,
+      0.1500000059604645
+    ],
+    "SceneViewPivotPointEnabled": true,
+    "ScrollSensitivity": 70,
+    "SplashModel": "splashModels/Leaper.fbx",
+    "SplashModelPosition": [
+      -0.25,
+      -2,
+      -10
+    ],
+    "SplashModelRotation": [
+      0,
+      0,
+      0
+    ],
+    "SplashModelScale": [
+      0.1000000014901161,
+      0.1000000014901161,
+      0.1000000014901161
+    ],
+    "ViewGridColor": [
+      0.01499999966472387,
+      0.6309999823570251,
+      0.7450000047683716
+    ],
+    "ViewGridExpansion": true,
+    "ViewGridGizmoEnabled": true,
+    "ViewGridHeight": 0.07000000029802322
+  },
+  "DeviceLabel": "Virtual Room",
+  "DeviceName": "VirtualRoomServerSparseDevice",
+  "DeviceType": "",
+  "ManifestType": "Configuration"
+}

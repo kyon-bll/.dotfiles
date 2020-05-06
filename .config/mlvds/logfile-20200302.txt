@@ -1,0 +1,5 @@
+*** the_lab pid 426 started logging at Mon Mar  2 10:09:19 2020
+*** the_lab pid 2289 started logging at Mon Mar  2 18:49:33 2020
+*** the_lab pid 2840 started logging at Mon Mar  2 18:51:29 2020
+*** the_lab pid 3402 started logging at Mon Mar  2 18:53:06 2020
+*** the_lab pid 2602 started logging at Mon Mar  2 20:12:05 2020

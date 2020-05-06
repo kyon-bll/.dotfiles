@@ -1,0 +1,284 @@
+*** the_lab pid 396 started logging at Tue Jan 21 09:58:30 2020
+*** the_lab pid 424 started logging at Tue Jan 21 10:44:01 2020
+*** VDCLI pid 19410 started logging at Tue Jan 21 14:36:08 2020
+143608.286 <VDCLI~122573> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 19412 started logging at Tue Jan 21 14:36:08 2020
+*** VirtualDeviceServer pid 19413 started logging at Tue Jan 21 14:36:08 2020
+143608.323 <VDCLI~122596> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 19427 started logging at Tue Jan 21 14:36:09 2020
+*** VDCLI pid 19465 started logging at Tue Jan 21 14:36:13 2020
+*** VDCLI pid 19468 started logging at Tue Jan 21 14:36:18 2020
+*** VDCLI pid 19502 started logging at Tue Jan 21 14:36:18 2020
+143619.371 <VDCLI~123056> I [VirtualDeviceFrontend.cpp:1337] Application ML1 is not running
+*** VDCLI pid 19503 started logging at Tue Jan 21 14:36:19 2020
+143619.871 <VDCLI~123072> I [VDCLIApplication.cpp:208] Killing server
+*** VirtualDeviceServer pid 19413 started logging at Tue Jan 21 14:36:20 2020
+143608.350 <VirtualDeviceServer~122605> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+143608.416 <VirtualDeviceServer~122605> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+143620.236 <VirtualDeviceServer~122605> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+*** VDCLI pid 23537 started logging at Tue Jan 21 15:33:19 2020
+153319.970 <VDCLI~169871> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 23539 started logging at Tue Jan 21 15:33:20 2020
+*** VirtualDeviceServer pid 23540 started logging at Tue Jan 21 15:33:20 2020
+153320.003 <VDCLI~169891> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 23549 started logging at Tue Jan 21 15:33:20 2020
+*** PeripheralSparseDevice pid 23550 started logging at Tue Jan 21 15:33:21 2020
+153321.329 <PeripheralSparseDevice~169978> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+153322.398 <PeripheralSparseDevice~169978> I [PeripheralSparseDeviceApplication.cpp:475] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+*** VDCLI pid 23554 started logging at Tue Jan 21 15:33:22 2020
+*** VirtualRoomServer pid 23555 started logging at Tue Jan 21 15:33:22 2020
+153324.063 <VirtualRoomServer~170046> I [ViewportRender.cpp:119] Initializing viewport renderer's gfx system
+153324.246 <VirtualRoomServer~170046> I [ViewportRender.cpp:168] OpenGL Version: 4.1 INTEL-14.3.9
+153324.701 <VirtualRoomServer~170046> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+153324.707 <VirtualRoomServer~170046> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+153324.729 <VirtualRoomServer~170046> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+153324.734 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 2: Starting channel request...
+153324.736 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 2: Finished channel request...
+153324.820 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 1: Starting channel request...
+*** VDCLI pid 23563 started logging at Tue Jan 21 15:33:24 2020
+153324.823 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 1: Finished channel request...
+153324.939 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd7, width: 512, height: 512, layers: 1
+*** MockML1SparseDevice pid 23564 started logging at Tue Jan 21 15:33:25 2020
+153325.230 <MockML1SparseDevice~170170> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+153325.841 <MockML1SparseDevice~170170> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 INTEL-14.3.9
+*** the_lab pid 424 started logging at Tue Jan 21 15:33:26 2020
+153324.940 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd8, width: 1024, height: 1024, layers: 1
+153324.955 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Scene View, attempting to create it
+153324.959 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Device View Room, attempting to create it
+153326.585 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc1, width: 1, height: 1, layers: 1
+153326.511 <the_lab~170276> I [RendererAgent.cpp:345] DriftFX c++ worker thread started...
+153326.546 <the_lab~170276> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 INTEL-14.3.9
+153326.546 <the_lab~170276> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: Intel Inc.
+153326.546 <the_lab~170276> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: Intel Iris Pro OpenGL Engine
+153326.546 <the_lab~170276> I [Viewer.cpp:83] Viewer(0x7fedf1136e10) is created
+153326.621 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd8, width: 1024, height: 1024, layers: 1
+153326.624 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc1, width: 1, height: 1, layers: 1
+153326.913 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+153327.588 <VirtualRoomServer~170307> I [RoomLoader.cpp:110] Loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+153326.933 <the_lab~170276> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 INTEL-14.3.9
+153326.933 <the_lab~170276> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: Intel Inc.
+153326.933 <the_lab~170276> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: Intel Iris Pro OpenGL Engine
+153327.632 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd8, width: 1024, height: 1024, layers: 1
+153327.588 <VirtualRoomServer~170307> I [RoomLoader.cpp:112] server indicates loading in progress
+153327.781 <VirtualRoomServer~170307> I [SessionLoader.cpp:112] Loading Session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+153328.849 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc6, width: 940, height: 916, layers: 1
+153328.870 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xfa, width: 940, height: 400, layers: 1
+153328.849 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xfa, width: 940, height: 400, layers: 1
+153329.141 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x10e, width: 942, height: 918, layers: 1
+153328.875 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc6, width: 940, height: 916, layers: 1
+153329.213 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x97, width: 942, height: 400, layers: 1
+153329.142 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x97, width: 942, height: 400, layers: 1
+153329.214 <VirtualRoomServer~170307> I [SessionLoader.cpp:271] Finished loading session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+153329.222 <VirtualRoomServer~170307> I [RoomLoader.cpp:118] Finished loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room
+153329.322 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xff, width: 1088, height: 1084, layers: 1
+153329.323 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x112, width: 1088, height: 482, layers: 1
+153329.434 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+153329.223 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x10e, width: 942, height: 918, layers: 1
+153329.444 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x112, width: 1088, height: 482, layers: 1
+*** VDCLI pid 23571 started logging at Tue Jan 21 15:33:29 2020
+153329.459 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xff, width: 1088, height: 1084, layers: 1
+153329.483 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+153329.495 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+153331.954 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+153331.959 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+153338.685 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+153338.689 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+153342.818 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+153342.826 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+153350.262 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+153350.265 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+153509.234 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+153509.238 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+153515.387 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+153515.391 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+154356.314 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+154356.318 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+154522.225 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1 (repeated 1 time)
+*** Unity pid 18113 started logging at Tue Jan 21 15:49:43 2020
+*** Unity pid 18113 started logging at Tue Jan 21 15:49:43 2020
+154522.250 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+154943.737 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+*** VirtualDeviceServer pid 23540 started logging at Tue Jan 21 15:49:44 2020
+153320.028 <VirtualDeviceServer~169900> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+153320.085 <VirtualDeviceServer~169900> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+154944.677 <VirtualDeviceServer~169900> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 18113 (18113)
+154944.682 <Unity~180148> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+154944.687 <Unity~180157> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 18113 started logging at Tue Jan 21 15:49:45 2020
+154945.556 <VirtualDeviceServer~169900> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 18113 (18113)
+154945.545 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+154945.550 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+154945.552 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+154946.563 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+154946.571 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+154943.740 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+154946.670 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154946.745 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+154946.962 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Mesh Data: Starting channel request...
+154947.160 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+154946.667 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154947.455 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 1
+154948.011 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154947.164 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+154948.017 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154948.788 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+154949.167 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154949.163 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2 (repeated 1 time)
+154949.942 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3
+154949.174 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+154949.178 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+154950.497 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1 (repeated 1 time)
+154950.825 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4
+154951.168 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154950.507 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+154951.182 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154952.589 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2 (repeated 1 time)
+154953.603 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 7
+154953.722 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154955.753 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 9
+154956.337 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+154957.116 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 10
+154958.807 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 11
+154959.069 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2 (repeated 5 times)
+154959.832 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 12
+155000.086 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+155001.870 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 14
+154959.763 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+154959.777 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+155002.066 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+155002.078 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+155003.653 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 16
+155003.808 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+155004.588 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 17
+155005.809 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 18
+155006.625 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 19
+155009.243 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 21
+155009.925 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+155013.462 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+154946.817 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+155014.105 <Unity~180157> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+155014.124 <VirtualDeviceServer~169900> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 18113 (18113)
+154946.966 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Mesh Data: Finished channel request...
+155014.131 <Unity~180148> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+155009.923 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2 (repeated 4 times)
+155014.294 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+155014.300 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+155016.786 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+*** VDCLI pid 23978 started logging at Tue Jan 21 15:50:19 2020
+155019.784 <VDCLI~180814> I [VDCLIApplication.cpp:208] Killing server
+153329.435 <VirtualRoomServer~170046> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx: 2
+155016.794 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+155020.209 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x99, width: 1268, height: 584, layers: 1
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx: 3
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx: 7
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx: 3
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx: 2
+155020.204 <VirtualRoomServer~170046> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx_mat_default_floor: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx_mat_default_wall: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx_mat_01 - Default: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVScreen1: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltB: 3
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltC: 3
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_wood_black: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_painting01: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_metal: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_aluminium: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeTrimA: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx_mat_default_ceiling: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brassB: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx_mat_whiteceramic: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx_mat_mugA: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_bulb: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_tan: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanB: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx_mat_DiningTableRectangular01: 3
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_lambert2: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_blck_plastic: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_globe: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_chrome: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx_mat_CoffeeTableOval01: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01_seat: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_black: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_Sofa03: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_white: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_black: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_white: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_white: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_black: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_wood: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_Sofa02: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx_mat_01 - Default: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_edgeB: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_ringB: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVPlastic: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_metal: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_bulb: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeA: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx_mat_phong5: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_brass: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx_mat_default_wall: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx_mat_default_wall: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx_mat_fabricB: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_metal: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brass: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx_mat_01 - Default: 7
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_bulb: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanA: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01_seat: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_silver: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_black: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_Darktan: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx_mat_default_wall: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_painting04: 3
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_shadeA: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_guiltA: 2
+155020.394 <VirtualRoomServer~170046> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_centerB: 2
+155020.395 <VirtualRoomServer~170046> W [ResourceManager.cpp:305] Reference count for resource painting04_MainTex.png: 2
+155020.395 <VirtualRoomServer~170046> W [ResourceManager.cpp:305] Reference count for resource painting01_MainTex.png: 2
+155020.395 <VirtualRoomServer~170046> W [ResourceManager.cpp:305] Reference count for resource globe_MainTex.png: 2
+155020.397 <VirtualRoomServer~170046> I [ViewportRender.cpp:214] Shutting down viewport renderer's gfx system
+155020.213 <the_lab~170282> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x116, width: 1268, height: 1286, layers: 1
+155020.779 <the_lab~170276> I [RendererAgent.cpp:424] DriftFX c++ worker thread stopping...
+153322.410 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:157] Configuration settings changed, mapping actions...
+155020.860 <VirtualDeviceServer~169900> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+154946.564 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+154946.591 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+154946.638 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+154946.643 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xb8, width: 1280, height: 960, layers: 2
+155020.779 <the_lab~170276> I [Viewer.cpp:118] Viewer(0x7fedf1136e10) is disposed
+*** the_lab pid 385 started logging at Thu Jan 23 09:53:35 2020
+*** the_lab pid 380 started logging at Thu Jan 23 13:25:40 2020
+*** the_lab pid 398 started logging at Thu Jan 23 13:34:49 2020
+*** the_lab pid 390 started logging at Thu Jan 23 13:45:51 2020
+*** the_lab pid 386 started logging at Thu Jan 23 14:02:34 2020
+*** the_lab pid 386 started logging at Thu Jan 23 14:10:28 2020

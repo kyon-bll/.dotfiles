@@ -1,0 +1,4 @@
+*** VDCLI pid 11881 started logging at Tue Apr 14 00:12:42 2020
+001242.699 <VDCLI~285854> I [VDCLIApplication.cpp:188] Killing server
+001243.082 <VirtualDeviceServer~61174> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** the_lab pid 444 started logging at Tue Apr 14 11:37:57 2020

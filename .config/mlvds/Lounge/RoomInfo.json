@@ -1,0 +1,1090 @@
+{
+  "ManifestType": "Session",
+  "Version": 1,
+  "Handedness": "Left",
+  "RootPath": "./",
+  "Media": [
+    {
+      "MediaID": "439204fb-88a8-46ca-bee8-a8f83e1f5972",
+      "Path": ".\\area_rug02/area_rug02.fbx",
+      "HashType": "SHA256",
+      "Hash": "512334d7afcaa34258f83fb9535890e2ca0d53c2cc7ca387aa884fce8d83d77d"
+    },
+    {
+      "MediaID": "c659166d-ccd2-4d40-9891-5dbb1489e590",
+      "Path": ".\\Sofa_02/Sofa_02.fbx",
+      "HashType": "SHA256",
+      "Hash": "881db7dc95d7e69731d3d3261b54775b1b810b73d652ecdc88396c4159055570"
+    },
+    {
+      "MediaID": "dcf9fb2f-4a82-4f4f-80cc-715d88662ca1",
+      "Path": ".\\cushion01/cushion01.fbx",
+      "HashType": "SHA256",
+      "Hash": "6fa7879e41fcc7c8e24c342c09a3d61a4d1a9d6c116aa1307642a18c0f4c4d6c"
+    },
+    {
+      "MediaID": "5263d095-dca5-4803-bada-1bc162811e16",
+      "Path": ".\\DiningChairSlotted01/DiningChairSlotted01.fbx",
+      "HashType": "SHA256",
+      "Hash": "224b942ba49990e900d47fd0718365d1a3d0dc937815b3dd169b2ad117d27a88"
+    },
+    {
+      "MediaID": "aca56430-7d04-4358-a680-db0132cbf8db",
+      "Path": ".\\OpenShelves01/OpenShelves01.fbx",
+      "HashType": "SHA256",
+      "Hash": "c740d152f887785865d210e1aeee0fb0b8e0bfeeff97ad25959b3a12c1914b04"
+    },
+    {
+      "MediaID": "cb30b99d-c62a-4e24-90d2-5a32c57518b3",
+      "Path": ".\\OpenShelvesTall01/OpenShelvesTall01.fbx",
+      "HashType": "SHA256",
+      "Hash": "30fb1b6a0ec563f32fbf03e60bfd8c1c789d7c4efa1aa67b6c852ee6ac9afc35"
+    },
+    {
+      "MediaID": "497ad745-e795-4c9b-844c-516b93213e81",
+      "Path": ".\\OpenShelvesNarrow01/OpenShelvesNarrow01.fbx",
+      "HashType": "SHA256",
+      "Hash": "ca3ea3a6fe1d92e934c31c19b1badeb7901428c34ad4a85e3861cf92a1954a10"
+    },
+    {
+      "MediaID": "404b10b1-e1d4-44f8-a273-9184f991fc2f",
+      "Path": ".\\Sofa_01/Sofa_01.fbx",
+      "HashType": "SHA256",
+      "Hash": "684203728db1f8d9fd1bba54d9fd05a055ad7bc695d0af3ab260dbe035b7a1f7"
+    },
+    {
+      "MediaID": "3b4dc943-d0e9-4f41-9bb4-7725bfd04852",
+      "Path": ".\\DiningChair01/DiningChair01.fbx",
+      "HashType": "SHA256",
+      "Hash": "ae9efcb101278974688577cece0c8cfba8c1d0ff03cbf59f55260e4ba7e478c5"
+    },
+    {
+      "MediaID": "a7b5e93a-32e3-45f2-a89c-2ef586e3ddac",
+      "Path": ".\\CoffeeTableOval01/CoffeeTableOval01.fbx",
+      "HashType": "SHA256",
+      "Hash": "6cfaf2d2447e3fa91f151d94dfb47aeaf908a202166a4836a68ee95b92a1f59a"
+    },
+    {
+      "MediaID": "f018a035-39a5-49f4-b709-df40b4e4e0c2",
+      "Path": ".\\globe/globe.fbx",
+      "HashType": "SHA256",
+      "Hash": "89367637724c9cd1658e8dc5cb4425b51624ff6e307989387a7517ab064efb2a"
+    },
+    {
+      "MediaID": "ee4b8136-afd1-4c2f-9c05-017230f8ad31",
+      "Path": ".\\PS4/PS4.fbx",
+      "HashType": "SHA256",
+      "Hash": "37f6cee629f6122b3d1252cef07cde05c01f8b7e3f47a9a48a9d6229d8dce4e7"
+    },
+    {
+      "MediaID": "93c7bab0-ee9d-4457-8b4f-307dfb96cefd",
+      "Path": ".\\DiningTableCircular01/DiningTableCircular01.fbx",
+      "HashType": "SHA256",
+      "Hash": "fb127839cda89cb89c3a68b4d4cfd198d26b329fe713f08d641bf6ae2d166c58"
+    },
+    {
+      "MediaID": "92aee34b-0fcd-40b5-85de-e2f8e03b3e32",
+      "Path": ".\\drinkcan01/drinkcan01.fbx",
+      "HashType": "SHA256",
+      "Hash": "24ae69d349d805da0e4f838e44d9913e80cb215ee48a13002c035c157773d076"
+    },
+    {
+      "MediaID": "e68f5c8d-2e6e-47fc-ba1a-0332f1cb938b",
+      "Path": ".\\tablelamp02/tablelamp02.fbx",
+      "HashType": "SHA256",
+      "Hash": "d616d827923e5b1923737c42185d0f1cff4d3ec437f9e8b84c279d7e5271d7a4"
+    },
+    {
+      "MediaID": "ce4b9b98-9006-4bb0-9ffe-b5507c4f9fb3",
+      "Path": ".\\vase01/vase01.fbx",
+      "HashType": "SHA256",
+      "Hash": "422a48cca6cc057337e2df22c876d3a2024c3e95e925bdc25fe2abbaed2e7fd9"
+    },
+    {
+      "MediaID": "158436e9-1f69-4dd8-beaa-218228250c75",
+      "Path": ".\\mug02/mug02.fbx",
+      "HashType": "SHA256",
+      "Hash": "928d36d9d18d5c6954b25ea2454ace533ba80ae2ce56fa5d58aae59a546e10ca"
+    },
+    {
+      "MediaID": "f697168f-937f-4634-bfc0-f7ad88bf224f",
+      "Path": ".\\vase03/vase03.fbx",
+      "HashType": "SHA256",
+      "Hash": "a612ff0491c0c6cc199a59574ed617eff8be086e98f5abb54e06b97592e0ced5"
+    },
+    {
+      "MediaID": "3c207ed4-d25e-454f-9ce0-fc9ed6ce00e3",
+      "Path": ".\\floorlamp01/floorlamp01.fbx",
+      "HashType": "SHA256",
+      "Hash": "c232a340fc0034d347aa4cbcee8134f841bd659f86e87c6e5455b5fc43f411de"
+    },
+    {
+      "MediaID": "79f41f1e-1775-42f4-9d5c-9afa20e73536",
+      "Path": ".\\floorlamp02/floorlamp02.fbx",
+      "HashType": "SHA256",
+      "Hash": "fcfcb0c816f84005be0ea6e58913a0c1a0faf012fcfa6d1f8aa1b77f81f750c4"
+    },
+    {
+      "MediaID": "9d79be31-5f4b-4e97-b19d-1c10270e8e18",
+      "Path": ".\\painting01/painting01.fbx",
+      "HashType": "SHA256",
+      "Hash": "c4e541ba2fba237082bcd112ae94d24def05df98890d134122aab2cf626c3e8f"
+    },
+    {
+      "MediaID": "348c1077-9a06-413c-bdde-500d02a484e9",
+      "Path": ".\\painting04/painting04.fbx",
+      "HashType": "SHA256",
+      "Hash": "c20c40762cf1464edd5412e3fa6ce70bde3855a09c8e5604680055de628ded7b"
+    },
+    {
+      "MediaID": "7688644b-b956-49d3-a966-0e4d3ee27b4c",
+      "Path": ".\\TV_wallmounted/TV_wallmounted.fbx",
+      "HashType": "SHA256",
+      "Hash": "569441cc2470a2850fde417cda11423c820a73a3ac99c67eeb7d1f8734fc4aad"
+    },
+    {
+      "MediaID": "2d3f95b8-88cc-4b9b-8ddd-40dc0931b8e9",
+      "Path": ".\\window_sliding_rectangle/window_sliding_rectangle.fbx",
+      "HashType": "SHA256",
+      "Hash": "9e4122b5c0cbcd43e860a3ac1c505cf5cbd2e9b4ea424e114af835c7d5a9f515"
+    },
+    {
+      "MediaID": "a375a2ea-884a-4376-8a7f-d7fc5dc6a220",
+      "Path": ".\\door_mission_open/door_mission_open.fbx",
+      "HashType": "SHA256",
+      "Hash": "c8cc006e8c7865e65bab9473d1e92fad86ff40575932390e54489c6c0029ae59"
+    },
+    {
+      "MediaID": "cc22b108-f00b-4786-91da-ecc3195905f0",
+      "Path": ".\\door_mission_slab/door_mission_slab.fbx",
+      "HashType": "SHA256",
+      "Hash": "9f10c37834d7af036576bd86788e19bfa1855647bb29a120519ba642a6bf3b3d"
+    },
+    {
+      "MediaID": "8c6291cb-dc24-4ec8-8926-5f59d25da3c5",
+      "Path": ".\\default_wall_0/default_wall_0.fbx",
+      "HashType": "SHA256",
+      "Hash": "d1bad34d02e42ef3abf2c2ef465c36a5a931254d868a78f3e68512336799af99"
+    },
+    {
+      "MediaID": "fc3839c7-3ccc-4e54-ba08-40b142072ff6",
+      "Path": ".\\default_wall_1/default_wall_1.fbx",
+      "HashType": "SHA256",
+      "Hash": "e27d6b674939af8981e55e3c877c2753afc5b19ce61b2a1f4c5a8519ed78de4c"
+    },
+    {
+      "MediaID": "df4ae576-45c4-4ce0-8ae4-d9adac1e53a9",
+      "Path": ".\\default_wall_2/default_wall_2.fbx",
+      "HashType": "SHA256",
+      "Hash": "e198ccb8c4a054cb39d0bc28b1476a357491e0219a4299915ec721740c9d8026"
+    },
+    {
+      "MediaID": "bb10842e-cf0f-4162-9258-27183e782192",
+      "Path": ".\\default_wall_3/default_wall_3.fbx",
+      "HashType": "SHA256",
+      "Hash": "a084386c67aabcbe6f50572933d9e892730a6f5fcbbf2dd8a9ee4f12d6d6226a"
+    },
+    {
+      "MediaID": "ad0f2819-e5f0-495d-ba64-46b75cc5eafc",
+      "Path": ".\\default_floor_0/default_floor_0.fbx",
+      "HashType": "SHA256",
+      "Hash": "ff4cfbfb9ff922055ec146ee04a010330b172f7171938c2973c777b41ae763ec"
+    },
+    {
+      "MediaID": "480130ac-6920-4aef-9614-4ee5171ad2de",
+      "Path": ".\\default_ceiling_0/default_ceiling_0.fbx",
+      "HashType": "SHA256",
+      "Hash": "7a3d6fecc8f37d44cfc2e052de0ef27a9ce0665652d252c2bbea6572bb076fb7"
+    }
+  ],
+  "SceneGraph": [
+    {
+      "NodeType": "Light",
+      "NodeName": "Directional Light",
+      "NodeID": "b3277c9e-788f-4665-8edd-536a66af364d",
+      "ObjectType": "Light",
+      "Pos": [
+        -6.34,
+        3.0,
+        0.0
+      ],
+      "Rot": [
+        0.9063079,
+        0.42261827,
+        0.0,
+        0.0
+      ],
+      "Properties": {
+        "LightType": "Directional",
+        "Color": [
+          1.0,
+          0.956862748,
+          0.8392157
+        ],
+        "Range": 10.0,
+        "Intensity": 0.33
+      }
+    },
+    {
+      "NodeType": "Light",
+      "NodeName": "Directional Light (1)",
+      "NodeID": "802c9f67-3926-4b66-ad6d-5608c1dd838f",
+      "ObjectType": "Light",
+      "Pos": [
+        -6.34,
+        3.0,
+        0.0
+      ],
+      "Rot": [
+        0.640856445,
+        0.298836231,
+        0.6408564,
+        -0.298836231
+      ],
+      "Properties": {
+        "LightType": "Directional",
+        "Color": [
+          1.0,
+          0.956862748,
+          0.8392157
+        ],
+        "Range": 10.0,
+        "Intensity": 0.33
+      }
+    },
+    {
+      "NodeType": "Light",
+      "NodeName": "Directional Light (2)",
+      "NodeID": "8950b1e8-e413-405e-af09-6a14bd97adae",
+      "ObjectType": "Light",
+      "Pos": [
+        -6.34,
+        3.0,
+        0.0
+      ],
+      "Rot": [
+        0.0,
+        0.0,
+        0.9063079,
+        -0.42261827
+      ],
+      "Properties": {
+        "LightType": "Directional",
+        "Color": [
+          1.0,
+          0.956862748,
+          0.8392157
+        ],
+        "Range": 10.0,
+        "Intensity": 0.33
+      }
+    },
+    {
+      "NodeType": "Light",
+      "NodeName": "Directional Light (3)",
+      "NodeID": "4c8400e3-0885-4f70-8961-46403c50ceee",
+      "ObjectType": "Light",
+      "Pos": [
+        -6.34,
+        3.0,
+        0.0
+      ],
+      "Rot": [
+        -0.640856445,
+        -0.298836231,
+        0.6408564,
+        -0.298836231
+      ],
+      "Properties": {
+        "LightType": "Directional",
+        "Color": [
+          1.0,
+          0.956862748,
+          0.8392157
+        ],
+        "Range": 10.0,
+        "Intensity": 0.33
+      }
+    },
+    {
+      "NodeType": "Room",
+      "NodeName": "Lounge",
+      "ObjectType": "Room",
+      "Children": [
+        {
+          "NodeType": "Model",
+          "NodeName": "area_rug02",
+          "ObjectType": "Model",
+          "Pos": [
+            -2.40759,
+            0.0,
+            1.57031
+          ],
+          "Properties": {
+            "MediaID": "439204fb-88a8-46ca-bee8-a8f83e1f5972"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Sofa_02",
+          "ObjectType": "Model",
+          "Pos": [
+            -1.28647,
+            0.0,
+            0.150509953
+          ],
+          "Rot": [
+            0.9238808,
+            0.0,
+            -0.382680327,
+            0.0
+          ],
+          "Scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "Children": [
+            {
+              "NodeType": "Model",
+              "NodeName": "cushion01",
+              "ObjectType": "Model",
+              "Pos": [
+                -0.463767022,
+                0.5083333,
+                -0.102521814
+              ],
+              "Rot": [
+                0.6723487,
+                0.239396766,
+                0.6560858,
+                0.245332465
+              ],
+              "Scale": [
+                0.6944417,
+                0.6944416,
+                0.6944417
+              ],
+              "Properties": {
+                "MediaID": "dcf9fb2f-4a82-4f4f-80cc-715d88662ca1"
+              }
+            }
+          ],
+          "Properties": {
+            "MediaID": "c659166d-ccd2-4d40-9891-5dbb1489e590"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "DiningChairSlotted01",
+          "ObjectType": "Model",
+          "Pos": [
+            2.25592,
+            0.0,
+            1.20778
+          ],
+          "Properties": {
+            "MediaID": "5263d095-dca5-4803-bada-1bc162811e16"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "OpenShelves01",
+          "ObjectType": "Model",
+          "Pos": [
+            -0.36757,
+            0.0,
+            4.8115
+          ],
+          "Rot": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "aca56430-7d04-4358-a680-db0132cbf8db"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "OpenShelvesTall01",
+          "ObjectType": "Model",
+          "Pos": [
+            -3.27907,
+            0.0,
+            -4.71503
+          ],
+          "Rot": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "cb30b99d-c62a-4e24-90d2-5a32c57518b3"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "OpenShelvesNarrow01",
+          "ObjectType": "Model",
+          "Pos": [
+            3.45096,
+            0.0,
+            -4.71503
+          ],
+          "Rot": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "497ad745-e795-4c9b-844c-516b93213e81"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Sofa_01",
+          "ObjectType": "Model",
+          "Pos": [
+            -1.33573,
+            0.0,
+            3.04945
+          ],
+          "Rot": [
+            -0.3987992,
+            0.0,
+            0.917038262,
+            0.0
+          ],
+          "Scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "Properties": {
+            "MediaID": "404b10b1-e1d4-44f8-a273-9184f991fc2f"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "DiningChair01",
+          "ObjectType": "Model",
+          "Pos": [
+            2.25163,
+            0.0,
+            2.77933
+          ],
+          "Rot": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "3b4dc943-d0e9-4f41-9bb4-7725bfd04852"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "CoffeeTableOval01",
+          "ObjectType": "Model",
+          "Pos": [
+            -2.08693,
+            0.03303,
+            1.55065
+          ],
+          "Rot": [
+            0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Children": [
+            {
+              "NodeType": "Model",
+              "NodeName": "globe",
+              "ObjectType": "Model",
+              "Pos": [
+                0.0357200131,
+                0.51353,
+                -0.180719882
+              ],
+              "Rot": [
+                0.7071068,
+                0.0,
+                -0.7071068,
+                0.0
+              ],
+              "Properties": {
+                "MediaID": "f018a035-39a5-49f4-b709-df40b4e4e0c2"
+              }
+            },
+            {
+              "NodeType": "Model",
+              "NodeName": "PS4",
+              "ObjectType": "Model",
+              "Pos": [
+                -0.06235008,
+                0.534970045,
+                0.209930122
+              ],
+              "Rot": [
+                0.7071068,
+                0.0,
+                -0.7071068,
+                0.0
+              ],
+              "Properties": {
+                "MediaID": "ee4b8136-afd1-4c2f-9c05-017230f8ad31"
+              }
+            }
+          ],
+          "Properties": {
+            "MediaID": "a7b5e93a-32e3-45f2-a89c-2ef586e3ddac"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "DiningTableCircular01",
+          "ObjectType": "Model",
+          "Pos": [
+            1.79086,
+            0.0,
+            -2.6799
+          ],
+          "Rot": [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "Children": [
+            {
+              "NodeType": "Model",
+              "NodeName": "drinkcan01",
+              "ObjectType": "Model",
+              "Pos": [
+                -0.0115399361,
+                0.6954,
+                0.09988999
+              ],
+              "Rot": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "Properties": {
+                "MediaID": "92aee34b-0fcd-40b5-85de-e2f8e03b3e32"
+              }
+            },
+            {
+              "NodeType": "Model",
+              "NodeName": "tablelamp02",
+              "ObjectType": "Model",
+              "Pos": [
+                0.0562800169,
+                0.70239,
+                -0.0375499725
+              ],
+              "Rot": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "Properties": {
+                "MediaID": "e68f5c8d-2e6e-47fc-ba1a-0332f1cb938b"
+              }
+            }
+          ],
+          "Properties": {
+            "MediaID": "93c7bab0-ee9d-4457-8b4f-307dfb96cefd"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "DiningTableCircular01",
+          "ObjectType": "Model",
+          "Pos": [
+            2.24251,
+            0.0,
+            1.98143
+          ],
+          "Rot": [
+            0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Children": [
+            {
+              "NodeType": "Model",
+              "NodeName": "vase01",
+              "ObjectType": "Model",
+              "Pos": [
+                -0.23751,
+                0.69199,
+                -0.261190146
+              ],
+              "Rot": [
+                0.7071068,
+                0.0,
+                -0.7071068,
+                0.0
+              ],
+              "Properties": {
+                "MediaID": "ce4b9b98-9006-4bb0-9ffe-b5507c4f9fb3"
+              }
+            },
+            {
+              "NodeType": "Model",
+              "NodeName": "mug02",
+              "ObjectType": "Model",
+              "Pos": [
+                0.232530043,
+                0.69199,
+                0.157869875
+              ],
+              "Rot": [
+                0.7071068,
+                0.0,
+                -0.7071068,
+                0.0
+              ],
+              "Properties": {
+                "MediaID": "158436e9-1f69-4dd8-beaa-218228250c75"
+              }
+            },
+            {
+              "NodeType": "Model",
+              "NodeName": "vase03",
+              "ObjectType": "Model",
+              "Pos": [
+                -0.0162999369,
+                0.69199,
+                -0.194700062
+              ],
+              "Rot": [
+                0.7071068,
+                0.0,
+                -0.7071068,
+                0.0
+              ],
+              "Properties": {
+                "MediaID": "f697168f-937f-4634-bfc0-f7ad88bf224f"
+              }
+            }
+          ],
+          "Properties": {
+            "MediaID": "93c7bab0-ee9d-4457-8b4f-307dfb96cefd"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "floorlamp01",
+          "ObjectType": "Model",
+          "Pos": [
+            -3.97575,
+            0.0,
+            4.59834
+          ],
+          "Rot": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "3c207ed4-d25e-454f-9ce0-fc9ed6ce00e3"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "floorlamp02",
+          "ObjectType": "Model",
+          "Pos": [
+            3.97523,
+            0.0,
+            -4.28481
+          ],
+          "Rot": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "79f41f1e-1775-42f4-9d5c-9afa20e73536"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "painting01",
+          "ObjectType": "Model",
+          "Pos": [
+            4.2739,
+            1.51346,
+            4.31215
+          ],
+          "Rot": [
+            -0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Scale": [
+            1.36915,
+            1.36915,
+            1.36915
+          ],
+          "Properties": {
+            "MediaID": "9d79be31-5f4b-4e97-b19d-1c10270e8e18"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "painting04",
+          "ObjectType": "Model",
+          "Pos": [
+            3.03495,
+            1.53594,
+            -4.89659
+          ],
+          "Scale": [
+            1.12045,
+            1.12045,
+            1.12045
+          ],
+          "Properties": {
+            "MediaID": "348c1077-9a06-413c-bdde-500d02a484e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "painting04",
+          "ObjectType": "Model",
+          "Pos": [
+            2.58782,
+            1.69361,
+            4.89659
+          ],
+          "Rot": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Scale": [
+            2.27437,
+            2.27437,
+            2.27437
+          ],
+          "Properties": {
+            "MediaID": "348c1077-9a06-413c-bdde-500d02a484e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "TV_wallmounted",
+          "ObjectType": "Model",
+          "Pos": [
+            -4.24707,
+            0.81704,
+            1.6869
+          ],
+          "Rot": [
+            0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Scale": [
+            2.85028,
+            2.85028,
+            2.85028
+          ],
+          "Properties": {
+            "MediaID": "7688644b-b956-49d3-a966-0e4d3ee27b4c"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "window_sliding_rectangle",
+          "ObjectType": "Model",
+          "Pos": [
+            0.30331,
+            1.85065,
+            -4.94659
+          ],
+          "Rot": [
+            -0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "2d3f95b8-88cc-4b9b-8ddd-40dc0931b8e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "window_sliding_rectangle",
+          "ObjectType": "Model",
+          "Pos": [
+            -0.78954,
+            1.85079,
+            -4.94659
+          ],
+          "Rot": [
+            -0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "2d3f95b8-88cc-4b9b-8ddd-40dc0931b8e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "window_sliding_rectangle",
+          "ObjectType": "Model",
+          "Pos": [
+            4.29922,
+            1.68306,
+            1.97631
+          ],
+          "Rot": [
+            -4.371139E-08,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "2d3f95b8-88cc-4b9b-8ddd-40dc0931b8e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "window_sliding_rectangle",
+          "ObjectType": "Model",
+          "Pos": [
+            4.29922,
+            1.68306,
+            -1.25619
+          ],
+          "Rot": [
+            -4.371139E-08,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "2d3f95b8-88cc-4b9b-8ddd-40dc0931b8e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "window_sliding_rectangle",
+          "ObjectType": "Model",
+          "Pos": [
+            4.29922,
+            1.68306,
+            0.88012
+          ],
+          "Rot": [
+            -4.371139E-08,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "2d3f95b8-88cc-4b9b-8ddd-40dc0931b8e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "window_sliding_rectangle",
+          "ObjectType": "Model",
+          "Pos": [
+            4.29922,
+            1.68306,
+            -2.35076
+          ],
+          "Rot": [
+            -4.371139E-08,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "2d3f95b8-88cc-4b9b-8ddd-40dc0931b8e9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "door_mission_open",
+          "ObjectType": "Model",
+          "Pos": [
+            -4.32391,
+            0.0,
+            -2.49349
+          ],
+          "Properties": {
+            "MediaID": "a375a2ea-884a-4376-8a7f-d7fc5dc6a220"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "door_mission_slab",
+          "ObjectType": "Model",
+          "Pos": [
+            -2.98286,
+            0.0,
+            4.9382
+          ],
+          "Rot": [
+            0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Properties": {
+            "MediaID": "cc22b108-f00b-4786-91da-ecc3195905f0"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Wall Segment",
+          "ObjectType": "Wall",
+          "Pos": [
+            0.0,
+            1.5,
+            4.99659
+          ],
+          "Rot": [
+            0.0,
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "Scale": [
+            8.74781,
+            3.0,
+            0.1
+          ],
+          "Properties": {
+            "MediaID": "8c6291cb-dc24-4ec8-8926-5f59d25da3c5"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Wall Segment",
+          "ObjectType": "Wall",
+          "Pos": [
+            4.373911,
+            1.5,
+            0.0
+          ],
+          "Rot": [
+            0.7071068,
+            0.0,
+            -0.7071068,
+            0.0
+          ],
+          "Scale": [
+            9.99317,
+            3.0,
+            0.100000016
+          ],
+          "Properties": {
+            "MediaID": "fc3839c7-3ccc-4e54-ba08-40b142072ff6"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Wall Segment",
+          "ObjectType": "Wall",
+          "Pos": [
+            0.0,
+            1.5,
+            -4.99659
+          ],
+          "Scale": [
+            8.74781,
+            3.0,
+            0.1
+          ],
+          "Properties": {
+            "MediaID": "df4ae576-45c4-4ce0-8ae4-d9adac1e53a9"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Wall Segment",
+          "ObjectType": "Wall",
+          "Pos": [
+            -4.373911,
+            1.5,
+            0.0
+          ],
+          "Rot": [
+            0.7071068,
+            0.0,
+            0.7071068,
+            0.0
+          ],
+          "Scale": [
+            9.99317,
+            3.0,
+            0.100000016
+          ],
+          "Properties": {
+            "MediaID": "bb10842e-cf0f-4162-9258-27183e782192"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Floor",
+          "ObjectType": "Floor",
+          "Scale": [
+            8.74781,
+            0.01,
+            9.99318
+          ],
+          "Properties": {
+            "MediaID": "ad0f2819-e5f0-495d-ba64-46b75cc5eafc"
+          }
+        },
+        {
+          "NodeType": "Model",
+          "NodeName": "Ceiling",
+          "ObjectType": "Ceiling",
+          "Pos": [
+            0.0,
+            3.0,
+            0.0
+          ],
+          "Rot": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            8.74781,
+            0.01,
+            9.99318
+          ],
+          "Properties": {
+            "MediaID": "480130ac-6920-4aef-9614-4ee5171ad2de"
+          }
+        }
+      ]
+    }
+  ]
+}

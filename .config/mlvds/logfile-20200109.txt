@@ -1,0 +1,553 @@
+*** the_lab pid 1195 started logging at Thu Jan  9 10:41:07 2020
+*** the_lab pid 1938 started logging at Thu Jan  9 10:45:13 2020
+*** the_lab pid 2458 started logging at Thu Jan  9 10:46:23 2020
+*** VDCLI pid 2949 started logging at Thu Jan  9 10:54:02 2020
+105402.872 <VDCLI~53826> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 2952 started logging at Thu Jan  9 10:54:02 2020
+*** VirtualDeviceServer pid 2953 started logging at Thu Jan  9 10:54:02 2020
+105402.904 <VDCLI~53857> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 2967 started logging at Thu Jan  9 10:54:03 2020
+*** VDCLI pid 2969 started logging at Thu Jan  9 10:54:04 2020
+*** Unity pid 2874 started logging at Thu Jan  9 10:55:33 2020
+*** Unity pid 2874 started logging at Thu Jan  9 10:55:33 2020
+*** VirtualDeviceServer pid 2953 started logging at Thu Jan  9 10:55:34 2020
+105402.928 <VirtualDeviceServer~53867> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+105402.985 <VirtualDeviceServer~53867> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+105534.671 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+105534.672 <Unity~55122> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+105534.681 <Unity~55127> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+105534.896 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+105534.975 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+105538.225 <Unity~55127> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+105538.235 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+105534.672 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+105534.673 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+105538.238 <Unity~55122> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+105544.616 <Unity~55256> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+105544.616 <Unity~55257> I [VDSConnectionManager.cpp:155] Input library is not connected.
+105544.617 <Unity~55257> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+105545.645 <Unity~55257> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+105545.647 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+105544.616 <Unity~55256> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+105545.647 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+105613.727 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+105613.729 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+105820.062 <Unity~55257> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+105820.070 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+105545.647 <Unity~55256> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+105545.648 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+105820.077 <Unity~55256> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+105914.290 <Unity~58597> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+105914.290 <Unity~58598> I [VDSConnectionManager.cpp:155] Input library is not connected.
+105914.291 <Unity~58597> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+105915.324 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+105915.325 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+105914.302 <Unity~58598> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+105915.329 <Unity~58598> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+105917.326 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+105919.505 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+105919.507 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+110227.211 <Unity~58598> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+110227.231 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+105917.326 <Unity~58597> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+105917.326 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+105917.326 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+105917.326 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+105917.328 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+110227.235 <Unity~58597> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+110231.536 <Unity~59767> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+110231.537 <Unity~59768> I [VDSConnectionManager.cpp:155] Input library is not connected.
+110232.567 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+110231.537 <Unity~59767> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110232.567 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+110231.537 <Unity~59768> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110232.568 <Unity~59768> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+110235.218 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+110235.220 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+110314.840 <Unity~59768> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+110314.847 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+110232.568 <Unity~59767> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+110232.569 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+110314.853 <Unity~59767> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+110318.551 <Unity~60039> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+110318.551 <Unity~60040> I [VDSConnectionManager.cpp:155] Input library is not connected.
+110319.580 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+110318.552 <Unity~60039> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110319.580 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+110318.552 <Unity~60040> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110319.584 <Unity~60040> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+110321.943 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+110321.944 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+110358.281 <Unity~60040> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+110358.299 <VirtualDeviceServer~53867> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+110319.580 <Unity~60039> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+110319.582 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+110358.303 <Unity~60039> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+111018.188 <VirtualDeviceServer~53867> I [VDSComms.cpp:781] Did not see activity from sparse device for G831FAD00042, checking device connection.
+111018.216 <VirtualDeviceServer~53867> I [VDSComms.cpp:793] ... device G831FAD00042 is gone
+111018.339 <VirtualDeviceServer~64233> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51644:
+
+error: device 'G831FAD00042' not found
+
+
+111018.339 <VirtualDeviceServer~64239> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51753:
+
+error: device 'G831FAD00042' not found
+
+
+111018.341 <VirtualDeviceServer~64236> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51758:
+
+error: device 'G831FAD00042' not found
+
+
+111018.345 <VirtualDeviceServer~64238> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51629:
+
+error: device 'G831FAD00042' not found
+
+
+111018.345 <VirtualDeviceServer~64251> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51771:
+
+error: device 'G831FAD00042' not found
+
+
+111018.347 <VirtualDeviceServer~64256> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51700:
+
+error: device 'G831FAD00042' not found
+
+
+111018.350 <VirtualDeviceServer~64240> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51707:
+
+error: device 'G831FAD00042' not found
+
+
+111018.354 <VirtualDeviceServer~64234> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51616:
+
+error: device 'G831FAD00042' not found
+
+
+111018.356 <VirtualDeviceServer~64247> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51648:
+
+error: device 'G831FAD00042' not found
+
+
+111018.360 <VirtualDeviceServer~64241> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51661:
+
+error: device 'G831FAD00042' not found
+
+
+111018.361 <VirtualDeviceServer~64250> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51745:
+
+error: device 'G831FAD00042' not found
+
+
+111018.361 <VirtualDeviceServer~64242> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51729:
+
+error: device 'G831FAD00042' not found
+
+
+111018.362 <VirtualDeviceServer~64243> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51683:
+
+error: device 'G831FAD00042' not found
+
+
+111018.364 <VirtualDeviceServer~64255> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51674:
+
+error: device 'G831FAD00042' not found
+
+
+111018.365 <VirtualDeviceServer~64232> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51670:
+
+error: device 'G831FAD00042' not found
+
+
+111018.365 <VirtualDeviceServer~64259> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51779:
+
+error: device 'G831FAD00042' not found
+
+
+111018.365 <VirtualDeviceServer~64245> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51741:
+
+error: device 'G831FAD00042' not found
+
+
+111018.369 <VirtualDeviceServer~64258> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51733:
+
+error: device 'G831FAD00042' not found
+
+
+111018.369 <VirtualDeviceServer~64252> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51633:
+
+error: device 'G831FAD00042' not found
+
+
+111018.370 <VirtualDeviceServer~64248> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51687:
+
+error: device 'G831FAD00042' not found
+
+
+111018.370 <VirtualDeviceServer~64260> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51784:
+
+error: device 'G831FAD00042' not found
+
+
+111018.370 <VirtualDeviceServer~64249> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51593:
+
+error: device 'G831FAD00042' not found
+
+
+111018.370 <VirtualDeviceServer~64253> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51656:
+
+error: device 'G831FAD00042' not found
+
+
+111018.370 <VirtualDeviceServer~64235> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51620:
+
+error: device 'G831FAD00042' not found
+
+
+111018.370 <VirtualDeviceServer~64246> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51695:
+
+error: device 'G831FAD00042' not found
+
+
+111018.373 <VirtualDeviceServer~64254> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51766:
+
+error: device 'G831FAD00042' not found
+
+
+111018.375 <VirtualDeviceServer~64237> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 51712:
+
+error: device 'G831FAD00042' not found
+
+
+111018.375 <VirtualDeviceServer~53867> I [VDSComms.cpp:842] Cleaning up exited process 'com.magicleap.zi_server', id 1, pid 1, host G831FAD00042
+140923.659 <VirtualDeviceServer~53867> W [VDSComms.cpp:338] This server at SOCKET:localhost:17975 was purged but is still alive, re-registering
+*** VDCLI pid 6689 started logging at Thu Jan  9 14:48:29 2020
+144829.334 <VDCLI~150960> I [VDCLIApplication.cpp:208] Killing server
+143612.625 <VirtualDeviceServer~53867> W [VDSComms.cpp:338] This server at SOCKET:localhost:17975 was purged but is still alive, re-registering (repeated 1 time)
+144829.339 <VirtualDeviceServer~53867> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+*** the_lab pid 12744 started logging at Thu Jan  9 21:23:49 2020
+*** VDCLI pid 14686 started logging at Thu Jan  9 22:12:48 2020
+221248.178 <VDCLI~363198> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 14688 started logging at Thu Jan  9 22:12:48 2020
+*** VirtualDeviceServer pid 14689 started logging at Thu Jan  9 22:12:48 2020
+221248.209 <VDCLI~363220> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 14703 started logging at Thu Jan  9 22:12:49 2020
+*** VDCLI pid 14744 started logging at Thu Jan  9 22:12:53 2020
+*** VDCLI pid 14789 started logging at Thu Jan  9 22:13:58 2020
+*** VDCLI pid 14822 started logging at Thu Jan  9 22:13:59 2020
+221359.770 <VDCLI~364094> I [VirtualDeviceFrontend.cpp:1337] Application ML1 is not running
+*** VDCLI pid 14824 started logging at Thu Jan  9 22:13:59 2020
+221400.271 <VDCLI~364107> I [VDCLIApplication.cpp:208] Killing server
+*** VirtualDeviceServer pid 14689 started logging at Thu Jan  9 22:14:00 2020
+221248.229 <VirtualDeviceServer~363230> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+221248.266 <VirtualDeviceServer~363230> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+221400.702 <VirtualDeviceServer~363230> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+*** VDCLI pid 14826 started logging at Thu Jan  9 22:14:01 2020
+221401.979 <VDCLI~364127> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 14828 started logging at Thu Jan  9 22:14:02 2020
+*** VirtualDeviceServer pid 14829 started logging at Thu Jan  9 22:14:02 2020
+221402.016 <VDCLI~364144> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 14842 started logging at Thu Jan  9 22:14:03 2020
+*** VDCLI pid 14875 started logging at Thu Jan  9 22:14:06 2020
+221425.286 <Unity~364580> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+221425.287 <Unity~364581> I [VDSConnectionManager.cpp:155] Input library is not connected.
+221425.287 <Unity~364581> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+221426.319 <Unity~364581> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+221425.287 <Unity~364580> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+221426.321 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+*** VirtualDeviceServer pid 14829 started logging at Thu Jan  9 22:14:26 2020
+221402.027 <VirtualDeviceServer~364153> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+221402.067 <VirtualDeviceServer~364153> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+221426.323 <VirtualDeviceServer~364153> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+221426.862 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+221426.863 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+221431.087 <Unity~364581> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+221431.101 <VirtualDeviceServer~364153> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+221426.324 <Unity~364580> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+221426.325 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+221431.107 <Unity~364580> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+221505.063 <Unity~365437> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+221505.064 <Unity~365438> I [VDSConnectionManager.cpp:155] Input library is not connected.
+221505.064 <Unity~365438> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+221506.093 <Unity~365438> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+221506.095 <VirtualDeviceServer~364153> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+221505.064 <Unity~365437> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+221506.096 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+221526.208 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+221526.213 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+222003.207 <Unity~365438> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+222003.213 <VirtualDeviceServer~364153> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+221506.096 <Unity~365437> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+221506.098 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+222003.220 <Unity~365437> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+222008.235 <Unity~368052> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+222008.236 <Unity~368053> I [VDSConnectionManager.cpp:155] Input library is not connected.
+222009.266 <VirtualDeviceServer~364153> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+222008.236 <Unity~368052> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+222009.266 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+222008.236 <Unity~368053> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+222009.266 <Unity~368053> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+222011.266 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+222011.465 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+222011.467 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+222400.096 <Unity~368053> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+222400.105 <VirtualDeviceServer~364153> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+222011.266 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+222011.266 <Unity~368052> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+222011.266 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+222011.266 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+222011.269 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+222400.112 <Unity~368052> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+*** VDCLI pid 15815 started logging at Thu Jan  9 22:35:12 2020
+223512.284 <VirtualDeviceServer~364153> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+223517.288 <VirtualDeviceServer~364153> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+223517.289 <VDCLI~379572> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 15820 started logging at Thu Jan  9 22:35:17 2020
+223517.288 <VirtualDeviceServer~364153> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+223518.317 <VirtualDeviceServer~364153> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+223523.319 <VirtualDeviceServer~364153> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+223523.319 <VDCLI~379625> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 15833 started logging at Thu Jan  9 22:35:30 2020
+223523.319 <VirtualDeviceServer~364153> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+223530.618 <VirtualDeviceServer~364153> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+223535.622 <VirtualDeviceServer~364153> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+223535.623 <VDCLI~379746> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 15838 started logging at Thu Jan  9 22:35:36 2020
+223535.623 <VirtualDeviceServer~364153> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+223536.655 <VirtualDeviceServer~364153> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+223541.659 <VirtualDeviceServer~364153> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+223541.660 <VDCLI~379785> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 17008 started logging at Thu Jan  9 22:54:29 2020
+223541.659 <VirtualDeviceServer~364153> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+225429.857 <VirtualDeviceServer~364153> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+225434.859 <VirtualDeviceServer~364153> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+225434.860 <VDCLI~397523> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 17013 started logging at Thu Jan  9 22:54:35 2020
+225434.859 <VirtualDeviceServer~364153> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+225435.891 <VirtualDeviceServer~364153> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+225440.894 <VirtualDeviceServer~364153> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+225440.895 <VDCLI~397573> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 17030 started logging at Thu Jan  9 22:54:53 2020
+225453.930 <VDCLI~397961> I [VDCLIApplication.cpp:208] Killing server
+225440.894 <VirtualDeviceServer~364153> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+225453.935 <VirtualDeviceServer~364153> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+*** the_lab pid 17045 started logging at Thu Jan  9 22:57:45 2020
+*** VDCLI pid 17061 started logging at Thu Jan  9 22:57:59 2020
+225759.346 <VDCLI~400209> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 17063 started logging at Thu Jan  9 22:57:59 2020
+*** VirtualDeviceServer pid 17064 started logging at Thu Jan  9 22:57:59 2020
+225759.390 <VDCLI~400228> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 17073 started logging at Thu Jan  9 22:58:00 2020
+*** VirtualRoomServer pid 17074 started logging at Thu Jan  9 22:58:00 2020
+225801.874 <VirtualRoomServer~400302> I [ViewportRender.cpp:119] Initializing viewport renderer's gfx system
+225802.055 <VirtualRoomServer~400302> I [ViewportRender.cpp:168] OpenGL Version: 4.1 INTEL-14.3.9
+225802.413 <VirtualRoomServer~400302> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+225802.422 <VirtualRoomServer~400302> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+225802.438 <VirtualRoomServer~400302> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+225802.448 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 2: Starting channel request...
+225802.450 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 2: Finished channel request...
+225802.511 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 1: Starting channel request...
+225802.512 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 1: Finished channel request...
+225802.528 <VirtualRoomServer~400302> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1cf, width: 512, height: 512, layers: 1
+*** VDCLI pid 17076 started logging at Thu Jan  9 22:58:02 2020
+*** PeripheralSparseDevice pid 17077 started logging at Thu Jan  9 22:58:03 2020
+225803.022 <PeripheralSparseDevice~400400> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+225804.117 <PeripheralSparseDevice~400400> I [PeripheralSparseDeviceApplication.cpp:475] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+*** VDCLI pid 17079 started logging at Thu Jan  9 22:58:04 2020
+*** MockML1SparseDevice pid 17080 started logging at Thu Jan  9 22:58:04 2020
+225804.580 <MockML1SparseDevice~400445> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+225805.247 <MockML1SparseDevice~400445> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 INTEL-14.3.9
+*** the_lab pid 17045 started logging at Thu Jan  9 22:58:05 2020
+225802.529 <VirtualRoomServer~400302> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1d0, width: 1024, height: 1024, layers: 1
+225802.544 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Scene View, attempting to create it
+225802.549 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Device View Room, attempting to create it
+225805.821 <VirtualRoomServer~400302> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1, height: 1, layers: 1
+225805.743 <the_lab~400497> I [RendererAgent.cpp:345] DriftFX c++ worker thread started...
+225805.780 <the_lab~400497> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 INTEL-14.3.9
+225805.780 <the_lab~400497> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: Intel Inc.
+225805.780 <the_lab~400497> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: Intel Iris Pro OpenGL Engine
+225805.780 <the_lab~400497> I [Viewer.cpp:83] Viewer(0x7ff2c2b48a20) is created
+225805.860 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1d0, width: 1024, height: 1024, layers: 1
+225805.862 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1, height: 1, layers: 1
+225806.698 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+225807.546 <VirtualRoomServer~400731> I [RoomLoader.cpp:110] Loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+225806.711 <the_lab~400497> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 INTEL-14.3.9
+225806.711 <the_lab~400497> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: Intel Inc.
+225806.711 <the_lab~400497> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: Intel Iris Pro OpenGL Engine
+225807.576 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1d0, width: 1024, height: 1024, layers: 1
+225807.546 <VirtualRoomServer~400731> I [RoomLoader.cpp:112] server indicates loading in progress
+225807.698 <VirtualRoomServer~400731> I [SessionLoader.cpp:112] Loading Session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+*** VDCLI pid 17086 started logging at Thu Jan  9 22:58:07 2020
+225808.930 <VirtualRoomServer~400731> I [SessionLoader.cpp:271] Finished loading session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+225808.932 <VirtualRoomServer~400731> I [RoomLoader.cpp:118] Finished loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room
+225809.253 <VirtualRoomServer~400302> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21c, width: 940, height: 916, layers: 1
+225807.577 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1, height: 1, layers: 1
+225809.277 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 940, height: 400, layers: 1
+*** VDCLI pid 17094 started logging at Thu Jan  9 22:58:18 2020
+225818.665 <VDCLI~400841> I [VDCLIApplication.cpp:208] Killing server
+225804.126 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:157] Configuration settings changed, mapping actions...
+225809.314 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21c, width: 940, height: 916, layers: 1
+225819.049 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21c, width: 940, height: 916, layers: 1 (repeated 1 time)
+225809.255 <VirtualRoomServer~400302> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 940, height: 400, layers: 1
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx: 7
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx: 3
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx: 3
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx: 2
+225819.102 <VirtualRoomServer~400302> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx: 2
+225819.296 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx_mat_default_ceiling: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx_mat_default_floor: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx_mat_default_wall: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx_mat_default_wall: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx_mat_01 - Default: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx_mat_01 - Default: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx_mat_01 - Default: 7
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_painting04: 3
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltB: 3
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_wood_black: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_guiltA: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_metal: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_bulb: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_painting01: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_shadeA: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx_mat_mugA: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx_mat_phong5: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_metal: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_silver: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_bulb: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_tan: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVScreen1: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_Darktan: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanA: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanB: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx_mat_DiningTableRectangular01: 3
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_metal: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_lambert2: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_globe: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_chrome: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_brass: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_black: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_white: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_black: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brass: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_white: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx_mat_fabricB: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_wood: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_Sofa02: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_aluminium: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01_seat: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brassB: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx_mat_whiteceramic: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVPlastic: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx_mat_default_wall: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_bulb: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeTrimA: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_centerB: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_black: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeA: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx_mat_default_wall: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_edgeB: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_white: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx_mat_CoffeeTableOval01: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_black: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_Sofa03: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_ringB: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltC: 3
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_blck_plastic: 2
+225819.297 <VirtualRoomServer~400302> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01_seat: 2
+225819.298 <VirtualRoomServer~400302> W [ResourceManager.cpp:305] Reference count for resource painting04_MainTex.png: 2
+225819.298 <VirtualRoomServer~400302> W [ResourceManager.cpp:305] Reference count for resource painting01_MainTex.png: 2
+225819.298 <VirtualRoomServer~400302> W [ResourceManager.cpp:305] Reference count for resource globe_MainTex.png: 2
+225819.300 <VirtualRoomServer~400302> I [ViewportRender.cpp:214] Shutting down viewport renderer's gfx system
+*** VirtualDeviceServer pid 17064 started logging at Thu Jan  9 22:58:19 2020
+225759.406 <VirtualDeviceServer~400237> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+225759.456 <VirtualDeviceServer~400237> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+225819.591 <VirtualDeviceServer~400237> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+225819.050 <the_lab~400500> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 940, height: 400, layers: 1
+225819.642 <the_lab~400497> I [RendererAgent.cpp:424] DriftFX c++ worker thread stopping...
+*** VDCLI pid 17095 started logging at Thu Jan  9 22:58:19 2020
+225819.803 <VDCLI~400925> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 17097 started logging at Thu Jan  9 22:58:19 2020
+*** VirtualDeviceServer pid 17098 started logging at Thu Jan  9 22:58:19 2020
+225819.837 <VDCLI~400942> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 17112 started logging at Thu Jan  9 22:58:21 2020
+225835.327 <Unity~401325> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+225835.328 <Unity~401326> I [VDSConnectionManager.cpp:155] Input library is not connected.
+225835.329 <Unity~401326> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+225836.351 <Unity~401326> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+225835.338 <Unity~401325> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+225836.369 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+*** VirtualDeviceServer pid 17098 started logging at Thu Jan  9 22:58:36 2020
+225819.850 <VirtualDeviceServer~400951> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+225819.891 <VirtualDeviceServer~400951> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+225836.369 <VirtualDeviceServer~400951> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+225845.918 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+225845.922 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+230027.874 <Unity~401326> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+230027.886 <VirtualDeviceServer~400951> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+225836.370 <Unity~401325> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+225836.371 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+230027.891 <Unity~401325> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+230217.501 <Unity~404931> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+230217.502 <Unity~404932> I [VDSConnectionManager.cpp:155] Input library is not connected.
+230218.533 <VirtualDeviceServer~400951> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2874 (2874)
+230217.502 <Unity~404931> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+230218.533 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+230217.502 <Unity~404932> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+230218.538 <Unity~404932> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+230220.534 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+230225.929 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+230225.931 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+230303.777 <Unity~404932> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+230303.796 <VirtualDeviceServer~400951> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2874 (2874)
+230220.534 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+230220.534 <Unity~404931> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+230220.534 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+230220.534 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+230220.536 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+230303.800 <Unity~404931> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+230526.354 <VirtualDeviceServer~400951> I [VDSState.cpp:814] *** Pruning sparse device 'ML1GraphicsViewSparseDevice' (#10)
+232933.528 <VirtualDeviceServer~400951> W [VDSComms.cpp:338] This server at SOCKET:localhost:17975 was purged but is still alive, re-registering
+*** VDCLI pid 18912 started logging at Thu Jan  9 23:36:23 2020
+233623.540 <VirtualDeviceServer~400951> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+233628.544 <VirtualDeviceServer~400951> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+233628.544 <VDCLI~427425> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 18917 started logging at Thu Jan  9 23:36:29 2020
+233628.544 <VirtualDeviceServer~400951> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+233629.574 <VirtualDeviceServer~400951> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+233634.578 <VirtualDeviceServer~400951> E [SocketServerClient.cpp:189] Failed to allocate port to device G831FAD00042
+233634.578 <VDCLI~427475> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 20160 started logging at Thu Jan  9 23:52:02 2020
+235202.444 <VDCLI~441435> I [VDCLIApplication.cpp:208] Killing server
+233634.578 <VirtualDeviceServer~400951> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+235202.451 <VirtualDeviceServer~400951> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+225819.642 <the_lab~400497> I [Viewer.cpp:118] Viewer(0x7ff2c2b48a20) is disposed

@@ -1,0 +1,118 @@
+*** the_lab pid 399 started logging at Tue Jan 14 09:35:50 2020
+*** VDCLI pid 16075 started logging at Tue Jan 14 20:08:56 2020
+200856.900 <VDCLI~393311> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 16077 started logging at Tue Jan 14 20:08:56 2020
+*** VirtualDeviceServer pid 16078 started logging at Tue Jan 14 20:08:56 2020
+200856.934 <VDCLI~393330> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 16090 started logging at Tue Jan 14 20:08:58 2020
+*** VDCLI pid 16092 started logging at Tue Jan 14 20:09:01 2020
+200901.724 <VDCLI~393448> I [VDCLIApplication.cpp:208] Killing server
+*** VirtualDeviceServer pid 16078 started logging at Tue Jan 14 20:09:01 2020
+200856.960 <VirtualDeviceServer~393339> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+200857.024 <VirtualDeviceServer~393339> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+200901.727 <VirtualDeviceServer~393339> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+*** the_lab pid 16095 started logging at Tue Jan 14 20:09:09 2020
+*** VDCLI pid 16184 started logging at Tue Jan 14 20:13:13 2020
+201313.821 <VDCLI~396172> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 16186 started logging at Tue Jan 14 20:13:13 2020
+*** VirtualDeviceServer pid 16187 started logging at Tue Jan 14 20:13:13 2020
+201313.858 <VDCLI~396193> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 16202 started logging at Tue Jan 14 20:13:15 2020
+*** VDCLI pid 16249 started logging at Tue Jan 14 20:13:23 2020
+*** Unity pid 8660 started logging at Tue Jan 14 20:13:32 2020
+*** Unity pid 8660 started logging at Tue Jan 14 20:13:32 2020
+201333.224 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+*** VirtualDeviceServer pid 16187 started logging at Tue Jan 14 20:13:33 2020
+201313.883 <VirtualDeviceServer~396203> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+201313.943 <VirtualDeviceServer~396203> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+201333.224 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 8660 (8660)
+201333.232 <Unity~397054> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+201333.590 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+201335.226 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+201335.252 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+201420.973 <Unity~397054> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+201420.981 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 8660 (8660)
+201335.226 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+201335.227 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+201335.227 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+201335.226 <Unity~397049> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+201335.230 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+201420.986 <Unity~397049> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+201425.682 <Unity~397864> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+201425.682 <Unity~397865> I [VDSConnectionManager.cpp:155] Input library is not connected.
+201425.683 <Unity~397865> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+201426.717 <Unity~397865> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+201426.720 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 8660 (8660)
+201425.683 <Unity~397864> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+201426.720 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+201454.368 <Unity~397865> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+201454.380 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 8660 (8660)
+201426.721 <Unity~397864> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+201426.721 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+201454.386 <Unity~397864> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+201518.044 <Unity~398573> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+201518.045 <Unity~398574> I [VDSConnectionManager.cpp:155] Input library is not connected.
+201518.045 <Unity~398573> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+201519.073 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+201519.073 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 8660 (8660)
+201518.045 <Unity~398574> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+201519.084 <Unity~398574> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+201521.074 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+201524.484 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+201524.487 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+201706.350 <Unity~398574> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+201706.367 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 8660 (8660)
+201521.074 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+201521.074 <Unity~398573> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+201521.074 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+201521.075 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+201521.078 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+201706.375 <Unity~398573> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+202104.774 <Unity~403795> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+202104.774 <Unity~403796> I [VDSConnectionManager.cpp:155] Input library is not connected.
+202105.803 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 8660 (8660)
+202104.775 <Unity~403795> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202105.803 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+202104.785 <Unity~403796> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202105.812 <Unity~403796> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+202106.328 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+202106.330 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+202115.418 <Unity~403796> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+202115.426 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 8660 (8660)
+202105.804 <Unity~403795> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+202105.805 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+202115.429 <Unity~403795> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+202206.498 <Unity~405031> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+202206.499 <Unity~405032> I [VDSConnectionManager.cpp:155] Input library is not connected.
+202207.524 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 8660 (8660)
+202206.499 <Unity~405031> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202207.524 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+202206.500 <Unity~405032> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202207.528 <Unity~405032> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+202208.028 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+202208.030 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+202211.099 <Unity~405032> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+202211.114 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 8660 (8660)
+202207.524 <Unity~405031> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+202207.526 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+202211.117 <Unity~405031> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+202700.715 <Unity~408541> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+202700.715 <Unity~408542> I [VDSConnectionManager.cpp:155] Input library is not connected.
+202701.756 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 8660 (8660)
+202700.717 <Unity~408541> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202701.756 <Unity~408541> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+202700.729 <Unity~408542> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202701.762 <Unity~408542> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+202702.295 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+202702.298 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+202709.584 <Unity~408542> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+202709.600 <VirtualDeviceServer~396203> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 8660 (8660)
+202701.756 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+202701.757 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+202709.604 <Unity~408541> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+*** VDCLI pid 17143 started logging at Tue Jan 14 20:27:17 2020
+*** VDCLI pid 17177 started logging at Tue Jan 14 20:27:18 2020
+202719.320 <VDCLI~408941> I [VirtualDeviceFrontend.cpp:1337] Application ML1 is not running
+*** VDCLI pid 17178 started logging at Tue Jan 14 20:27:19 2020
+202719.813 <VDCLI~408964> I [VDCLIApplication.cpp:208] Killing server
+202720.137 <VirtualDeviceServer~396203> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down

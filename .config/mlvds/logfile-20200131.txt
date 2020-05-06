@@ -1,0 +1,1004 @@
+*** the_lab pid 375 started logging at Fri Jan 31 10:21:26 2020
+*** VDCLI pid 879 started logging at Fri Jan 31 10:24:59 2020
+102459.383 <VDCLI~11078> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 881 started logging at Fri Jan 31 10:24:59 2020
+*** VirtualDeviceServer pid 882 started logging at Fri Jan 31 10:24:59 2020
+102459.430 <VDCLI~11098> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 891 started logging at Fri Jan 31 10:25:00 2020
+*** VirtualRoomServer pid 892 started logging at Fri Jan 31 10:25:00 2020
+102501.926 <VirtualRoomServer~11178> I [ViewportRender.cpp:119] Initializing viewport renderer's gfx system
+102502.141 <VirtualRoomServer~11178> I [ViewportRender.cpp:168] OpenGL Version: 4.1 INTEL-14.3.9
+*** the_lab pid 375 started logging at Fri Jan 31 10:25:02 2020
+102502.646 <VirtualRoomServer~11178> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+102502.664 <VirtualRoomServer~11178> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+102502.676 <VirtualRoomServer~11178> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+102502.686 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 2: Starting channel request...
+102502.688 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 2: Finished channel request...
+102502.779 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 1: Starting channel request...
+*** VDCLI pid 895 started logging at Fri Jan 31 10:25:02 2020
+102502.781 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 1: Finished channel request...
+102502.913 <VirtualRoomServer~11178> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xab, width: 512, height: 512, layers: 1
+102502.465 <the_lab~11239> I [RendererAgent.cpp:345] DriftFX c++ worker thread started...
+102502.478 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+102502.507 <the_lab~11239> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 INTEL-14.3.9
+102502.507 <the_lab~11239> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: Intel Inc.
+102502.507 <the_lab~11239> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: Intel Iris Pro OpenGL Engine
+102502.507 <the_lab~11239> I [Viewer.cpp:83] Viewer(0x7f866f10cd80) is created
+102502.532 <the_lab~11239> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 INTEL-14.3.9
+102502.532 <the_lab~11239> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: Intel Inc.
+102502.532 <the_lab~11239> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: Intel Iris Pro OpenGL Engine
+102502.951 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xaf, width: 1024, height: 1024, layers: 1
+*** MockML1SparseDevice pid 896 started logging at Fri Jan 31 10:25:03 2020
+102503.340 <MockML1SparseDevice~11276> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+102504.029 <MockML1SparseDevice~11276> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 INTEL-14.3.9
+102504.199 <MockML1SparseDevice~MockML1Graphics> E [NativeWindowGraphics.cpp:123] Failed to find GraphicsViewSparseDevice
+*** VDCLI pid 898 started logging at Fri Jan 31 10:25:04 2020
+*** PeripheralSparseDevice pid 899 started logging at Fri Jan 31 10:25:04 2020
+102504.894 <PeripheralSparseDevice~11330> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+102506.000 <PeripheralSparseDevice~11330> I [PeripheralSparseDeviceApplication.cpp:475] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+102502.954 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xab, width: 512, height: 512, layers: 1
+102506.018 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xaf, width: 1024, height: 1024, layers: 1
+*** VDCLI pid 903 started logging at Fri Jan 31 10:25:06 2020
+102502.914 <VirtualRoomServer~11178> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xaf, width: 1024, height: 1024, layers: 1
+102502.930 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Scene View, attempting to create it
+102502.934 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Device View Room, attempting to create it
+102507.177 <VirtualRoomServer~11178> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+102506.018 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xab, width: 512, height: 512, layers: 1
+102507.212 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102507.178 <VirtualRoomServer~11178> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102507.215 <VirtualRoomServer~11394> I [RoomLoader.cpp:110] Loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+102507.215 <VirtualRoomServer~11394> I [RoomLoader.cpp:112] server indicates loading in progress
+102507.433 <VirtualRoomServer~11394> I [SessionLoader.cpp:112] Loading Session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+102509.125 <VirtualRoomServer~11394> I [SessionLoader.cpp:271] Finished loading session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+102507.225 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+102516.794 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102516.796 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+102518.459 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102518.463 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+102535.098 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102535.101 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+102540.028 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102540.030 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+102541.338 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1 (repeated 1 time)
+102541.342 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102543.794 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102543.796 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+102548.019 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102548.021 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+104953.394 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+*** Unity pid 824 started logging at Fri Jan 31 10:59:09 2020
+*** Unity pid 824 started logging at Fri Jan 31 10:59:09 2020
+104953.400 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+105910.242 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+*** VirtualDeviceServer pid 882 started logging at Fri Jan 31 10:59:10 2020
+102459.469 <VirtualDeviceServer~11109> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+102459.529 <VirtualDeviceServer~11109> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+105910.359 <VirtualDeviceServer~11109> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 824 (824)
+105910.360 <Unity~35461> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+105910.371 <Unity~35466> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 824 started logging at Fri Jan 31 10:59:10 2020
+105910.526 <VirtualDeviceServer~11109> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 824 (824)
+105910.510 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+105910.514 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+105910.518 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+105911.536 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+105911.541 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+105910.246 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+105911.642 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37, width: 1280, height: 960, layers: 2
+105911.725 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+105911.728 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+105911.730 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+105911.831 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+105912.030 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+105911.633 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37, width: 1280, height: 960, layers: 2
+105912.420 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 1
+105913.637 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+105914.065 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37, width: 1280, height: 960, layers: 2 (repeated 2 times)
+105924.385 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+105924.400 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+105930.250 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1 (repeated 1 time)
+105930.260 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+105942.458 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+105942.466 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+105950.435 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+105956.773 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 153
+105950.448 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+105957.343 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37, width: 1280, height: 960, layers: 2
+110044.735 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 414
+110047.665 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+105912.191 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+105912.195 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+105912.261 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+110048.059 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+110048.270 <Unity~35466> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+110048.292 <VirtualDeviceServer~11109> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 824 (824)
+110048.301 <Unity~35461> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+110044.963 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37, width: 1280, height: 960, layers: 2 (repeated 1 time)
+*** VDCLI pid 2177 started logging at Fri Jan 31 11:01:26 2020
+110127.251 <VDCLI~37918> I [VDCLIApplication.cpp:208] Killing server
+102506.010 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:157] Configuration settings changed, mapping actions...
+110119.748 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+110119.756 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+110127.337 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa6, width: 1268, height: 694, layers: 1
+102509.126 <VirtualRoomServer~11394> I [RoomLoader.cpp:118] Finished loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room
+110127.728 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx: 7
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx: 3
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx: 3
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx: 2
+110127.729 <VirtualRoomServer~11178> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx_mat_default_ceiling: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx_mat_default_wall: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx_mat_01 - Default: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_painting04: 3
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltB: 3
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltC: 3
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx_mat_01 - Default: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_metal: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_bulb: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeA: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeTrimA: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx_mat_mugA: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_metal: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_bulb: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_tan: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_Darktan: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanB: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_silver: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx_mat_DiningTableRectangular01: 3
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_lambert2: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_blck_plastic: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_globe: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx_mat_CoffeeTableOval01: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx_mat_default_floor: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01_seat: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_black: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_white: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_black: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_white: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_black: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01_seat: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_wood: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_centerB: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_Sofa03: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_Sofa02: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brass: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_white: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_black: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVScreen1: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx_mat_whiteceramic: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx_mat_default_wall: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_brass: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx_mat_fabricB: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_shadeA: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brassB: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_guiltA: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx_mat_default_wall: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_metal: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_painting01: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_bulb: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_ringB: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVPlastic: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_edgeB: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_chrome: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_wood_black: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx_mat_01 - Default: 7
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_aluminium: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanA: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx_mat_phong5: 2
+110127.921 <VirtualRoomServer~11178> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx_mat_default_wall: 2
+110127.922 <VirtualRoomServer~11178> W [ResourceManager.cpp:305] Reference count for resource painting04_MainTex.png: 2
+110127.922 <VirtualRoomServer~11178> W [ResourceManager.cpp:305] Reference count for resource painting01_MainTex.png: 2
+110127.922 <VirtualRoomServer~11178> W [ResourceManager.cpp:305] Reference count for resource globe_MainTex.png: 2
+110127.925 <VirtualRoomServer~11178> I [ViewportRender.cpp:214] Shutting down viewport renderer's gfx system
+110128.313 <VirtualDeviceServer~11109> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+110127.339 <the_lab~11244> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x32, width: 1268, height: 936, layers: 1
+110128.331 <the_lab~11239> I [RendererAgent.cpp:424] DriftFX c++ worker thread stopping...
+*** VDCLI pid 2179 started logging at Fri Jan 31 11:01:28 2020
+110128.702 <VDCLI~38002> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 2181 started logging at Fri Jan 31 11:01:28 2020
+*** VirtualDeviceServer pid 2182 started logging at Fri Jan 31 11:01:28 2020
+110128.745 <VDCLI~38019> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 2196 started logging at Fri Jan 31 11:01:30 2020
+*** VirtualDeviceServer pid 2182 started logging at Fri Jan 31 11:01:31 2020
+110128.758 <VirtualDeviceServer~38028> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+110128.804 <VirtualDeviceServer~38028> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+110131.801 <VirtualDeviceServer~38028> I [VDSComms.cpp:781] Did not see activity from sparse device for G831FAD00055, checking device connection.
+110154.319 <Unity~38457> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+110154.320 <Unity~38458> I [VDSConnectionManager.cpp:155] Input library is not connected.
+110154.320 <Unity~38458> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110155.343 <Unity~38458> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+110155.355 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 824 (824)
+110154.320 <Unity~38457> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110155.355 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+105911.537 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+105911.561 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+105911.606 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+105911.612 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37, width: 1280, height: 960, layers: 2
+110155.395 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+110155.397 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+110155.400 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+110156.410 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+110156.411 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+110156.487 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+110156.542 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+110155.402 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 824 (824)
+110156.543 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+110156.679 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+110157.356 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+110157.356 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+110157.356 <Unity~38457> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+110157.356 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+110157.356 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+110157.357 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+110158.245 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+110158.248 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+110158.249 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+110158.425 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+110158.725 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+110419.103 <Unity~38458> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+110419.116 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 824 (824)
+110158.924 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+110158.925 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+110159.020 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+110419.121 <Unity~38457> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+110427.803 <Unity~40542> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+110427.803 <Unity~40543> I [VDSConnectionManager.cpp:155] Input library is not connected.
+110428.832 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 824 (824)
+110427.804 <Unity~40542> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110428.832 <Unity~40542> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+110427.804 <Unity~40543> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110428.833 <Unity~40543> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+110428.879 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+110428.880 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+110429.888 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+110429.889 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+110429.962 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+110429.996 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+110428.882 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 824 (824)
+110429.997 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+110430.142 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+110430.237 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+110428.832 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+110428.833 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+110430.511 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+110430.512 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+110430.514 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+110430.623 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+110430.924 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+110548.328 <Unity~40543> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+110548.338 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 824 (824)
+110431.131 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+110431.133 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+110431.207 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+110548.345 <Unity~40542> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+110710.407 <Unity~42421> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+110710.408 <Unity~42422> I [VDSConnectionManager.cpp:155] Input library is not connected.
+110710.408 <Unity~42422> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110711.431 <Unity~42422> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+110710.408 <Unity~42421> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+110711.446 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+110711.446 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 824 (824)
+110711.472 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+110711.474 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+110712.484 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+110712.485 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+110712.559 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+110712.596 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+110711.477 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 824 (824)
+110712.598 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+110712.798 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+110712.880 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+110711.447 <Unity~42421> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+110711.449 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+110713.066 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+110713.068 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+110713.071 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+110713.223 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+110713.522 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+110847.611 <Unity~42422> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+110847.623 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 824 (824)
+110713.706 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+110713.710 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+110713.778 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+110847.627 <Unity~42421> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+111049.214 <Unity~45349> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+111049.214 <Unity~45350> I [VDSConnectionManager.cpp:155] Input library is not connected.
+111050.247 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 824 (824)
+111049.215 <Unity~45349> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+111050.247 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+111049.227 <Unity~45350> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+111050.254 <Unity~45350> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+111050.303 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+111050.305 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+111051.316 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+111051.318 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+111051.488 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+111050.310 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 824 (824)
+111051.527 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+111051.527 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+111051.736 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+111050.248 <Unity~45349> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+111050.250 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+111051.992 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111051.994 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+111051.996 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+111052.122 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111052.420 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+*** Unity pid 2632 started logging at Fri Jan 31 11:13:58 2020
+*** Unity pid 2632 started logging at Fri Jan 31 11:13:58 2020
+111051.626 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+111400.006 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2632 (2632)
+111400.006 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+111400.019 <Unity~48439> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 2632 started logging at Fri Jan 31 11:14:00 2020
+111400.074 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+111400.076 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+111401.087 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+111401.088 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+111401.773 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+111400.081 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2632 (2632)
+111401.825 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+111401.955 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+111401.822 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+111402.113 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+111400.006 <Unity~48435> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+111400.008 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+111402.747 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111402.748 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+111402.750 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+111402.923 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111403.221 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+111403.408 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+111403.411 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+111403.515 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+*** Unity pid 2810 started logging at Fri Jan 31 11:16:29 2020
+*** Unity pid 2810 started logging at Fri Jan 31 11:16:29 2020
+111630.074 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+111630.075 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+111630.083 <Unity~51294> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 2810 started logging at Fri Jan 31 11:16:30 2020
+111630.141 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+111630.142 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+111631.153 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+111631.156 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+111631.379 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+111630.147 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+111631.425 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+111631.590 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+111631.425 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+111631.736 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+111630.075 <Unity~51290> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+111630.076 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+111632.077 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111632.078 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+111632.079 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+111632.216 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111632.517 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+111632.710 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+111632.712 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+111632.777 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+111707.815 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111708.399 <Unity~51294> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+111708.403 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+111708.408 <Unity~51290> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+111838.501 <Unity~52631> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+111838.502 <Unity~52632> I [VDSConnectionManager.cpp:155] Input library is not connected.
+111838.503 <Unity~52631> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+111839.532 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+111839.532 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+111838.503 <Unity~52632> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+111839.533 <Unity~52632> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+111839.572 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+111839.573 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+111840.579 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+111840.580 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+111840.678 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+111840.721 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+111839.574 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+111840.723 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+111840.890 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+111840.974 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+111841.534 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+111841.534 <Unity~52631> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+111841.534 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+111841.534 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+111841.534 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+111841.536 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+111841.540 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111841.591 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+111841.592 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+111841.714 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+111842.014 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+111922.498 <Unity~52632> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+111922.518 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+111842.210 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+111842.211 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+111842.293 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+111922.522 <Unity~52631> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+112009.784 <Unity~53864> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+112009.784 <Unity~53865> I [VDSConnectionManager.cpp:155] Input library is not connected.
+112009.786 <Unity~53865> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112010.816 <Unity~53865> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+112009.786 <Unity~53864> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112010.820 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+112010.820 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+112010.868 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+112010.870 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+112011.878 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+112011.879 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+112011.988 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+112010.871 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+112012.031 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+112012.228 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+112012.030 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+112012.314 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+112010.820 <Unity~53864> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+112010.822 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+112012.611 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112012.612 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+112012.613 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+112012.762 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112013.062 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+112112.213 <Unity~53865> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+112112.233 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+112013.254 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+112013.255 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+112013.316 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+112112.237 <Unity~53864> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+112120.843 <Unity~54668> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+112120.843 <Unity~54669> I [VDSConnectionManager.cpp:155] Input library is not connected.
+112120.843 <Unity~54669> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112121.867 <Unity~54669> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+112120.843 <Unity~54668> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112121.880 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+112121.882 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+112121.911 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+112121.914 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+112122.919 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+112122.921 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+112123.008 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+112123.042 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+112121.916 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+112123.044 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+112123.197 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+112123.276 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+112123.882 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+112123.882 <Unity~54668> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+112123.883 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+112123.883 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+112123.883 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+112123.884 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+112123.885 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112123.922 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+112123.923 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+112124.062 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112124.362 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+112124.552 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+112124.554 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+112124.617 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+112443.960 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112444.561 <Unity~54669> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+112444.569 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+112444.572 <Unity~54668> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+112739.042 <Unity~57874> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+112739.042 <Unity~57875> I [VDSConnectionManager.cpp:155] Input library is not connected.
+112740.074 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+112739.043 <Unity~57874> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112740.074 <Unity~57874> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+112739.055 <Unity~57875> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112740.085 <Unity~57875> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+112740.123 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+112740.126 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+112741.133 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+112741.134 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+112741.238 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+112740.128 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+112741.274 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+112741.472 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+112741.272 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+112741.554 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+112740.074 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+112740.077 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+112741.844 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112741.846 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+112741.848 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+112741.958 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112746.487 <Unity~57875> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+112746.502 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+112742.258 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+112746.505 <Unity~57874> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+112813.800 <Unity~58499> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+112813.801 <Unity~58500> I [VDSConnectionManager.cpp:155] Input library is not connected.
+112813.801 <Unity~58499> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112814.834 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+112813.801 <Unity~58500> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112814.837 <Unity~58500> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+112814.837 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+112814.883 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+112814.886 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+112815.896 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+112815.899 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+112815.989 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+112816.032 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+112814.890 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+112816.034 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+112816.197 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+112816.293 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+112814.837 <Unity~58499> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+112814.838 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+112816.658 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112816.661 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+112816.662 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+112816.808 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112817.107 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+112817.315 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+112817.319 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+112817.393 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+112836.758 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112837.372 <Unity~58500> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+112837.385 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+112837.388 <Unity~58499> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+112906.701 <Unity~59003> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+112906.701 <Unity~59004> I [VDSConnectionManager.cpp:155] Input library is not connected.
+112907.734 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+112906.701 <Unity~59003> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112907.734 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+112906.701 <Unity~59004> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+112907.734 <Unity~59004> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+112907.777 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+112907.779 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+112908.788 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+112908.789 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+112908.884 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+112908.917 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+112907.782 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+112908.919 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+112909.094 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+112909.735 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+112909.735 <Unity~59003> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+112909.735 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+112909.735 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+112909.735 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+112909.736 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+112909.737 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112909.799 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+112909.800 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+112909.957 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+112910.257 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+113006.099 <Unity~59004> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+112909.014 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+113006.112 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+112910.446 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+112910.447 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+112910.513 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+113006.115 <Unity~59003> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+113020.542 <Unity~59603> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+113020.542 <Unity~59604> I [VDSConnectionManager.cpp:155] Input library is not connected.
+113020.543 <Unity~59604> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113021.573 <Unity~59604> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+113020.542 <Unity~59603> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113021.574 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113021.574 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+113021.614 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+113021.615 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+113022.623 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+113022.625 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+113022.748 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+113021.618 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+113022.785 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+113023.016 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+113022.782 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+113023.098 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+113023.575 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+113023.575 <Unity~59603> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+113023.575 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+113023.575 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+113023.575 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113023.576 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+113023.577 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113023.633 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+113023.636 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+113023.757 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113024.056 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+113024.241 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+113024.242 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+113024.349 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+113039.859 <Unity~59604> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+113039.872 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+113039.876 <Unity~59603> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+113206.241 <Unity~60807> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+113206.241 <Unity~60808> I [VDSConnectionManager.cpp:155] Input library is not connected.
+113206.243 <Unity~60807> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113207.271 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113207.272 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+113206.253 <Unity~60808> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113207.281 <Unity~60808> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+113207.326 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+113207.327 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+113208.335 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+113208.336 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+113208.435 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+113207.329 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+113208.470 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+113208.682 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+113208.469 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+113208.763 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+113207.272 <Unity~60807> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+113207.274 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+113209.104 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113209.106 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+113209.107 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+113209.255 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113209.555 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+113209.741 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+113209.742 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+113209.801 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+113217.105 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113217.733 <Unity~60808> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+113217.739 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+113217.743 <Unity~60807> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+113225.826 <Unity~60997> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+113225.826 <Unity~60998> I [VDSConnectionManager.cpp:155] Input library is not connected.
+113225.826 <Unity~60997> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113226.855 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113226.856 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+113225.826 <Unity~60998> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113226.861 <Unity~60998> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+113226.905 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+113226.907 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+113227.916 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+113227.918 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+113228.041 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+113226.910 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+113228.076 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+113228.233 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+113228.075 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+113228.354 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+113226.857 <Unity~60997> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+113226.858 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+113228.601 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113228.602 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+113228.603 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+113228.755 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113229.055 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+113339.283 <Unity~60998> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+113339.290 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+113229.250 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+113229.251 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+113229.311 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+113339.295 <Unity~60997> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+113430.215 <Unity~62404> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+113430.215 <Unity~62405> I [VDSConnectionManager.cpp:155] Input library is not connected.
+113430.215 <Unity~62405> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113431.249 <Unity~62405> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+113431.249 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+113430.215 <Unity~62404> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113431.249 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113431.294 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+113431.296 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+113432.306 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+113432.307 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+113432.428 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+113431.300 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+113432.465 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+113432.650 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+113432.464 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+113432.736 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+113431.249 <Unity~62404> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+113431.250 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+113432.932 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113432.934 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+113432.935 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+113433.054 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113433.354 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+113433.542 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+113433.544 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+113433.603 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+113458.153 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113458.783 <Unity~62405> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+113458.791 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+113458.796 <Unity~62404> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+113540.739 <Unity~63004> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+113540.739 <Unity~63005> I [VDSConnectionManager.cpp:155] Input library is not connected.
+113541.771 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+113540.741 <Unity~63004> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113541.771 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113540.753 <Unity~63005> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113541.779 <Unity~63005> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+113541.822 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+113541.824 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+113542.830 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+113542.831 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+113542.951 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+113541.826 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+113542.987 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+113543.135 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+113542.984 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+113543.217 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+113543.772 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+113543.772 <Unity~63004> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+113543.772 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+113543.772 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+113543.772 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113543.773 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+113543.774 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113543.833 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+113543.834 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+113543.953 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113544.253 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+113544.442 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+113544.444 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+113544.518 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+113641.608 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113642.175 <Unity~63005> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+113642.184 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+113642.187 <Unity~63004> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+113645.073 <Unity~63506> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+113645.073 <Unity~63507> I [VDSConnectionManager.cpp:155] Input library is not connected.
+113646.103 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+113645.073 <Unity~63506> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113646.103 <Unity~63506> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+113645.073 <Unity~63507> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+113646.104 <Unity~63507> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+113646.148 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+113646.150 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+113647.156 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+113647.158 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+113647.287 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+113646.152 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+113647.324 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+113647.512 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+113647.321 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+113647.597 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+113646.104 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+113646.105 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+113647.906 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113647.907 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+113647.911 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+113648.052 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113648.352 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+113648.550 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+113648.553 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+113648.618 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+113747.451 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+113748.093 <Unity~63507> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+113748.098 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+113748.103 <Unity~63506> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+114217.347 <Unity~66893> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+114217.348 <Unity~66894> I [VDSConnectionManager.cpp:155] Input library is not connected.
+114217.349 <Unity~66894> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+114218.371 <Unity~66894> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+114218.389 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+114217.360 <Unity~66893> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+114218.389 <Unity~66893> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+114218.419 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+114218.421 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+114219.429 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+114219.432 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+114219.548 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+114218.423 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+114219.582 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+114219.794 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+114219.581 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+114219.879 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+114218.389 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+114218.391 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+114220.252 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+114220.255 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+114220.256 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+114220.400 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+114220.699 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+114230.230 <Unity~66894> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+114230.239 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+114220.894 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+114220.896 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+114220.946 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+114230.245 <Unity~66893> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+114520.150 <Unity~69031> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+114520.150 <Unity~69032> I [VDSConnectionManager.cpp:155] Input library is not connected.
+114520.151 <Unity~69032> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+114521.178 <Unity~69032> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+114521.190 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 2810 (2810)
+114520.162 <Unity~69031> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+114521.191 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+114521.226 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+114521.228 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+114522.237 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+114522.238 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+114522.362 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+114521.232 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 2810 (2810)
+114522.406 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+114522.615 <VirtualDeviceServer~38028> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+114522.405 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+114522.707 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+114521.191 <Unity~69031> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+114521.193 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+114523.085 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+114523.087 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+114523.089 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+114523.246 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+114523.546 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 2 times)
+114523.736 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Image Tracking: Starting channel request...
+114523.737 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Image Tracking: Finished channel request...
+114523.802 <Unity~CrBrowserMain> I [ImageTrackerClient.cpp:48] Successfully set image tracker settings
+114604.597 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+114605.301 <Unity~69032> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+114605.311 <VirtualDeviceServer~38028> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 2810 (2810)
+114605.317 <Unity~69031> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+141538.318 <VirtualDeviceServer~38028> W [VDSComms.cpp:338] This server at SOCKET:localhost:17975 was purged but is still alive, re-registering
+142351.497 <VirtualDeviceServer~38028> I [VDSComms.cpp:781] Did not see activity from sparse device for G831FAD00055, checking device connection.
+142351.533 <VirtualDeviceServer~38028> I [VDSComms.cpp:793] ... device G831FAD00055 is gone
+142351.620 <VirtualDeviceServer~143442> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56353:
+
+error: device 'G831FAD00055' not found
+
+
+*** VDCLI pid 8659 started logging at Fri Jan 31 18:18:16 2020
+181816.294 <VDCLI~191446> I [VDCLIApplication.cpp:208] Killing server
+142351.622 <VirtualDeviceServer~143444> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56721:
+
+error: device 'G831FAD00055' not found
+
+
+142351.641 <VirtualDeviceServer~143468> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56550:
+
+error: device 'G831FAD00055' not found
+
+
+142351.675 <VirtualDeviceServer~143443> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56533:
+
+error: device 'G831FAD00055' not found
+
+
+142351.675 <VirtualDeviceServer~143441> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56098:
+
+error: device 'G831FAD00055' not found
+
+
+142351.702 <VirtualDeviceServer~143469> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56774:
+
+error: device 'G831FAD00055' not found
+
+
+142351.703 <VirtualDeviceServer~143459> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56495:
+
+error: device 'G831FAD00055' not found
+
+
+142351.703 <VirtualDeviceServer~143460> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 50967:
+
+error: device 'G831FAD00055' not found
+
+
+142351.704 <VirtualDeviceServer~143465> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56593:
+
+error: device 'G831FAD00055' not found
+
+
+142351.704 <VirtualDeviceServer~143455> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56349:
+
+error: device 'G831FAD00055' not found
+
+
+142351.704 <VirtualDeviceServer~143467> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56770:
+
+error: device 'G831FAD00055' not found
+
+
+142351.707 <VirtualDeviceServer~143450> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56453:
+
+error: device 'G831FAD00055' not found
+
+
+142351.709 <VirtualDeviceServer~143454> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56467:
+
+error: device 'G831FAD00055' not found
+
+
+142351.709 <VirtualDeviceServer~143471> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56360:
+
+error: device 'G831FAD00055' not found
+
+
+142351.711 <VirtualDeviceServer~143472> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56762:
+
+error: device 'G831FAD00055' not found
+
+
+142351.711 <VirtualDeviceServer~143456> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56725:
+
+error: device 'G831FAD00055' not found
+
+
+142351.711 <VirtualDeviceServer~143462> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56750:
+
+error: device 'G831FAD00055' not found
+
+
+142351.712 <VirtualDeviceServer~143453> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56508:
+
+error: device 'G831FAD00055' not found
+
+
+142351.713 <VirtualDeviceServer~143448> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56733:
+
+error: device 'G831FAD00055' not found
+
+
+142351.714 <VirtualDeviceServer~143461> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56746:
+
+error: device 'G831FAD00055' not found
+
+
+142351.714 <VirtualDeviceServer~143466> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56632:
+
+error: device 'G831FAD00055' not found
+
+
+142351.714 <VirtualDeviceServer~143464> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56758:
+
+error: device 'G831FAD00055' not found
+
+
+142351.714 <VirtualDeviceServer~143452> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56646:
+
+error: device 'G831FAD00055' not found
+
+
+142351.714 <VirtualDeviceServer~143457> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56403:
+
+error: device 'G831FAD00055' not found
+
+
+142351.717 <VirtualDeviceServer~143446> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56737:
+
+error: device 'G831FAD00055' not found
+
+
+142351.717 <VirtualDeviceServer~143449> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56365:
+
+error: device 'G831FAD00055' not found
+
+
+142351.718 <VirtualDeviceServer~143447> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56415:
+
+error: device 'G831FAD00055' not found
+
+
+142351.719 <VirtualDeviceServer~143445> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 56579:
+
+error: device 'G831FAD00055' not found
+
+
+142351.719 <VirtualDeviceServer~38028> I [VDSComms.cpp:842] Cleaning up exited process 'com.magicleap.zi_server', id 1, pid 1, host G831FAD00055
+181816.300 <VirtualDeviceServer~38028> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+110128.331 <the_lab~11239> I [Viewer.cpp:118] Viewer(0x7f866f10cd80) is disposed

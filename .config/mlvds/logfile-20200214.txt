@@ -1,0 +1,123 @@
+*** the_lab pid 468 started logging at Fri Feb 14 13:44:14 2020
+*** the_lab pid 5609 started logging at Fri Feb 14 22:15:05 2020
+*** VDCLI pid 5633 started logging at Fri Feb 14 22:15:45 2020
+221546.087 <VDCLI~214715> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 5636 started logging at Fri Feb 14 22:15:46 2020
+*** VirtualDeviceServer pid 5637 started logging at Fri Feb 14 22:15:46 2020
+221546.457 <VirtualDeviceServer~214777> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+221549.932 <VirtualDeviceServer~214777> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+221546.168 <VDCLI~214766> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 5657 started logging at Fri Feb 14 22:15:52 2020
+*** VDCLI pid 5659 started logging at Fri Feb 14 22:15:53 2020
+*** Unity pid 956 started logging at Fri Feb 14 22:16:38 2020
+*** Unity pid 956 started logging at Fri Feb 14 22:16:38 2020
+221640.668 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+*** VirtualDeviceServer pid 5637 started logging at Fri Feb 14 22:16:40 2020
+221640.838 <VirtualDeviceServer~214777> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 956 (956)
+221641.222 <Unity~215704> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+221642.849 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+221642.850 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+221642.850 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+221642.864 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+221642.850 <Unity~215697> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+221643.277 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+*** Unity pid 956 started logging at Fri Feb 14 22:16:43 2020
+221645.083 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+221645.731 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+221645.941 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+221646.248 <VirtualDeviceServer~214777> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 956 (956)
+221647.386 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+221647.753 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+221648.633 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+221648.831 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+221649.108 <VirtualDeviceServer~214777> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GC31N0C00176
+221650.097 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+221651.137 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+221652.088 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+221653.952 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+221716.529 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+221716.543 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+221737.332 <Unity~215704> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+221737.495 <VirtualDeviceServer~214777> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 956 (956)
+221653.955 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+221654.028 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+221737.742 <Unity~215697> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+223543.313 <VirtualDeviceServer~214777> I [VDSState.cpp:814] *** Pruning sparse device 'ML1GraphicsViewSparseDevice' (#10)
+*** VDCLI pid 7212 started logging at Fri Feb 14 23:10:23 2020
+231024.007 <VirtualDeviceServer~214777> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+231029.011 <VirtualDeviceServer~214777> E [SocketServerClient.cpp:189] Failed to allocate port to device GC31N0C00176
+231029.012 <VDCLI~242286> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 7217 started logging at Fri Feb 14 23:10:29 2020
+231029.011 <VirtualDeviceServer~214777> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+231030.070 <VirtualDeviceServer~214777> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+231035.075 <VirtualDeviceServer~214777> E [SocketServerClient.cpp:189] Failed to allocate port to device GC31N0C00176
+231035.075 <VDCLI~242339> E [VirtualDeviceFrontend.cpp:2489] Failed to announce the Zero Iteration Server to remote device
+*** VDCLI pid 7232 started logging at Fri Feb 14 23:10:49 2020
+231049.615 <VDCLI~242498> I [VDCLIApplication.cpp:208] Killing server
+231035.075 <VirtualDeviceServer~214777> E [MessageUtils.h:281] Failed to announce the Zero Iteration Server to remote device
+231049.624 <VirtualDeviceServer~214777> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+*** the_lab pid 7238 started logging at Fri Feb 14 23:15:21 2020
+*** VDCLI pid 7274 started logging at Fri Feb 14 23:16:15 2020
+231615.925 <VDCLI~244990> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 7276 started logging at Fri Feb 14 23:16:15 2020
+*** VirtualDeviceServer pid 7277 started logging at Fri Feb 14 23:16:15 2020
+231615.957 <VDCLI~245010> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 7291 started logging at Fri Feb 14 23:16:17 2020
+*** VDCLI pid 7333 started logging at Fri Feb 14 23:16:24 2020
+231654.002 <Unity~245642> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+231654.003 <Unity~245643> I [VDSConnectionManager.cpp:155] Input library is not connected.
+231654.005 <Unity~245643> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+231655.055 <Unity~245643> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+231654.004 <Unity~245642> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+231655.072 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+*** VirtualDeviceServer pid 7277 started logging at Fri Feb 14 23:16:55 2020
+231615.967 <VirtualDeviceServer~245019> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+231615.989 <VirtualDeviceServer~245019> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+231655.073 <VirtualDeviceServer~245019> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 956 (956)
+231655.169 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+231655.184 <VirtualDeviceServer~245019> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 956 (956)
+231655.176 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+231655.181 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+231656.194 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+231656.197 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+231656.287 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+231656.364 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+231656.365 <VirtualDeviceServer~245019> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GC31N0C00176
+231656.632 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+231657.076 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:17975
+231657.076 <Unity~PerceptionShimS> E [MessageUtils.h:183] timedOut to send command ml.vds.GetChannelMappings
+231657.076 <Unity~PerceptionShimS> I [SparseDevice.cpp:1087] Pcf Data: Retrying...
+231657.076 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+231657.076 <Unity~245642> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+231657.080 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+231659.500 <Unity~CrBrowserMain> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+231709.374 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+231709.386 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+231732.439 <Unity~245643> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+231734.181 <VirtualDeviceServer~245019> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 956 (956)
+231659.503 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Hand Tracking Data: Starting channel request...
+231659.504 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Hand Tracking Data: Finished channel request...
+231735.998 <Unity~245642> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+*** VDCLI pid 7450 started logging at Fri Feb 14 23:18:32 2020
+231837.111 <VirtualDeviceServer~245019> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+231840.005 <VirtualDeviceServer~247432> E [MldbAccessor.cpp:173] Error 1 removing forwarded port 55144:
+* server not running. starting it now on port 5038 *
+
+mldb E  7485 247560 usb_osx.cpp:153] Unable to create an interface plug-in (e00002be)
+mldb E  7485 247560 usb_osx.cpp:342] Could not open interface: e00002c5
+mldb E  7485 247560 usb_osx.cpp:303] Could not find device interface
+mldb E  7485 247560 usb_osx.cpp:342] Could not open interface: e00002c5
+mldb E  7485 247560 usb_osx.cpp:303] Could not find device interface
+error: could not install *smartsocket* listener: Address already in use
+Error was fatal. Exiting process.MLDB server didn't ACK
+* failed to start server *
+error: cannot connect to server
+
+
+*** VDCLI pid 7488 started logging at Fri Feb 14 23:18:40 2020
+231849.158 <VDCLI~247574> W [VirtualDeviceServerUtils.cpp:149] Server 'default' at SOCKET:localhost:17975 appears to be dead; removing
+231849.498 <VirtualDeviceServer~245019> W [VDSComms.cpp:338] This server at SOCKET:localhost:17975 was purged but is still alive, re-registering
+231850.574 <VDCLI~247574> E [VirtualDeviceFrontend.cpp:231] Failed to retrieve the server event address
+*** VDCLI pid 7496 started logging at Fri Feb 14 23:18:50 2020
+231855.938 <VDCLI~247743> W [VirtualDeviceServerUtils.cpp:149] Server 'default' at SOCKET:localhost:17975 appears to be dead; removing
+231857.636 <VDCLI~247743> I [VirtualDeviceFrontend.cpp:148] Killing process 7277

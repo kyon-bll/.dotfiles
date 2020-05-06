@@ -1,0 +1,7 @@
+*** VDCLI pid 33642 started logging at Tue Feb 11 14:16:21 2020
+141621.494 <VDCLI~685843> I [VDCLIApplication.cpp:208] Killing server
+190930.590 <VirtualDeviceServer~333161> W [VDSComms.cpp:338] This server at SOCKET:localhost:17975 was purged but is still alive, re-registering (repeated 2 times)
+141621.498 <VirtualDeviceServer~333161> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+*** the_lab pid 411 started logging at Tue Feb 11 14:17:33 2020
+*** the_lab pid 392 started logging at Tue Feb 11 22:27:38 2020
+*** the_lab pid 1337 started logging at Tue Feb 11 22:45:11 2020

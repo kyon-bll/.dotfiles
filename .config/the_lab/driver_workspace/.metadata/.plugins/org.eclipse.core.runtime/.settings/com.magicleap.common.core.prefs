@@ -1,0 +1,2 @@
+QUEUED_EVENTS={"events"\:[{"id"\:"9e84abe3-6154-43af-a1e5-5cd81b349e61","time"\:"2020-03-24T06\:14\:52.459Z","action"\:{"type"\:"clp_driver_command","context"\:{"cmd"\:"go-zi-module"}},"actor"\:{"type"\:"unauthenticated developer","id"\:""}}]}
+eclipse.preferences.version=1

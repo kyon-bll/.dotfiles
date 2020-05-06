@@ -8,3 +8,5 @@
 	excludesfile = /Users/kyon/.gitignore_global
 [push]
 	default = simple
+[alias]
+	ignore = !curl -L -s https://www.gitignore.io/api/$@

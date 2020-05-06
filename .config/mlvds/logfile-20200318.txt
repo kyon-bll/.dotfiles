@@ -1,0 +1,13 @@
+*** VDCLI pid 52186 started logging at Wed Mar 18 09:55:37 2020
+095537.430 <VDCLI~1001344> I [VDCLIApplication.cpp:188] Killing server
+180335.191 <the_lab~692083> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x55, width: 1412, height: 658, layers: 1
+095537.472 <the_lab~692083> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3fb, width: 1412, height: 658, layers: 1
+174851.138 <VirtualRoomServer~692119> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+095537.478 <VirtualRoomServer~691968> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+174849.157 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+095537.474 <the_lab~692083> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x55, width: 1412, height: 658, layers: 1
+095538.059 <the_lab~692081> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+095538.155 <VirtualDeviceServer~691822> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+095538.059 <the_lab~692081> I [Viewer.cpp:118] Viewer(0x7fcb74dc29d0) is disposed
+*** the_lab pid 433 started logging at Wed Mar 18 09:57:57 2020
+*** the_lab pid 429 started logging at Wed Mar 18 13:21:50 2020

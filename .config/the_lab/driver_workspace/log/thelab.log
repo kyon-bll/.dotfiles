@@ -1,0 +1,115 @@
+2020-01-06 20:30:21.827 INFO  OSGILogListener: Session 2020-01-06 20:30:20.869                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-06 20:30:21.912 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-01-07 16:42:20.120 INFO  OSGILogListener: Session 2020-01-07 16:42:19.199                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-07 16:42:20.201 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-01-07 16:55:23.990 INFO  OSGILogListener: Session 2020-01-07 16:55:22.914                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-07 16:55:24.074 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-01-07 17:51:28.432 INFO  OSGILogListener: Session 2020-01-07 17:51:27.530                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-07 17:51:28.500 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-01-07 17:53:59.827 INFO  OSGILogListener: Session 2020-01-07 17:53:58.845                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-07 17:53:59.899 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-01-07 18:11:00.626 INFO  OSGILogListener: Session 2020-01-07 18:10:59.700                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-07 18:11:00.708 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-01-08 11:37:00.538 INFO  OSGILogListener: Session 2020-01-08 11:36:59.359                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202001_SpacePirate/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-08 11:37:00.603 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-01-29 18:11:52.965 INFO  OSGILogListener: Session 2020-01-29 18:11:51.684                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202003_PoC_Taito/202003_PoC_Taito/Temp/LastMLLabLaunchResult.txt -pretty go-zi-module
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -output /Users/kyon/Projects/endroll/202003_PoC_Taito/202003_PoC_Taito/Temp/LastMLLabLaunchResult.txt -data /Users/kyon/.config/the_lab/driver_workspace -pretty go-zi-module
+
+2020-01-29 18:11:53.067 ERROR creatorslab: com.magicleap.vdf.creatorslab - Component descriptor entry 'OSGI-INF/CrashWatcher.xml' not found
+2020-03-17 17:38:21.668 INFO  OSGILogListener: Session 2020-03-17 17:38:20.808                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.WMTwi3He
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.WMTwi3He
+
+2020-03-23 17:48:38.981 INFO  OSGILogListener: Session 2020-03-23 17:48:38.185                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Users/kyon/Projects/endroll/magicleap/UnityTemplate -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.JR5F7ybS
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Users/kyon/Projects/endroll/magicleap/UnityTemplate -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.JR5F7ybS
+
+2020-03-24 14:24:17.244 INFO  OSGILogListener: Session 2020-03-24 14:24:16.435                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.Fg3HmBzR
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.Fg3HmBzR
+
+2020-03-24 15:14:05.437 INFO  OSGILogListener: Session 2020-03-24 15:14:04.666                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.G0RFw4zq
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.G0RFw4zq
+
+2020-03-24 15:14:06.119 INFO  DriverExecutor: launching new session
+2020-03-24 15:14:06.122 INFO  SessionStarter: starting The Lab
+2020-03-24 15:14:06.122 INFO  SessionStarter: 	/Applications/The Lab.app/Contents/Eclipse/../MacOS/the_lab -vmargs -Dml.logLevel.osgi=warning
+2020-03-24 15:14:51.782 INFO  OSGILogListener: Session 2020-03-24 15:14:50.999                                               
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_JP
+Framework arguments: -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.ABw3Cc9i
+Command-line arguments: -os macosx -ws cocoa -arch x86_64 -application com.magicleap.creatorslab.driver.rcp -labdriver_cwd /Applications/The Lab.app/Contents/Eclipse -labdriver_args /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/tmp.ABw3Cc9i
+

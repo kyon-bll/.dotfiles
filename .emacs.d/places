@@ -1,0 +1,14 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/kyon/"
+  (dired-filename . "/Users/kyon/Downloads"))
+ ("/Users/kyon/Downloads/"
+  (dired-filename . "/Users/kyon/Downloads/ニル声"))
+ ("/Users/kyon/.dotfiles/"
+  (dired-filename . "/Users/kyon/.dotfiles/.emacs.d"))
+ ("/Users/kyon/.dotfiles/.emacs.d/"
+  (dired-filename . "/Users/kyon/.dotfiles/.emacs.d/inits"))
+ ("/Users/kyon/.dotfiles/.emacs.d/inits/11_migemo.el" . 314)
+ ("/Users/kyon/.dotfiles/.emacs.d/inits/80_html.el" . 883)
+ ("/Users/kyon/.dotfiles/.emacs.d/inits/"
+  (dired-filename . "/Users/kyon/.dotfiles/.emacs.d/inits/00_init-packages.el"))
+ ("/Users/kyon/.dotfiles/.emacs.d/inits/00_init-packages.el" . 1085))

@@ -1,0 +1,3 @@
+# This file is maintained by The Lab.
+2
+/Applications/The Lab.app/Contents/Eclipse	false	1588047690

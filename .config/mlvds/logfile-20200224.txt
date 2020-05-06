@@ -1,0 +1,59 @@
+*** the_lab pid 420 started logging at Mon Feb 24 13:21:22 2020
+*** the_lab pid 448 started logging at Mon Feb 24 13:24:38 2020
+*** VDCLI pid 2297 started logging at Mon Feb 24 18:47:22 2020
+184722.202 <VDCLI~122925> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 2299 started logging at Mon Feb 24 18:47:22 2020
+*** VirtualDeviceServer pid 2300 started logging at Mon Feb 24 18:47:22 2020
+184722.227 <VDCLI~122946> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 2314 started logging at Mon Feb 24 18:47:24 2020
+*** VDCLI pid 2357 started logging at Mon Feb 24 18:47:31 2020
+*** Unity pid 1503 started logging at Mon Feb 24 18:47:38 2020
+*** Unity pid 1503 started logging at Mon Feb 24 18:47:38 2020
+184739.684 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+*** VirtualDeviceServer pid 2300 started logging at Mon Feb 24 18:47:39 2020
+184722.249 <VirtualDeviceServer~122955> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+184722.296 <VirtualDeviceServer~122955> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+184739.684 <VirtualDeviceServer~122955> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 1503 (1503)
+184739.692 <Unity~123403> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 1503 started logging at Mon Feb 24 18:47:39 2020
+184739.748 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+184739.749 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+184739.751 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+184740.759 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+184740.760 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+184740.863 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+184739.754 <VirtualDeviceServer~122955> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 1503 (1503)
+184740.896 <VirtualDeviceServer~122955> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+184740.893 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+184740.985 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+184741.278 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+184741.323 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+185108.104 <Unity~123403> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+185108.121 <VirtualDeviceServer~122955> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 1503 (1503)
+184739.685 <Unity~123393> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+184739.687 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+185108.126 <Unity~123393> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+*** Unity pid 5733 started logging at Mon Feb 24 20:14:18 2020
+*** Unity pid 5733 started logging at Mon Feb 24 20:14:18 2020
+201419.149 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+201419.150 <VirtualDeviceServer~122955> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 5733 (5733)
+201419.161 <Unity~175032> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 5733 started logging at Mon Feb 24 20:14:19 2020
+201419.204 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+201419.204 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+201420.215 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+201420.218 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+201420.589 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+201419.210 <VirtualDeviceServer~122955> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 5733 (5733)
+201420.622 <VirtualDeviceServer~122955> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+201420.722 <VirtualDeviceServer~122955> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to G831FAD00055
+201420.621 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+201420.842 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+201422.183 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+201422.231 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+201522.011 <Unity~175032> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+201522.030 <VirtualDeviceServer~122955> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 5733 (5733)
+201419.150 <Unity~175028> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+201419.152 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+201522.033 <Unity~175028> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+202204.128 <VirtualDeviceServer~122955> I [VDSState.cpp:814] *** Pruning sparse device 'ML1GraphicsViewSparseDevice' (#10)

@@ -1,0 +1,1244 @@
+*** the_lab pid 444 started logging at Thu Mar  5 11:54:57 2020
+*** VDCLI pid 12178 started logging at Thu Mar  5 19:26:58 2020
+192658.210 <VDCLI~239966> W [VDCLIApplication.cpp:203] Failed to kill server - server is not running
+*** VDCLI pid 12180 started logging at Thu Mar  5 19:26:58 2020
+*** VirtualDeviceServer pid 12181 started logging at Thu Mar  5 19:26:58 2020
+*** Unity pid 819 started logging at Thu Mar  5 19:26:58 2020
+192658.237 <VDCLI~239987> I [VDCLIApplication.cpp:237] Starting server
+*** VDCLI pid 12189 started logging at Thu Mar  5 19:26:59 2020
+*** VirtualDeviceServer pid 12181 started logging at Thu Mar  5 19:26:59 2020
+192658.257 <VirtualDeviceServer~239996> I [VirtualDeviceServerApplication.cpp:128] Virtual Device Server Version: 2.0 (built Nov  8 2019), Protocol: 12
+192658.304 <VirtualDeviceServer~239996> I [VirtualDeviceServerApplication.cpp:116] Server 'default' running at SOCKET:localhost:17975
+192659.322 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 819 (819)
+*** Unity pid 819 started logging at Thu Mar  5 19:26:59 2020
+192659.323 <Unity~119062> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+*** VirtualRoomServer pid 12190 started logging at Thu Mar  5 19:26:59 2020
+192700.723 <VirtualRoomServer~240084> I [ViewportRender.cpp:119] Initializing viewport renderer's gfx system
+192700.913 <VirtualRoomServer~240084> I [ViewportRender.cpp:168] OpenGL Version: 4.1 ATI-3.4.19
+*** the_lab pid 444 started logging at Thu Mar  5 19:27:01 2020
+192701.329 <VirtualRoomServer~240084> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+*** VDCLI pid 12194 started logging at Thu Mar  5 19:27:01 2020
+192701.333 <VirtualRoomServer~240084> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+192701.359 <VirtualRoomServer~240084> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+192701.367 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 2: Starting channel request...
+192701.369 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 2: Finished channel request...
+192701.419 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1039] Input Controller 1: Starting channel request...
+192701.421 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1042] Input Controller 1: Finished channel request...
+192701.537 <VirtualRoomServer~240084> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x11c, width: 512, height: 512, layers: 1
+192701.290 <the_lab~240220> I [RendererAgent.cpp:345] DriftFX c++ worker thread started...
+192701.296 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+192701.326 <the_lab~240220> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 ATI-3.4.19
+192701.326 <the_lab~240220> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: ATI Technologies Inc.
+192701.326 <the_lab~240220> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+192701.326 <the_lab~240220> I [Viewer.cpp:83] Viewer(0x7faa95e7c960) is created
+192701.345 <the_lab~240220> I [DriftFXSurfaceRenderer.cpp:113] OpenGL Version: 4.1 ATI-3.4.19
+192701.345 <the_lab~240220> I [DriftFXSurfaceRenderer.cpp:114] OpenGL Vendor: ATI Technologies Inc.
+192701.345 <the_lab~240220> I [DriftFXSurfaceRenderer.cpp:115] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+192701.558 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x11c, width: 512, height: 512, layers: 1
+*** PeripheralSparseDevice pid 12195 started logging at Thu Mar  5 19:27:01 2020
+192701.867 <PeripheralSparseDevice~240258> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+192702.954 <PeripheralSparseDevice~240258> I [PeripheralSparseDeviceApplication.cpp:475] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+192701.566 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x137, width: 1024, height: 1024, layers: 1
+192702.963 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x137, width: 1024, height: 1024, layers: 1 (repeated 1 time)
+*** VDCLI pid 12197 started logging at Thu Mar  5 19:27:03 2020
+*** MockML1SparseDevice pid 12198 started logging at Thu Mar  5 19:27:03 2020
+192703.427 <MockML1SparseDevice~240293> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+192704.118 <MockML1SparseDevice~240293> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.4.19
+192701.537 <VirtualRoomServer~240084> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x137, width: 1024, height: 1024, layers: 1
+192701.548 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Scene View, attempting to create it
+192701.552 <VirtualRoomServer~VirtualRoomServ> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Device View Room, attempting to create it
+192705.230 <VirtualRoomServer~240403> I [RoomLoader.cpp:110] Loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+192702.965 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x11c, width: 512, height: 512, layers: 1
+192705.253 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+192705.230 <VirtualRoomServer~240403> I [RoomLoader.cpp:112] server indicates loading in progress
+192705.231 <VirtualRoomServer~240084> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+192705.231 <VirtualRoomServer~240084> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+192705.337 <VirtualRoomServer~240403> I [SessionLoader.cpp:112] Loading Session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+192706.154 <VirtualRoomServer~240403> I [SessionLoader.cpp:271] Finished loading session /Users/kyon/.config/mlvds/Lounge//RoomInfo.json
+*** VDCLI pid 12205 started logging at Thu Mar  5 19:27:07 2020
+192705.265 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+192708.787 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1 (repeated 1 time)
+*** Unity pid 819 started logging at Thu Mar  5 19:27:29 2020
+192708.796 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+192729.071 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+192730.046 <Unity~240862> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 819 started logging at Thu Mar  5 19:27:30 2020
+192730.110 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 819 (819)
+192730.100 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+192730.104 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+192730.106 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+192731.117 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+192731.128 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+192729.076 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+192731.198 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x15a, width: 1280, height: 960, layers: 2
+192731.262 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+192731.194 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x15a, width: 1280, height: 960, layers: 2
+192751.734 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+192731.306 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+192752.923 <Unity~240862> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+192838.490 <Unity~242012> I [VDSConnectionManager.cpp:155] Input library is not connected.
+192838.491 <Unity~242012> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+192839.508 <Unity~242012> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+192731.121 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+192731.145 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+192731.177 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+192731.181 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x15a, width: 1280, height: 960, layers: 2
+192839.544 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+192840.060 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+192839.546 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+192840.557 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+192840.560 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+192840.065 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+192840.613 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x168, width: 1280, height: 960, layers: 2
+192840.607 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x168, width: 1280, height: 960, layers: 2
+192855.681 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+192856.101 <Unity~242012> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+*** Unity pid 12560 started logging at Thu Mar  5 19:36:44 2020
+*** Unity pid 12560 started logging at Thu Mar  5 19:36:44 2020
+192839.550 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 819 (819) (repeated 1 time)
+193645.355 <Unity~249080> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+193645.359 <Unity~249085> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 12560 started logging at Thu Mar  5 19:36:45 2020
+193645.784 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193645.409 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+193645.412 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+193646.423 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+193646.427 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+193646.561 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+193645.825 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193647.276 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x45, width: 1280, height: 960, layers: 2
+193646.481 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x45, width: 1280, height: 960, layers: 2
+193647.659 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+193700.565 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 369
+193702.023 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193702.035 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193705.902 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193705.908 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193712.497 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193712.503 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193715.719 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193715.724 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193718.893 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193646.604 <Unity~CrBrowserMain> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+193722.043 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+193718.898 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193723.844 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193723.850 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193726.044 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193726.049 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193728.689 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193728.694 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193730.064 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193730.070 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193733.852 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193733.857 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193737.443 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193737.449 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+193739.849 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+193745.539 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+193722.046 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+193722.051 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+193741.300 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 7 times)
+193645.355 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+193645.416 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+193745.830 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+193745.834 <Unity~249080> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+202826.008 <Unity~279692> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+193745.821 <Unity~249085> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+202826.008 <Unity~279693> I [VDSConnectionManager.cpp:155] Input library is not connected.
+202826.008 <Unity~279693> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202827.042 <Unity~279693> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+202827.048 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+202826.008 <Unity~279692> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202827.048 <Unity~279692> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+193646.424 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+193646.443 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+193646.471 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+193646.474 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x45, width: 1280, height: 960, layers: 2
+202827.081 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+202827.083 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+202828.091 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+202828.101 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+193739.855 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+202828.911 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+202837.276 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+202828.146 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1af, width: 1280, height: 960, layers: 2
+202850.360 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 613
+202851.527 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 614
+202853.471 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 615
+202854.564 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 616
+202855.734 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 617
+202915.193 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+202837.278 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+202837.287 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+202857.977 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 5 times)
+202827.084 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+202916.107 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+202916.110 <Unity~279692> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+202930.206 <Unity~280762> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+202916.092 <Unity~279693> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+202930.206 <Unity~280763> I [VDSConnectionManager.cpp:155] Input library is not connected.
+202828.917 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+202828.956 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1af, width: 1280, height: 960, layers: 2
+202854.937 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1af, width: 1280, height: 960, layers: 2 (repeated 4 times)
+202931.248 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+202930.206 <Unity~280762> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202931.249 <Unity~280762> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+202930.206 <Unity~280763> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+202931.249 <Unity~280763> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+202828.094 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+202828.106 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+202828.134 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+202828.138 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1af, width: 1280, height: 960, layers: 2
+202931.292 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+202931.296 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+202932.307 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+202932.316 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+202930.273 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+202930.279 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+202932.358 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1c6, width: 1280, height: 960, layers: 2
+202932.363 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1c6, width: 1280, height: 960, layers: 2
+202933.559 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+202939.566 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+203029.295 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+202939.566 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+202939.577 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+203004.560 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 15 times)
+202931.300 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+203030.085 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+203030.089 <Unity~280762> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+203120.266 <Unity~282457> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+203030.074 <Unity~280763> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+203120.267 <Unity~282458> I [VDSConnectionManager.cpp:155] Input library is not connected.
+203120.342 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+203121.305 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+203120.267 <Unity~282457> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203121.305 <Unity~282457> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+203120.267 <Unity~282458> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203121.307 <Unity~282458> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+202932.309 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+202932.320 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+202932.348 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+202932.351 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1c6, width: 1280, height: 960, layers: 2
+203121.351 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+203121.356 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+203122.366 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+203122.376 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+203120.347 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+203122.422 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd6, width: 1280, height: 960, layers: 2
+203126.748 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+203122.423 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd6, width: 1280, height: 960, layers: 2
+203144.740 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+203126.750 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+203126.760 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+203139.100 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 5 times)
+203121.360 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+203145.139 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+203145.143 <Unity~282457> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+203210.115 <Unity~283033> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+203145.129 <Unity~282458> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+203210.115 <Unity~283034> I [VDSConnectionManager.cpp:155] Input library is not connected.
+203211.152 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+203210.115 <Unity~283034> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203211.153 <Unity~283034> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+203210.115 <Unity~283033> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203211.153 <Unity~283033> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+203122.369 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+203122.381 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+203122.408 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+203122.411 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd6, width: 1280, height: 960, layers: 2
+203211.190 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+203211.687 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+203211.192 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+203212.202 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+203212.208 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+203211.694 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+203212.320 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xcc, width: 1280, height: 960, layers: 2
+203212.254 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xcc, width: 1280, height: 960, layers: 2
+203213.473 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+203248.601 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+203249.523 <Unity~283034> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+203211.196 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+203249.529 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+203249.533 <Unity~283033> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+203402.705 <Unity~284137> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+203402.705 <Unity~284138> I [VDSConnectionManager.cpp:155] Input library is not connected.
+203402.776 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+203403.743 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+203402.706 <Unity~284137> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203403.743 <Unity~284137> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+203402.706 <Unity~284138> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203403.745 <Unity~284138> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+203212.204 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+203212.213 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+203212.242 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+203212.244 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xcc, width: 1280, height: 960, layers: 2
+203403.786 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+203403.790 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+203404.799 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+203404.807 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+203402.782 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+203404.854 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x15c, width: 1280, height: 960, layers: 2
+203404.853 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x15c, width: 1280, height: 960, layers: 2
+203406.042 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+203406.545 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+203407.598 <Unity~284138> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+203403.794 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+203407.604 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+203407.607 <Unity~284137> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+203448.005 <Unity~284509> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+203448.005 <Unity~284510> I [VDSConnectionManager.cpp:155] Input library is not connected.
+203448.068 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+203448.005 <Unity~284510> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203449.045 <Unity~284510> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+203449.048 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+203448.005 <Unity~284509> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+203449.048 <Unity~284509> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+203404.803 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+203404.812 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+203404.841 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+203404.845 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x15c, width: 1280, height: 960, layers: 2
+203449.087 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+203449.091 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+203450.102 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+203450.112 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+203448.074 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+203450.161 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x171, width: 1280, height: 960, layers: 2
+203450.157 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x171, width: 1280, height: 960, layers: 2
+203451.350 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+203451.846 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x171, width: 1280, height: 960, layers: 2
+203602.786 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+203701.260 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3921
+203717.029 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3924
+203718.386 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3925
+203720.732 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3928
+203725.007 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3962
+203728.557 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3970
+203730.723 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 3971
+203741.647 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4264
+203806.598 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4265
+203814.956 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4266
+203817.317 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4267
+203834.714 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4702
+203856.454 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4704
+203858.962 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 4705
+203904.907 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+203602.787 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+203602.791 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+203737.404 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 28 times)
+203449.095 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+203929.821 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+203929.825 <Unity~284509> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+204551.448 <Unity~291552> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+203929.814 <Unity~284510> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+204551.448 <Unity~291553> I [VDSConnectionManager.cpp:155] Input library is not connected.
+203904.911 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x171, width: 1280, height: 960, layers: 2 (repeated 15 times)
+204551.449 <Unity~291553> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204552.474 <Unity~291553> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+204552.489 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+204551.461 <Unity~291552> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204552.489 <Unity~291552> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+203450.106 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+203450.116 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+203450.145 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+203450.149 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x171, width: 1280, height: 960, layers: 2
+204552.509 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+204552.511 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+204553.519 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+204553.529 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+204552.093 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+204552.101 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+204553.572 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x102, width: 1280, height: 960, layers: 2
+204553.575 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x102, width: 1280, height: 960, layers: 2
+204559.912 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 107
+204608.065 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+204614.168 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+204608.068 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+204608.076 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+204612.367 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 4 times)
+204552.515 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+204615.405 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+204615.408 <Unity~291552> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+204628.545 <Unity~292049> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+204615.386 <Unity~291553> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+204628.545 <Unity~292050> I [VDSConnectionManager.cpp:155] Input library is not connected.
+204629.497 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+204628.545 <Unity~292050> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204629.579 <Unity~292050> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+204629.582 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+204628.545 <Unity~292049> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204629.583 <Unity~292049> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+204553.522 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+204553.532 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+204553.560 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+204553.564 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x102, width: 1280, height: 960, layers: 2
+204629.620 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+204629.624 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+204630.635 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+204630.640 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+204629.505 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+204630.684 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xe6, width: 1280, height: 960, layers: 2
+204634.795 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+204630.688 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xe6, width: 1280, height: 960, layers: 2
+204643.710 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 361
+204652.163 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 362
+204658.833 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 363
+204701.937 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 365
+204710.196 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+204634.796 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+204634.799 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+204705.416 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 12 times)
+204629.628 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+204711.139 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+204711.143 <Unity~292049> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+204721.097 <Unity~292552> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+204711.131 <Unity~292050> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+204721.098 <Unity~292553> I [VDSConnectionManager.cpp:155] Input library is not connected.
+204702.638 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xe6, width: 1280, height: 960, layers: 2 (repeated 4 times)
+204722.139 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+204721.098 <Unity~292552> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204722.139 <Unity~292552> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+204721.098 <Unity~292553> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204722.140 <Unity~292553> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+204630.636 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+204630.646 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+204630.675 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+204630.678 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xe6, width: 1280, height: 960, layers: 2
+204722.179 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+204722.181 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+204723.192 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+204723.199 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+204721.175 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+204721.181 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+204724.046 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x89, width: 1280, height: 960, layers: 2
+204723.244 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x89, width: 1280, height: 960, layers: 2
+204732.638 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 159
+204735.189 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 160
+204738.455 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x89, width: 1280, height: 960, layers: 2
+204739.248 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 161
+204740.806 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+204747.357 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 376
+204753.303 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+204740.809 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+204740.817 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+204744.932 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 3 times)
+204722.185 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+204753.865 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+204753.868 <Unity~292552> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+204759.402 <Unity~292961> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+204753.844 <Unity~292553> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+204759.402 <Unity~292962> I [VDSConnectionManager.cpp:155] Input library is not connected.
+204753.302 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x89, width: 1280, height: 960, layers: 2 (repeated 3 times)
+204759.403 <Unity~292962> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204800.440 <Unity~292962> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+204800.444 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+204759.403 <Unity~292961> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+204800.444 <Unity~292961> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+204723.193 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+204723.203 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+204723.232 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+204723.234 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x89, width: 1280, height: 960, layers: 2
+204800.482 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+204800.486 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+204801.497 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+204801.506 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+204759.461 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+204759.466 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+204801.547 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1fc, width: 1280, height: 960, layers: 2
+204801.552 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1fc, width: 1280, height: 960, layers: 2
+204802.744 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+204814.966 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+204818.399 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 441
+204826.716 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 442
+204850.849 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 443
+204852.320 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1fc, width: 1280, height: 960, layers: 2
+204853.118 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 444
+204908.937 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+204814.967 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+204814.973 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+204906.766 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 26 times)
+204800.490 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+204910.130 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+204910.133 <Unity~292961> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+205157.529 <Unity~297429> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+204910.120 <Unity~292962> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+205157.529 <Unity~297430> I [VDSConnectionManager.cpp:155] Input library is not connected.
+204859.140 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1fc, width: 1280, height: 960, layers: 2 (repeated 4 times)
+205158.566 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+205157.530 <Unity~297429> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+205158.566 <Unity~297429> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+205157.542 <Unity~297430> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+205158.575 <Unity~297430> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+204801.499 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+204801.509 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+204801.539 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+204801.540 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1fc, width: 1280, height: 960, layers: 2
+205158.621 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+205158.625 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+205159.636 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+205159.644 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+205157.607 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+205157.613 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+205159.696 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1de, width: 1280, height: 960, layers: 2
+205159.690 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1de, width: 1280, height: 960, layers: 2
+205637.006 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+205637.307 <Unity~297430> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+205158.629 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+205637.312 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+205637.315 <Unity~297429> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+210118.423 <Unity~304284> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+210118.424 <Unity~304285> I [VDSConnectionManager.cpp:155] Input library is not connected.
+210118.652 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+210119.452 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+210118.424 <Unity~304284> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+210119.452 <Unity~304284> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+210118.437 <Unity~304285> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+210119.461 <Unity~304285> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+205159.640 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+205159.649 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+205159.678 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+205159.682 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1de, width: 1280, height: 960, layers: 2
+210119.495 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+210119.499 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+210120.511 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+210120.520 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+210118.658 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+210120.573 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x14f, width: 1280, height: 960, layers: 2
+210120.566 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x14f, width: 1280, height: 960, layers: 2
+210200.064 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+210201.285 <Unity~304285> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+210119.503 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+210201.303 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+210201.306 <Unity~304284> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+210246.819 <Unity~304830> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+210246.819 <Unity~304831> I [VDSConnectionManager.cpp:155] Input library is not connected.
+210246.881 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+210246.819 <Unity~304831> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+210247.856 <Unity~304831> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+210247.859 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+210246.819 <Unity~304830> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+210247.859 <Unity~304830> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+210120.514 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+210120.525 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+210120.555 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+210120.558 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x14f, width: 1280, height: 960, layers: 2
+210247.890 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+210247.892 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+210248.902 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+210248.907 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+210246.887 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+210249.529 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x175, width: 1280, height: 960, layers: 2
+210248.953 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x175, width: 1280, height: 960, layers: 2
+210250.137 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+210330.105 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 956
+210336.117 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 959
+210337.001 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 960
+210338.555 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 963
+210343.365 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+210344.274 <Unity~304831> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+210247.896 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+210344.291 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+210344.295 <Unity~304830> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+210350.834 <Unity~305371> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+210350.835 <Unity~305372> I [VDSConnectionManager.cpp:155] Input library is not connected.
+210343.366 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x175, width: 1280, height: 960, layers: 2 (repeated 3 times)
+210350.835 <Unity~305372> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+210351.874 <Unity~305372> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+210351.875 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+210350.835 <Unity~305371> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+210351.875 <Unity~305371> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+210248.903 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+210248.912 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+210248.940 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+210248.943 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x175, width: 1280, height: 960, layers: 2
+210351.916 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+210351.919 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+210352.929 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+210352.938 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+210350.900 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+210350.906 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+210352.986 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa3, width: 1280, height: 960, layers: 2
+210513.431 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+210352.984 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa3, width: 1280, height: 960, layers: 2
+210637.640 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+210513.432 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+210513.435 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+210607.409 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 3 times)
+210351.923 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+210638.874 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+210638.878 <Unity~305371> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+211256.276 <Unity~309996> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+210638.866 <Unity~305372> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+211256.276 <Unity~309997> I [VDSConnectionManager.cpp:155] Input library is not connected.
+211256.359 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+211257.313 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+211256.277 <Unity~309996> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+211257.314 <Unity~309996> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+211256.289 <Unity~309997> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+211257.323 <Unity~309997> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+210352.931 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+210352.941 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+210352.970 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+210352.974 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xa3, width: 1280, height: 960, layers: 2
+211257.356 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+211257.360 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+211258.370 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+211258.379 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+211256.365 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+211258.427 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x205, width: 1280, height: 960, layers: 2
+211258.430 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x205, width: 1280, height: 960, layers: 2
+211259.630 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+211358.984 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+211400.050 <Unity~309997> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+211257.364 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+211400.070 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+211400.073 <Unity~309996> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+211622.504 <Unity~313612> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+211622.504 <Unity~313613> I [VDSConnectionManager.cpp:155] Input library is not connected.
+211623.426 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+211623.538 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+211622.505 <Unity~313612> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+211623.539 <Unity~313612> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+211622.518 <Unity~313613> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+211623.544 <Unity~313613> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+211258.373 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+211258.383 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+211258.413 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+211258.417 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x205, width: 1280, height: 960, layers: 2
+211623.586 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+211623.591 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+211624.600 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+211624.608 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+211623.432 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+211624.655 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x206, width: 1280, height: 960, layers: 2
+211624.653 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x206, width: 1280, height: 960, layers: 2
+212050.470 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+212050.719 <Unity~313613> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+211623.593 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+212050.725 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+212050.730 <Unity~313612> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+212330.219 <Unity~317683> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+212330.219 <Unity~317684> I [VDSConnectionManager.cpp:155] Input library is not connected.
+211654.560 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x206, width: 1280, height: 960, layers: 2 (repeated 1 time)
+212331.256 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+212330.220 <Unity~317683> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+212331.256 <Unity~317683> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+212330.220 <Unity~317684> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+212331.265 <Unity~317684> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+211624.603 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+211624.612 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+211624.641 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+211624.643 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x206, width: 1280, height: 960, layers: 2
+212331.302 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+212331.307 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+212332.317 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+212332.327 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+212330.298 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+212330.304 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+212333.003 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x210, width: 1280, height: 960, layers: 2
+212332.369 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x210, width: 1280, height: 960, layers: 2
+212505.810 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+212506.437 <Unity~317684> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+212331.310 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+212506.453 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+212506.457 <Unity~317683> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+212725.044 <Unity~321695> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+212725.044 <Unity~321696> I [VDSConnectionManager.cpp:155] Input library is not connected.
+212725.195 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+212726.077 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+212725.045 <Unity~321695> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+212726.077 <Unity~321695> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+212725.057 <Unity~321696> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+212726.091 <Unity~321696> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+212332.321 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+212332.331 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+212332.361 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+212332.362 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x210, width: 1280, height: 960, layers: 2
+212726.127 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+212726.131 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+212727.143 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+212727.151 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+212725.200 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+212727.198 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xcd, width: 1280, height: 960, layers: 2
+212727.197 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xcd, width: 1280, height: 960, layers: 2
+212900.355 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2706
+212904.596 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2707
+212911.903 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2708
+212912.757 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2709
+212916.516 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2710
+212938.067 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+212939.009 <Unity~321696> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+212726.135 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+212939.018 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+212939.025 <Unity~321695> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+213328.528 <Unity~327555> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+213328.528 <Unity~327556> I [VDSConnectionManager.cpp:155] Input library is not connected.
+212938.068 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xcd, width: 1280, height: 960, layers: 2 (repeated 4 times)
+213329.560 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+213328.529 <Unity~327555> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+213329.560 <Unity~327555> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+213328.541 <Unity~327556> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+213329.567 <Unity~327556> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+212727.144 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+212727.155 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+212727.184 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+212727.186 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xcd, width: 1280, height: 960, layers: 2
+213329.601 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+213329.605 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+213330.615 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+213330.624 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+213329.118 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+213329.123 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+213330.675 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x13b, width: 1280, height: 960, layers: 2
+213330.669 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x13b, width: 1280, height: 960, layers: 2
+213728.921 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 6945
+213825.927 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214027.191 <Unity~327556> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+213329.608 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214027.212 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214027.216 <Unity~327555> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214035.800 <Unity~331135> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214035.800 <Unity~331136> I [VDSConnectionManager.cpp:155] Input library is not connected.
+213825.927 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x13b, width: 1280, height: 960, layers: 2 (repeated 2 times)
+214036.838 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214035.801 <Unity~331135> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214036.838 <Unity~331135> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214035.812 <Unity~331136> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214036.847 <Unity~331136> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+213330.618 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+213330.627 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+213330.656 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+213330.659 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x13b, width: 1280, height: 960, layers: 2
+214036.882 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214036.886 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214037.897 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214037.905 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214035.885 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214035.890 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214037.946 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x178, width: 1280, height: 960, layers: 2
+214037.946 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x178, width: 1280, height: 960, layers: 2
+214042.813 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214043.408 <Unity~331136> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214036.890 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214043.422 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214043.426 <Unity~331135> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214102.786 <Unity~331774> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214102.786 <Unity~331775> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214102.863 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214103.822 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214102.787 <Unity~331774> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214103.823 <Unity~331774> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214102.799 <Unity~331775> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214103.833 <Unity~331775> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214037.901 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214037.909 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214037.937 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214037.938 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x178, width: 1280, height: 960, layers: 2
+214103.869 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214103.871 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214104.884 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214104.893 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214102.869 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214104.939 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x16f, width: 1280, height: 960, layers: 2
+214104.940 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x16f, width: 1280, height: 960, layers: 2
+214140.038 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 976
+214157.682 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214158.542 <Unity~331775> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214103.877 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214158.552 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214158.556 <Unity~331774> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214205.432 <Unity~332417> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214205.432 <Unity~332418> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214157.681 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x16f, width: 1280, height: 960, layers: 2 (repeated 1 time)
+214205.432 <Unity~332418> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214206.464 <Unity~332418> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214206.478 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214205.432 <Unity~332417> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214206.478 <Unity~332417> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214104.886 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214104.898 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214104.927 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214104.929 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x16f, width: 1280, height: 960, layers: 2
+214206.506 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214206.510 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214207.521 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214207.530 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214205.487 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214205.493 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214207.582 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xe9, width: 1280, height: 960, layers: 2
+214207.576 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xe9, width: 1280, height: 960, layers: 2
+214224.929 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214225.267 <Unity~332418> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214206.514 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214225.283 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214225.287 <Unity~332417> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214320.670 <Unity~333573> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214320.670 <Unity~333574> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214321.595 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214321.709 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214320.671 <Unity~333574> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214321.709 <Unity~333574> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214320.671 <Unity~333573> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214321.709 <Unity~333573> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214207.524 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214207.534 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214207.563 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214207.568 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xe9, width: 1280, height: 960, layers: 2
+214321.751 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214321.754 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214322.764 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214322.769 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214321.601 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214323.572 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf8, width: 1280, height: 960, layers: 2
+214322.815 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf8, width: 1280, height: 960, layers: 2
+214355.067 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 828
+214410.358 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214411.200 <Unity~333574> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214321.757 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214411.215 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214411.218 <Unity~333573> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214444.731 <Unity~334981> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214444.731 <Unity~334982> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214359.677 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf8, width: 1280, height: 960, layers: 2 (repeated 1 time)
+214445.768 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214444.732 <Unity~334981> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214445.768 <Unity~334981> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214444.745 <Unity~334982> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214445.778 <Unity~334982> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214322.765 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214322.774 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214322.802 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214322.806 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf8, width: 1280, height: 960, layers: 2
+214445.819 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214445.823 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214446.833 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214446.841 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214444.818 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214444.824 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214446.893 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x112, width: 1280, height: 960, layers: 2
+214446.887 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x112, width: 1280, height: 960, layers: 2
+214552.072 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214552.615 <Unity~334982> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214445.826 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214552.623 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214552.628 <Unity~334981> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214611.591 <Unity~336077> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214611.591 <Unity~336078> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214550.035 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x112, width: 1280, height: 960, layers: 2 (repeated 1 time)
+214612.632 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214611.591 <Unity~336077> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214612.633 <Unity~336077> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214611.591 <Unity~336078> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214612.633 <Unity~336078> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214446.835 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214446.846 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214446.876 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214446.878 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x112, width: 1280, height: 960, layers: 2
+214612.674 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214612.676 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214613.687 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214613.694 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214611.751 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214611.757 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214613.743 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x159, width: 1280, height: 960, layers: 2
+214613.740 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x159, width: 1280, height: 960, layers: 2
+214614.949 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+214645.010 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214645.345 <Unity~336078> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214612.680 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214645.359 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214645.363 <Unity~336077> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214733.239 <Unity~337566> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214733.239 <Unity~337567> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214733.317 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214734.272 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214733.240 <Unity~337566> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214734.273 <Unity~337566> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214733.252 <Unity~337567> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214734.281 <Unity~337567> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214613.689 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214613.698 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214613.728 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214613.731 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x159, width: 1280, height: 960, layers: 2
+214734.324 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214734.328 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214735.338 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214735.344 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214733.323 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214735.401 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x111, width: 1280, height: 960, layers: 2
+214735.396 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x111, width: 1280, height: 960, layers: 2
+214736.589 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+214738.132 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x111, width: 1280, height: 960, layers: 2
+214800.126 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214800.842 <Unity~337567> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214734.331 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214800.852 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214800.857 <Unity~337566> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214837.401 <Unity~338747> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214837.401 <Unity~338748> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214738.135 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x111, width: 1280, height: 960, layers: 2 (repeated 1 time)
+214837.402 <Unity~338748> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214838.445 <Unity~338748> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214838.452 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214837.415 <Unity~338747> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214838.452 <Unity~338747> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214735.342 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214735.350 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214735.382 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214735.384 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x111, width: 1280, height: 960, layers: 2
+214838.491 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214838.495 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214839.507 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214839.513 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214837.461 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214837.467 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214839.561 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23b, width: 1280, height: 960, layers: 2
+214839.564 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23b, width: 1280, height: 960, layers: 2
+214840.711 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214841.121 <Unity~338748> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214838.499 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214841.133 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214841.138 <Unity~338747> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+214854.412 <Unity~339170> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+214854.413 <Unity~339171> I [VDSConnectionManager.cpp:155] Input library is not connected.
+214854.491 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+214855.449 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+214854.413 <Unity~339170> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214855.449 <Unity~339170> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+214854.425 <Unity~339171> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+214855.458 <Unity~339171> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214839.509 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214839.517 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214839.551 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214839.553 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23b, width: 1280, height: 960, layers: 2
+214855.501 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+214855.504 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+214856.515 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+214856.522 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+214854.496 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+214856.565 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x18e, width: 1280, height: 960, layers: 2
+214856.568 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x18e, width: 1280, height: 960, layers: 2
+214934.621 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+214935.202 <Unity~339171> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+214855.508 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+214935.210 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+214935.214 <Unity~339170> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+215334.176 <Unity~344031> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+215334.177 <Unity~344032> I [VDSConnectionManager.cpp:155] Input library is not connected.
+215334.837 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+215335.210 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+215334.177 <Unity~344031> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+215335.210 <Unity~344031> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+215334.189 <Unity~344032> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+215335.216 <Unity~344032> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+214856.516 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+214856.526 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+214856.556 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+214856.558 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x18e, width: 1280, height: 960, layers: 2
+215335.250 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+215335.252 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+215336.263 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+215336.270 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+215334.844 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+215337.038 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1e9, width: 1280, height: 960, layers: 2
+215336.315 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1e9, width: 1280, height: 960, layers: 2
+215337.490 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+215342.762 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 114
+215828.395 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+215828.916 <Unity~344032> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+215335.256 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+215828.932 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+215828.936 <Unity~344031> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+220328.248 <Unity~351460> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+220328.248 <Unity~351461> I [VDSConnectionManager.cpp:155] Input library is not connected.
+220329.279 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+220328.249 <Unity~351460> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+220329.280 <Unity~351460> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+220328.262 <Unity~351461> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+220329.290 <Unity~351461> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+215336.265 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+215336.274 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+215336.303 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+215336.307 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1e9, width: 1280, height: 960, layers: 2
+220329.330 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+215701.252 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1e9, width: 1280, height: 960, layers: 2 (repeated 1 time)
+220329.332 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+220330.344 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+220330.350 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+220329.974 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+220329.981 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+220330.395 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x90, width: 1280, height: 960, layers: 2
+220330.396 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x90, width: 1280, height: 960, layers: 2
+220331.589 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+220449.213 <Unity~InputShimSparse> I [SparseDevice.cpp:1079] Input Controller System State: Starting channel request...
+220657.861 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 6039
+220801.345 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+220449.216 <Unity~InputShimSparse> I [SparseDevice.cpp:1082] Input Controller System State: Finished channel request...
+220449.224 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented.
+220637.058 <Unity~CrBrowserMain> E [Context.cpp:377] Command [ OnStartHapticsBody ] is not implemented. (repeated 18 times)
+220329.336 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+220802.587 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+220802.591 <Unity~351460> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+220658.144 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x90, width: 1280, height: 960, layers: 2 (repeated 1 time)
+221142.092 <Unity~357132> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+220802.579 <Unity~351461> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+221142.092 <Unity~357133> I [VDSConnectionManager.cpp:155] Input library is not connected.
+221143.128 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+221142.092 <Unity~357132> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+221143.129 <Unity~357132> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+221142.092 <Unity~357133> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+221143.131 <Unity~357133> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+220330.346 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+220330.354 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+220330.383 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+220330.385 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x90, width: 1280, height: 960, layers: 2
+221143.175 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+221143.175 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+221144.186 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+221144.195 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+221052.600 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+221052.609 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+221144.956 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1 (repeated 1 time)
+221144.245 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1cf, width: 1280, height: 960, layers: 2
+221145.408 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+221144.997 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+221145.052 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1cf, width: 1280, height: 960, layers: 2
+221404.115 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+221902.177 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 13255
+221903.668 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 13268
+221404.157 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+221903.984 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1cf, width: 1280, height: 960, layers: 2
+221914.723 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 13534
+221922.958 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 13689
+221924.550 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+221925.124 <Unity~357133> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+221143.179 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+221925.132 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+221925.137 <Unity~357132> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+221924.510 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1cf, width: 1280, height: 960, layers: 2 (repeated 2 times)
+222431.300 <Unity~365990> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+222431.300 <Unity~365991> I [VDSConnectionManager.cpp:155] Input library is not connected.
+222432.340 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+222431.301 <Unity~365990> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+222432.341 <Unity~365990> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+222431.313 <Unity~365991> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+222432.345 <Unity~365991> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+221144.187 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+221144.200 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+221144.230 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+221144.233 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1cf, width: 1280, height: 960, layers: 2
+222432.387 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+222432.391 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+222433.400 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+222433.409 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+222157.271 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+222157.278 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+222434.229 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+222433.454 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x143, width: 1280, height: 960, layers: 2
+222434.649 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+222910.923 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+222911.179 <Unity~365991> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+222432.395 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+222911.197 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+222911.200 <Unity~365990> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+223629.875 <Unity~373926> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+223629.875 <Unity~373927> I [VDSConnectionManager.cpp:155] Input library is not connected.
+223630.913 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+223629.877 <Unity~373926> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+223630.913 <Unity~373926> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+223629.889 <Unity~373927> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+223630.917 <Unity~373927> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+222433.404 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+222433.413 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+222433.442 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+222433.444 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x143, width: 1280, height: 960, layers: 2
+223630.953 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+223630.957 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+223631.968 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+223631.974 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+222434.270 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+222434.278 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x143, width: 1280, height: 960, layers: 2
+222721.477 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x143, width: 1280, height: 960, layers: 2 (repeated 1 time)
+223632.021 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf1, width: 1280, height: 960, layers: 2
+223633.182 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+224101.414 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+224102.276 <Unity~373927> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+223630.961 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+224102.281 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+224102.284 <Unity~373926> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+223632.696 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+223632.740 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+223632.748 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf1, width: 1280, height: 960, layers: 2
+223711.199 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf1, width: 1280, height: 960, layers: 2 (repeated 1 time)
+224256.542 <Unity~377771> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+224256.542 <Unity~377772> I [VDSConnectionManager.cpp:155] Input library is not connected.
+224257.576 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+224256.543 <Unity~377771> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+224257.576 <Unity~377771> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+224256.555 <Unity~377772> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+224257.583 <Unity~377772> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+223631.970 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+223631.979 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+223632.008 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+223632.010 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xf1, width: 1280, height: 960, layers: 2
+224257.623 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+224257.626 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+224258.636 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+224258.641 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+224213.862 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+224213.909 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+224259.508 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1 (repeated 1 time)
+224258.686 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x20c, width: 1280, height: 960, layers: 2
+224259.888 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+224407.467 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+224408.701 <Unity~377772> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+224257.630 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+224408.721 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+224408.724 <Unity~377771> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+224259.552 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+224259.559 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x20c, width: 1280, height: 960, layers: 2
+224655.176 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+224722.677 <Unity~383085> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+224722.677 <Unity~383086> I [VDSConnectionManager.cpp:155] Input library is not connected.
+224655.183 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+224722.764 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+224723.717 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12560 (12560)
+224722.677 <Unity~383085> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:17975'
+224723.717 <Unity~383085> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+224722.690 <Unity~383086> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:17975'
+224723.728 <Unity~383086> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+224258.637 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+224258.645 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+224258.673 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+224258.677 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x20c, width: 1280, height: 960, layers: 2
+224723.770 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+224723.774 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+224724.784 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+224724.791 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+224722.770 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+224725.626 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1280, height: 960, layers: 2
+224724.842 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1280, height: 960, layers: 2
+224726.051 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:265] Frame timeout 2
+224740.922 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+224740.930 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+225014.326 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1280, height: 960, layers: 2
+225329.443 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:122] GraphicsCommandHandler::OnDestroyClient
+225330.551 <Unity~383086> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+224723.778 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12560 (12560)
+225330.568 <VirtualDeviceServer~239996> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12560 (12560)
+225330.571 <Unity~383085> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+225236.741 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1280, height: 960, layers: 2 (repeated 1 time)
+224724.787 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+224724.796 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+224724.829 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+224724.830 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x21f, width: 1280, height: 960, layers: 2
+*** VDCLI pid 25292 started logging at Thu Mar  5 22:55:14 2020
+225514.639 <VDCLI~388168> I [VDCLIApplication.cpp:208] Killing server
+192702.964 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:157] Configuration settings changed, mapping actions...
+225459.490 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+225459.541 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1
+225515.155 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8f, width: 2544, height: 1176, layers: 1 (repeated 1 time)
+192706.155 <VirtualRoomServer~240403> I [RoomLoader.cpp:118] Finished loading room archive /Users/kyon/MagicLeap/mlsdk/v0.23.0/VirtualDevice/data/VirtualRooms/ExampleRooms/Lounge.room
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx: 3
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx: 3
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx: 7
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx: 2
+225515.257 <VirtualRoomServer~240084> W [ResourceManager.cpp:257] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_ceiling_0/default_ceiling_0.fbx_mat_default_ceiling: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_open/door_mission_open.fbx_mat_01 - Default: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/window_sliding_rectangle/window_sliding_rectangle.fbx_mat_01 - Default: 7
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVScreen1: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_3/default_wall_3.fbx_mat_default_wall: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_painting04: 3
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltB: 3
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting04/painting04.fbx_mat_guiltC: 3
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_wood_black: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_metal: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_bulb: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_shadeA: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp02/floorlamp02.fbx_mat_aluminium: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_metal: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_painting01: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeA: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_shadeTrimA: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase03/vase03.fbx_mat_whiteceramic: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/mug02/mug02.fbx_mat_mugA: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/vase01/vase01.fbx_mat_phong5: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_metal: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_0/default_wall_0.fbx_mat_default_wall: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_tan: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_Darktan: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanB: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/TV_wallmounted/TV_wallmounted.fbx_mat_TVPlastic: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningTableCircular01/DiningTableCircular01.fbx_mat_DiningTableRectangular01: 3
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_lambert2: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/PS4/PS4.fbx_mat_blck_plastic: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_2/default_wall_2.fbx_mat_default_wall: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_globe: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_chrome: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_black: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brass: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/CoffeeTableOval01/CoffeeTableOval01.fbx_mat_CoffeeTableOval01: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_white: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesTall01/OpenShelvesTall01.fbx_mat_black: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/drinkcan01/drinkcan01.fbx_mat_drinkcanA: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_white: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/cushion01/cushion01.fbx_mat_fabricB: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_Sofa02: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_edgeB: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_black: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_silver: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelves01/OpenShelves01.fbx_mat_black: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/OpenShelvesNarrow01/OpenShelvesNarrow01.fbx_mat_white: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChairSlotted01/DiningChairSlotted01.fbx_mat_DiningChair01_seat: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/painting01/painting01.fbx_mat_guiltA: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_01/Sofa_01.fbx_mat_Sofa03: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/tablelamp02/tablelamp02.fbx_mat_bulb: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_centerB: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/door_mission_slab/door_mission_slab.fbx_mat_01 - Default: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/DiningChair01/DiningChair01.fbx_mat_DiningChair01_seat: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_bulb: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_wall_1/default_wall_1.fbx_mat_default_wall: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/area_rug02/area_rug02.fbx_mat_ringB: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/default_floor_0/default_floor_0.fbx_mat_default_floor: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/globe/globe.fbx_mat_brass: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/Sofa_02/Sofa_02.fbx_mat_wood: 2
+225515.259 <VirtualRoomServer~240084> W [ResourceManager.cpp:281] Reference count for resource /Users/kyon/.dotfiles/.config/mlvds/Lounge/floorlamp01/floorlamp01.fbx_mat_brassB: 2
+225515.260 <VirtualRoomServer~240084> W [ResourceManager.cpp:305] Reference count for resource globe_MainTex.png: 2
+225515.260 <VirtualRoomServer~240084> W [ResourceManager.cpp:305] Reference count for resource painting04_MainTex.png: 2
+225515.260 <VirtualRoomServer~240084> W [ResourceManager.cpp:305] Reference count for resource painting01_MainTex.png: 2
+225515.262 <VirtualRoomServer~240084> I [ViewportRender.cpp:214] Shutting down viewport renderer's gfx system
+225515.526 <VirtualDeviceServer~239996> I [VirtualDeviceServerApplication.cpp:163] Virtual Device Server Shutting Down
+225515.159 <the_lab~240223> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x8a, width: 2544, height: 1174, layers: 1
+225515.959 <the_lab~240220> I [RendererAgent.cpp:424] DriftFX c++ worker thread stopping...
+225515.959 <the_lab~240220> I [Viewer.cpp:118] Viewer(0x7faa95e7c960) is disposed
+*** the_lab pid 442 started logging at Thu Mar  5 23:54:45 2020

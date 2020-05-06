@@ -1,0 +1,4 @@
+*** the_lab pid 13353 started logging at Mon Jan  6 18:02:35 2020
+*** the_lab pid 404 started logging at Mon Jan  6 18:05:03 2020
+*** the_lab pid 396 started logging at Mon Jan  6 20:02:01 2020
+*** the_lab pid 2969 started logging at Mon Jan  6 20:30:22 2020

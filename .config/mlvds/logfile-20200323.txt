@@ -1,0 +1,774 @@
+*** the_lab pid 645 started logging at Mon Mar 23 10:02:40 2020
+*** the_lab pid 2603 started logging at Mon Mar 23 14:54:28 2020
+*** VDCLI pid 7399 started logging at Mon Mar 23 16:36:30 2020
+*** VDCLI pid 7400 started logging at Mon Mar 23 16:36:30 2020
+*** VirtualDeviceServer pid 7401 started logging at Mon Mar 23 16:36:30 2020
+163630.121 <VDCLI~195216> I [VDCLIApplication.cpp:206] Starting server
+*** PeripheralSparseDevice pid 7412 started logging at Mon Mar 23 16:36:31 2020
+*** VirtualRoomServer pid 7414 started logging at Mon Mar 23 16:36:32 2020
+*** MockML1SparseDevice pid 7418 started logging at Mon Mar 23 16:36:32 2020
+163632.530 <MockML1SparseDevice~195386> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+163633.208 <MockML1SparseDevice~195386> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+163631.416 <PeripheralSparseDevice~195299> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+163633.617 <PeripheralSparseDevice~195299> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+163633.734 <VirtualRoomServer~195337> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+163633.937 <VirtualRoomServer~195337> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+*** the_lab pid 2603 started logging at Mon Mar 23 16:36:34 2020
+163634.401 <VirtualRoomServer~195337> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+163634.413 <VirtualRoomServer~195337> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+163634.432 <VirtualRoomServer~195337> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+163634.442 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+163634.444 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+163634.503 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+163634.126 <the_lab~195559> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+163634.132 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+163634.159 <the_lab~195559> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+163634.159 <the_lab~195559> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+163634.159 <the_lab~195559> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+163634.159 <the_lab~195559> I [Viewer.cpp:83] Viewer(0x7fc2d8a75690) is created
+163634.175 <the_lab~195559> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+163634.175 <the_lab~195559> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+163634.175 <the_lab~195559> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+163634.609 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x246, width: 1024, height: 1024, layers: 1
+163634.506 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+163634.595 <VirtualRoomServer~195337> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23d, width: 512, height: 512, layers: 1
+163634.595 <VirtualRoomServer~195337> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x246, width: 1024, height: 1024, layers: 1
+163635.357 <VirtualRoomServer~195337> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x269, width: 1742, height: 1216, layers: 1
+163634.611 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23d, width: 512, height: 512, layers: 1
+163635.431 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x269, width: 1742, height: 1216, layers: 1
+163635.364 <VirtualRoomServer~195337> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x200, width: 1742, height: 550, layers: 1
+163635.401 <VirtualRoomServer~195591> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+163635.401 <VirtualRoomServer~195591> I [RoomLoader.cpp:114] server indicates loading in progress
+163635.507 <VirtualRoomServer~195591> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+163636.272 <VirtualRoomServer~195591> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+163635.439 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x200, width: 1742, height: 550, layers: 1
+163637.559 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x269, width: 1742, height: 1216, layers: 1
+*** VDCLI pid 7428 started logging at Mon Mar 23 16:36:39 2020
+163637.562 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x200, width: 1742, height: 550, layers: 1
+163648.792 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x200, width: 1742, height: 550, layers: 1 (repeated 1 time)
+*** VDCLI pid 7479 started logging at Mon Mar 23 16:37:37 2020
+163738.131 <VDCLI~196430> I [VDCLIApplication.cpp:188] Killing server
+163648.796 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x269, width: 1742, height: 1216, layers: 1
+163738.476 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x200, width: 1742, height: 550, layers: 1
+163636.272 <VirtualRoomServer~195591> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+163738.481 <VirtualRoomServer~195337> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+163738.481 <the_lab~195562> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x269, width: 1742, height: 1216, layers: 1
+163738.744 <the_lab~195559> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+163633.628 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+*** VirtualDeviceServer pid 7401 started logging at Mon Mar 23 16:37:38 2020
+163630.179 <VirtualDeviceServer~195223> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+163630.232 <VirtualDeviceServer~195223> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:65427
+163738.860 <VirtualDeviceServer~195223> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 7480 started logging at Mon Mar 23 16:37:38 2020
+*** VDCLI pid 7481 started logging at Mon Mar 23 16:37:39 2020
+*** VirtualDeviceServer pid 7482 started logging at Mon Mar 23 16:37:39 2020
+163739.009 <VDCLI~196560> I [VDCLIApplication.cpp:206] Starting server
+*** VirtualRoomServer pid 7493 started logging at Mon Mar 23 16:37:40 2020
+*** PeripheralSparseDevice pid 7496 started logging at Mon Mar 23 16:37:40 2020
+*** MockML1SparseDevice pid 7497 started logging at Mon Mar 23 16:37:41 2020
+163741.379 <MockML1SparseDevice~196674> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+163742.048 <MockML1SparseDevice~196674> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+163740.817 <PeripheralSparseDevice~196660> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+163742.499 <PeripheralSparseDevice~196660> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+163742.607 <VirtualRoomServer~196643> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+163742.773 <VirtualRoomServer~196643> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+163738.744 <the_lab~195559> I [Viewer.cpp:118] Viewer(0x7fc2d8a75690) is disposed
+163742.854 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+163743.230 <VirtualRoomServer~196643> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+163743.243 <VirtualRoomServer~196643> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+163743.256 <VirtualRoomServer~196643> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+163743.264 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+163743.265 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+163743.327 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+163743.327 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+163743.406 <VirtualRoomServer~196643> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x273, width: 512, height: 512, layers: 1
+163742.860 <the_lab~196802> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+163742.861 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+163742.880 <the_lab~196802> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+163742.880 <the_lab~196802> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+163742.880 <the_lab~196802> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+163742.880 <the_lab~196802> I [Viewer.cpp:83] Viewer(0x7fc2d7620140) is created
+163742.884 <the_lab~196802> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+163742.884 <the_lab~196802> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+163742.884 <the_lab~196802> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+163743.428 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x274, width: 1024, height: 1024, layers: 1
+163743.406 <VirtualRoomServer~196643> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x274, width: 1024, height: 1024, layers: 1
+163743.563 <VirtualRoomServer~196833> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+163743.429 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x273, width: 512, height: 512, layers: 1
+163743.609 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x270, width: 1742, height: 550, layers: 1
+163743.563 <VirtualRoomServer~196833> I [RoomLoader.cpp:114] server indicates loading in progress
+163743.563 <VirtualRoomServer~196833> I [RoomLoader.cpp:245] Extracted room path /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c/ already exists for room archive, skipping unpack
+163743.576 <VirtualRoomServer~196643> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26d, width: 1742, height: 1216, layers: 1
+163743.576 <VirtualRoomServer~196643> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x270, width: 1742, height: 550, layers: 1
+163743.590 <VirtualRoomServer~196833> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+163744.538 <VirtualRoomServer~196833> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+163743.613 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26d, width: 1742, height: 1216, layers: 1
+170203.318 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x270, width: 1742, height: 550, layers: 1
+170203.322 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26d, width: 1742, height: 1216, layers: 1
+170208.914 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x270, width: 1742, height: 550, layers: 1
+*** VDCLI pid 8329 started logging at Mon Mar 23 17:21:46 2020
+172146.276 <VDCLI~224142> I [VDCLIApplication.cpp:188] Killing server
+163742.514 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+170208.918 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26d, width: 1742, height: 1216, layers: 1
+172146.664 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x270, width: 1742, height: 550, layers: 1
+163744.538 <VirtualRoomServer~196833> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+172146.718 <VirtualRoomServer~196643> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+172146.669 <the_lab~196803> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26d, width: 1742, height: 1216, layers: 1
+172146.951 <the_lab~196802> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+*** VirtualDeviceServer pid 7482 started logging at Mon Mar 23 17:21:46 2020
+163739.049 <VirtualDeviceServer~196567> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+163739.086 <VirtualDeviceServer~196567> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:49581
+172146.958 <VirtualDeviceServer~196567> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+172146.951 <the_lab~196802> I [Viewer.cpp:118] Viewer(0x7fc2d7620140) is disposed
+*** the_lab pid 8331 started logging at Mon Mar 23 17:21:51 2020
+*** VDCLI pid 8376 started logging at Mon Mar 23 17:22:53 2020
+*** VDCLI pid 8377 started logging at Mon Mar 23 17:22:53 2020
+*** VirtualDeviceServer pid 8378 started logging at Mon Mar 23 17:22:53 2020
+172253.316 <VDCLI~225483> I [VDCLIApplication.cpp:206] Starting server
+*** MockML1SparseDevice pid 8389 started logging at Mon Mar 23 17:22:54 2020
+*** VirtualRoomServer pid 8392 started logging at Mon Mar 23 17:22:55 2020
+172254.494 <MockML1SparseDevice~225560> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+172255.138 <MockML1SparseDevice~225560> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+*** PeripheralSparseDevice pid 8395 started logging at Mon Mar 23 17:22:55 2020
+172255.559 <PeripheralSparseDevice~225648> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+172256.720 <PeripheralSparseDevice~225648> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+172256.835 <VirtualRoomServer~225577> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+172257.022 <VirtualRoomServer~225577> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+*** the_lab pid 8331 started logging at Mon Mar 23 17:22:57 2020
+172257.542 <VirtualRoomServer~225577> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+172257.569 <VirtualRoomServer~225577> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+172257.579 <VirtualRoomServer~225577> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+172257.600 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+172257.602 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+172257.663 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+172257.666 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+172257.768 <VirtualRoomServer~225577> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1b9, width: 512, height: 512, layers: 1
+172257.291 <the_lab~225807> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+172257.299 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+172257.327 <the_lab~225807> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+172257.327 <the_lab~225807> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+172257.327 <the_lab~225807> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+172257.327 <the_lab~225807> I [Viewer.cpp:83] Viewer(0x7fd717c08fe0) is created
+172257.347 <the_lab~225807> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+172257.347 <the_lab~225807> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+172257.347 <the_lab~225807> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+172257.784 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1b9, width: 512, height: 512, layers: 1
+172257.769 <VirtualRoomServer~225577> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1ff, width: 1024, height: 1024, layers: 1
+172258.489 <VirtualRoomServer~225857> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+*** VDCLI pid 8398 started logging at Mon Mar 23 17:22:58 2020
+172257.800 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1ff, width: 1024, height: 1024, layers: 1
+172258.546 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1
+172258.834 <VDCLI~225860> I [VDCLIApplication.cpp:596] OpenGLVersion: 4.1; MinimumOpenGLVersion: 4.1; IsExternalMemorySupported: true
+172258.914 <VDCLI~225860> I [VDCLIApplication.cpp:605] Monitor 0: Resolution: 2048x1280; Offset: 0x0; DPIScale: 2.000000
+172258.914 <VDCLI~225860> I [VDCLIApplication.cpp:605] Monitor 1: Resolution: 2560x1440; Offset: 2048x0; DPIScale: 2.000000
+172258.489 <VirtualRoomServer~225857> I [RoomLoader.cpp:114] server indicates loading in progress
+172258.490 <VirtualRoomServer~225857> I [RoomLoader.cpp:245] Extracted room path /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c/ already exists for room archive, skipping unpack
+172258.512 <VirtualRoomServer~225577> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1
+172258.512 <VirtualRoomServer~225577> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1
+172258.521 <VirtualRoomServer~225857> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+172259.404 <VirtualRoomServer~225857> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+*** VDCLI pid 8402 started logging at Mon Mar 23 17:23:00 2020
+172258.557 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1
+172410.248 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1 (repeated 1 time)
+172410.250 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1
+172528.239 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1
+172528.243 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1
+173438.778 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1
+173438.780 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1
+174115.098 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1
+174115.111 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1
+174708.794 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1
+*** VDCLI pid 8821 started logging at Mon Mar 23 17:48:06 2020
+174806.672 <VDCLI~240988> I [VDCLIApplication.cpp:188] Killing server
+172256.731 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+174708.796 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1
+174806.759 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x224, width: 1742, height: 550, layers: 1 (repeated 1 time)
+172259.405 <VirtualRoomServer~225857> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+174806.848 <VirtualRoomServer~225577> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+174806.763 <the_lab~225811> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x221, width: 1742, height: 1216, layers: 1
+174807.081 <the_lab~225807> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+*** VirtualDeviceServer pid 8378 started logging at Mon Mar 23 17:48:07 2020
+172253.357 <VirtualDeviceServer~225490> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+172253.394 <VirtualDeviceServer~225490> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:56676
+174807.328 <VirtualDeviceServer~225490> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 8823 started logging at Mon Mar 23 17:48:07 2020
+*** VDCLI pid 8824 started logging at Mon Mar 23 17:48:07 2020
+*** VirtualDeviceServer pid 8825 started logging at Mon Mar 23 17:48:07 2020
+174807.455 <VDCLI~241118> I [VDCLIApplication.cpp:206] Starting server
+*** VDCLI pid 8842 started logging at Mon Mar 23 17:48:09 2020
+*** the_lab pid 8913 started logging at Mon Mar 23 17:48:38 2020
+*** VDCLI pid 9065 started logging at Mon Mar 23 17:51:46 2020
+*** VDCLI pid 9098 started logging at Mon Mar 23 17:51:46 2020
+175146.934 <VDCLI~244415> I [VirtualDeviceFrontend.cpp:1413] Application ML1 is not running
+*** VDCLI pid 9101 started logging at Mon Mar 23 17:51:47 2020
+175147.182 <VDCLI~244430> I [VDCLIApplication.cpp:188] Killing server
+175152.231 <VDCLI~244430> E [VirtualDeviceFrontend.cpp:1454] Failed to kill device application for GA306AC00018, timeout on waiting for the application to terminate
+175157.236 <VDCLI~244430> W [VirtualDeviceFrontend.cpp:597] Server shutdown request never received a reply
+175157.341 <VDCLI~244430> I [VirtualDeviceFrontend.cpp:620] Waiting
+*** VDCLI pid 9129 started logging at Mon Mar 23 17:52:24 2020
+175229.036 <VDCLI~245202> W [VirtualDeviceServerUtils.cpp:149] Server 'default' at SOCKET:localhost:60285 appears to be dead; removing
+*** VDCLI pid 9136 started logging at Mon Mar 23 17:52:29 2020
+*** VirtualDeviceServer pid 9137 started logging at Mon Mar 23 17:52:29 2020
+175229.062 <VDCLI~245324> I [VDCLIApplication.cpp:206] Starting server
+*** MockML1SparseDevice pid 9147 started logging at Mon Mar 23 17:52:30 2020
+*** PeripheralSparseDevice pid 9151 started logging at Mon Mar 23 17:52:30 2020
+175230.304 <MockML1SparseDevice~245393> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+175230.963 <MockML1SparseDevice~245393> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+*** VirtualRoomServer pid 9152 started logging at Mon Mar 23 17:52:31 2020
+175230.828 <PeripheralSparseDevice~245413> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+175232.524 <PeripheralSparseDevice~245413> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+175232.646 <VirtualRoomServer~245463> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+175232.797 <VirtualRoomServer~245463> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+175233.220 <VirtualRoomServer~245463> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+174807.081 <the_lab~225807> I [Viewer.cpp:118] Viewer(0x7fd717c08fe0) is disposed
+175233.323 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+175233.228 <VirtualRoomServer~245463> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+175233.247 <VirtualRoomServer~245463> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+175233.267 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+175233.267 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+175233.329 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+175233.325 <the_lab~245634> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+175233.345 <the_lab~245634> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+175233.345 <the_lab~245634> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+175233.345 <the_lab~245634> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+175233.345 <the_lab~245634> I [Viewer.cpp:83] Viewer(0x7fd727cacbb0) is created
+175233.360 <the_lab~245636> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x244, width: 1024, height: 1024, layers: 1
+175233.361 <the_lab~245636> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc5, width: 512, height: 512, layers: 1
+175233.417 <the_lab~245636> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x292, width: 1, height: 1, layers: 1
+175233.513 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+175233.330 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+175233.351 <VirtualRoomServer~245463> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc5, width: 512, height: 512, layers: 1
+175233.352 <VirtualRoomServer~245463> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x244, width: 1024, height: 1024, layers: 1
+175233.403 <VirtualRoomServer~245463> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x292, width: 1, height: 1, layers: 1
+175233.901 <VirtualRoomServer~245640> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+175233.901 <VirtualRoomServer~245640> I [RoomLoader.cpp:114] server indicates loading in progress
+175233.901 <VirtualRoomServer~245640> I [RoomLoader.cpp:245] Extracted room path /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c/ already exists for room archive, skipping unpack
+175233.929 <VirtualRoomServer~245640> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+175234.733 <VirtualRoomServer~245640> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+175233.521 <the_lab~245634> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+175233.521 <the_lab~245634> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+175233.521 <the_lab~245634> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+175234.776 <the_lab~245636> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x294, width: 1742, height: 382, layers: 1
+*** VDCLI pid 9178 started logging at Mon Mar 23 17:53:08 2020
+175308.860 <VDCLI~245950> I [VDCLIApplication.cpp:188] Killing server
+175234.787 <the_lab~245636> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26c, width: 1742, height: 1384, layers: 1
+175308.927 <the_lab~245636> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x294, width: 1742, height: 382, layers: 1
+175234.734 <VirtualRoomServer~245640> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+175234.754 <VirtualRoomServer~245463> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26c, width: 1742, height: 1384, layers: 1
+175234.755 <VirtualRoomServer~245463> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x294, width: 1742, height: 382, layers: 1
+175308.935 <VirtualRoomServer~245463> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+175308.932 <the_lab~245636> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x26c, width: 1742, height: 1384, layers: 1
+175309.144 <the_lab~245634> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+175232.535 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+*** VirtualDeviceServer pid 9137 started logging at Mon Mar 23 17:53:09 2020
+175229.099 <VirtualDeviceServer~245331> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+175229.119 <VirtualDeviceServer~245331> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:52337
+175309.606 <VirtualDeviceServer~245331> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 9180 started logging at Mon Mar 23 17:53:09 2020
+*** VDCLI pid 9181 started logging at Mon Mar 23 17:53:09 2020
+*** VirtualDeviceServer pid 9182 started logging at Mon Mar 23 17:53:09 2020
+175309.762 <VDCLI~246071> I [VDCLIApplication.cpp:206] Starting server
+*** MockML1SparseDevice pid 9192 started logging at Mon Mar 23 17:53:10 2020
+*** PeripheralSparseDevice pid 9195 started logging at Mon Mar 23 17:53:11 2020
+175310.974 <MockML1SparseDevice~246158> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+175311.627 <MockML1SparseDevice~246158> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+*** VirtualRoomServer pid 9197 started logging at Mon Mar 23 17:53:12 2020
+175311.500 <PeripheralSparseDevice~246177> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+175313.202 <PeripheralSparseDevice~246177> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+175313.326 <VirtualRoomServer~246229> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+175313.480 <VirtualRoomServer~246229> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+175309.144 <the_lab~245634> I [Viewer.cpp:118] Viewer(0x7fd727cacbb0) is disposed
+175313.518 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+175313.916 <VirtualRoomServer~246229> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+175313.931 <VirtualRoomServer~246229> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+175313.946 <VirtualRoomServer~246229> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+175313.967 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+175313.970 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+175314.029 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+175313.525 <the_lab~246332> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+175313.526 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+175313.546 <the_lab~246332> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+175313.546 <the_lab~246332> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+175313.546 <the_lab~246332> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+175313.546 <the_lab~246332> I [Viewer.cpp:83] Viewer(0x7fd707c50820) is created
+175313.553 <the_lab~246332> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+175313.553 <the_lab~246332> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+175313.553 <the_lab~246332> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+175314.075 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b0, width: 1024, height: 1024, layers: 1
+175314.033 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+175314.055 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x262, width: 512, height: 512, layers: 1
+175314.056 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b0, width: 1024, height: 1024, layers: 1
+175314.209 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b5, width: 1742, height: 1384, layers: 1
+175314.076 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x262, width: 512, height: 512, layers: 1
+175314.279 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175314.209 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175314.245 <VirtualRoomServer~246359> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+175314.245 <VirtualRoomServer~246359> I [RoomLoader.cpp:114] server indicates loading in progress
+175314.245 <VirtualRoomServer~246359> I [RoomLoader.cpp:245] Extracted room path /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c/ already exists for room archive, skipping unpack
+175314.271 <VirtualRoomServer~246359> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+175315.034 <VirtualRoomServer~246359> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+175314.284 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b5, width: 1742, height: 1384, layers: 1
+175329.303 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b5, width: 1742, height: 1384, layers: 1 (repeated 1 time)
+175329.305 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175340.736 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175340.740 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b5, width: 1742, height: 1384, layers: 1
+175344.395 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175344.401 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b5, width: 1742, height: 1384, layers: 1
+175354.283 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175354.288 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b5, width: 1742, height: 1384, layers: 1
+175356.847 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175315.034 <VirtualRoomServer~246359> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+175359.860 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x260, width: 1742, height: 1382, layers: 1
+175356.851 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b5, width: 1742, height: 1384, layers: 1
+175359.882 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x260, width: 1742, height: 1382, layers: 1
+175359.869 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x29a, width: 1742, height: 384, layers: 1
+175359.900 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2bb, width: 1742, height: 1376, layers: 1
+175359.901 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2bc, width: 1742, height: 392, layers: 1
+175359.909 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2be, width: 1742, height: 1374, layers: 1
+175359.926 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2c1, width: 1742, height: 1372, layers: 1
+175359.936 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2c4, width: 1742, height: 394, layers: 1
+175359.960 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x227, width: 1742, height: 1368, layers: 1
+175359.892 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b8, width: 1742, height: 382, layers: 1
+175359.915 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2bc, width: 1742, height: 392, layers: 1
+175359.922 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2bb, width: 1742, height: 1376, layers: 1
+175359.942 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2be, width: 1742, height: 1374, layers: 1
+175359.959 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2c1, width: 1742, height: 1372, layers: 1
+175359.971 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2c4, width: 1742, height: 394, layers: 1
+175359.986 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x227, width: 1742, height: 1368, layers: 1
+175359.970 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2c0, width: 1742, height: 398, layers: 1
+175359.988 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2d9, width: 1742, height: 404, layers: 1
+175359.997 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2ef, width: 1742, height: 1362, layers: 1
+175400.009 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2ba, width: 1742, height: 1360, layers: 1
+175400.013 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2f9, width: 1742, height: 406, layers: 1
+175400.037 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x304, width: 1742, height: 1356, layers: 1
+175400.039 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2f5, width: 1742, height: 410, layers: 1
+175400.060 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x317, width: 1742, height: 1352, layers: 1
+175400.079 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2cb, width: 1742, height: 414, layers: 1
+175359.998 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2c0, width: 1742, height: 398, layers: 1
+175400.008 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2d9, width: 1742, height: 404, layers: 1
+175400.020 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2ef, width: 1742, height: 1362, layers: 1
+175400.030 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2f9, width: 1742, height: 406, layers: 1
+175400.036 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2ba, width: 1742, height: 1360, layers: 1
+175400.057 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2f5, width: 1742, height: 410, layers: 1
+175400.062 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x304, width: 1742, height: 1356, layers: 1
+175400.084 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x317, width: 1742, height: 1352, layers: 1
+175400.103 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2cb, width: 1742, height: 414, layers: 1
+175400.097 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31a, width: 1742, height: 1344, layers: 1
+175400.116 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2ff, width: 1742, height: 422, layers: 1
+175400.123 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31f, width: 1742, height: 1334, layers: 1
+175400.142 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31d, width: 1742, height: 432, layers: 1
+175400.169 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x326, width: 1742, height: 1326, layers: 1
+175400.177 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31b, width: 1742, height: 440, layers: 1
+175400.200 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x339, width: 1742, height: 1318, layers: 1
+175400.116 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31a, width: 1742, height: 1344, layers: 1
+175400.135 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2ff, width: 1742, height: 422, layers: 1
+175400.150 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31f, width: 1742, height: 1334, layers: 1
+175400.167 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31d, width: 1742, height: 432, layers: 1
+175400.198 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x31b, width: 1742, height: 440, layers: 1
+175400.203 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x326, width: 1742, height: 1326, layers: 1
+175400.235 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x339, width: 1742, height: 1318, layers: 1
+175400.243 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x33a, width: 1742, height: 448, layers: 1
+175400.256 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x332, width: 1742, height: 1310, layers: 1
+175400.267 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x333, width: 1742, height: 456, layers: 1
+175400.277 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x331, width: 1742, height: 464, layers: 1
+175400.296 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x33c, width: 1742, height: 1302, layers: 1
+175400.306 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x346, width: 1742, height: 474, layers: 1
+175400.200 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x33a, width: 1742, height: 448, layers: 1
+175400.223 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x332, width: 1742, height: 1310, layers: 1
+175400.240 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x333, width: 1742, height: 456, layers: 1
+175400.258 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x331, width: 1742, height: 464, layers: 1
+175400.266 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x33c, width: 1742, height: 1302, layers: 1
+175400.283 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x346, width: 1742, height: 474, layers: 1
+175400.299 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x344, width: 1742, height: 1292, layers: 1
+175400.324 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x347, width: 1742, height: 1282, layers: 1
+175400.319 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x344, width: 1742, height: 1292, layers: 1
+175400.356 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x349, width: 1742, height: 484, layers: 1
+175400.361 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x347, width: 1742, height: 1282, layers: 1
+175400.372 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34c, width: 1742, height: 496, layers: 1
+175400.377 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x348, width: 1742, height: 1270, layers: 1
+175400.425 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34f, width: 1742, height: 504, layers: 1
+175400.326 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x349, width: 1742, height: 484, layers: 1
+175400.358 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x348, width: 1742, height: 1270, layers: 1
+175400.358 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34c, width: 1742, height: 496, layers: 1
+175400.402 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x343, width: 1742, height: 1244, layers: 1
+175400.403 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34f, width: 1742, height: 504, layers: 1
+175400.418 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34b, width: 1742, height: 522, layers: 1
+175400.439 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x350, width: 1742, height: 536, layers: 1
+175400.430 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x343, width: 1742, height: 1244, layers: 1
+175400.442 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34b, width: 1742, height: 522, layers: 1
+175400.462 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x350, width: 1742, height: 536, layers: 1
+175400.474 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x35c, width: 1742, height: 1230, layers: 1
+175400.511 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x35d, width: 1742, height: 556, layers: 1
+175400.516 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x352, width: 1742, height: 1210, layers: 1
+175400.535 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x351, width: 1742, height: 572, layers: 1
+175400.452 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x35c, width: 1742, height: 1230, layers: 1
+175400.484 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x352, width: 1742, height: 1210, layers: 1
+175400.484 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x35d, width: 1742, height: 556, layers: 1
+175400.512 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x351, width: 1742, height: 572, layers: 1
+175400.529 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x360, width: 1742, height: 1194, layers: 1
+175400.546 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34e, width: 1742, height: 1184, layers: 1
+175400.553 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x360, width: 1742, height: 1194, layers: 1
+175400.563 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x363, width: 1742, height: 582, layers: 1
+175400.568 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x34e, width: 1742, height: 1184, layers: 1
+175400.590 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x368, width: 1742, height: 1176, layers: 1
+175400.600 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x35f, width: 1742, height: 590, layers: 1
+175400.621 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x36a, width: 1742, height: 1172, layers: 1
+175400.632 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x361, width: 1742, height: 594, layers: 1
+175400.667 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x372, width: 1742, height: 596, layers: 1
+175400.547 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x363, width: 1742, height: 582, layers: 1
+175400.565 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x368, width: 1742, height: 1176, layers: 1
+175400.582 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x35f, width: 1742, height: 590, layers: 1
+175400.593 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x36a, width: 1742, height: 1172, layers: 1
+175400.610 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x361, width: 1742, height: 594, layers: 1
+175400.645 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x366, width: 1742, height: 1170, layers: 1
+175400.645 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x372, width: 1742, height: 596, layers: 1
+175400.684 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37a, width: 1742, height: 1166, layers: 1
+175400.673 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x366, width: 1742, height: 1170, layers: 1
+175400.712 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x36b, width: 1742, height: 604, layers: 1
+175400.716 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x37a, width: 1742, height: 1166, layers: 1
+175400.730 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x382, width: 1742, height: 1162, layers: 1
+175400.756 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x384, width: 1742, height: 606, layers: 1
+175400.760 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x36c, width: 1742, height: 1160, layers: 1
+175400.771 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x386, width: 1742, height: 608, layers: 1
+175400.684 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x36b, width: 1742, height: 604, layers: 1
+175400.698 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x382, width: 1742, height: 1162, layers: 1
+175400.725 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x36c, width: 1742, height: 1160, layers: 1
+175400.725 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x384, width: 1742, height: 606, layers: 1
+175400.754 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x376, width: 1742, height: 1158, layers: 1
+175400.754 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x386, width: 1742, height: 608, layers: 1
+175400.816 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x387, width: 1742, height: 1156, layers: 1
+175400.776 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x376, width: 1742, height: 1158, layers: 1
+175400.829 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x388, width: 1742, height: 610, layers: 1
+175400.833 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x387, width: 1742, height: 1156, layers: 1
+175400.916 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x38b, width: 1742, height: 1154, layers: 1
+175400.816 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x388, width: 1742, height: 610, layers: 1
+175400.894 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x38b, width: 1742, height: 1154, layers: 1
+175400.906 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x385, width: 1742, height: 612, layers: 1
+175400.935 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x38c, width: 1742, height: 1152, layers: 1
+175400.925 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x385, width: 1742, height: 612, layers: 1
+175400.953 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x390, width: 1742, height: 614, layers: 1
+175400.958 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x38c, width: 1742, height: 1152, layers: 1
+175400.995 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x383, width: 1742, height: 618, layers: 1
+175401.000 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x393, width: 1742, height: 1144, layers: 1
+175401.012 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x391, width: 1742, height: 622, layers: 1
+175401.031 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39a, width: 1742, height: 624, layers: 1
+175400.935 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x390, width: 1742, height: 614, layers: 1
+175400.969 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x393, width: 1742, height: 1144, layers: 1
+175400.969 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x383, width: 1742, height: 618, layers: 1
+175400.985 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x391, width: 1742, height: 622, layers: 1
+175401.013 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x394, width: 1742, height: 1142, layers: 1
+175401.014 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39a, width: 1742, height: 624, layers: 1
+175401.046 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x38d, width: 1742, height: 1140, layers: 1
+175401.047 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39c, width: 1742, height: 626, layers: 1
+175401.076 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39b, width: 1742, height: 1138, layers: 1
+175401.078 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39e, width: 1742, height: 628, layers: 1
+175401.223 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+175401.036 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x394, width: 1742, height: 1142, layers: 1
+175401.071 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39c, width: 1742, height: 626, layers: 1
+175401.077 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x38d, width: 1742, height: 1140, layers: 1
+175401.096 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39e, width: 1742, height: 628, layers: 1
+175401.101 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39b, width: 1742, height: 1138, layers: 1
+175401.245 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+175401.250 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+175404.347 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+175404.351 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+175406.585 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+175406.588 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+175417.789 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+175417.793 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+175436.103 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+*** VirtualDeviceServer pid 8825 started logging at Mon Mar 23 17:55:02 2020
+174807.493 <VirtualDeviceServer~241125> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+174807.524 <VirtualDeviceServer~241125> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:60285
+175502.350 <VirtualDeviceServer~241125> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:60919
+175502.353 <VirtualDeviceServer~241125> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VirtualDeviceServer pid 9182 started logging at Mon Mar 23 17:55:03 2020
+175309.800 <VirtualDeviceServer~246078> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+175309.817 <VirtualDeviceServer~246078> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:57936
+175503.174 <VirtualDeviceServer~246078> W [VDSComms.cpp:338] This server at SOCKET:localhost:57936 was purged but is still alive, re-registering
+175436.107 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+180350.937 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+180350.943 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+180353.700 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+180353.706 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+180430.357 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1 (repeated 1 time)
+*** VDCLI pid 9457 started logging at Mon Mar 23 18:04:53 2020
+180453.681 <VDCLI~254944> I [VDCLIApplication.cpp:188] Killing server
+180430.359 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+180453.811 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+175401.224 <VirtualRoomServer~246229> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3a1, width: 1742, height: 630, layers: 1
+180453.824 <VirtualRoomServer~246229> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+175313.214 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+180453.816 <the_lab~246333> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39d, width: 1742, height: 1136, layers: 1
+180454.423 <the_lab~246332> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+180454.584 <VirtualDeviceServer~246078> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 9458 started logging at Mon Mar 23 18:04:54 2020
+*** VDCLI pid 9459 started logging at Mon Mar 23 18:04:54 2020
+*** VirtualDeviceServer pid 9460 started logging at Mon Mar 23 18:04:54 2020
+180454.719 <VDCLI~255080> I [VDCLIApplication.cpp:206] Starting server
+*** VDCLI pid 9475 started logging at Mon Mar 23 18:04:56 2020
+*** VDCLI pid 9572 started logging at Mon Mar 23 18:06:20 2020
+*** VDCLI pid 9605 started logging at Mon Mar 23 18:06:21 2020
+180621.225 <VDCLI~256338> I [VirtualDeviceFrontend.cpp:1413] Application ML1 is not running
+*** VDCLI pid 9607 started logging at Mon Mar 23 18:06:21 2020
+180621.474 <VDCLI~256350> I [VDCLIApplication.cpp:188] Killing server
+180626.486 <VDCLI~256350> E [VirtualDeviceFrontend.cpp:1454] Failed to kill device application for GA306AC00018, timeout on waiting for the application to terminate
+180631.490 <VDCLI~256350> W [VirtualDeviceFrontend.cpp:597] Server shutdown request never received a reply
+180631.595 <VDCLI~256350> I [VirtualDeviceFrontend.cpp:620] Waiting
+*** VirtualDeviceServer pid 9460 started logging at Mon Mar 23 18:09:36 2020
+180454.757 <VirtualDeviceServer~255087> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+180454.794 <VirtualDeviceServer~255087> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:55626
+180936.647 <VirtualDeviceServer~255087> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:56257
+180936.651 <VirtualDeviceServer~255087> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 10680 started logging at Mon Mar 23 18:23:18 2020
+*** VDCLI pid 10681 started logging at Mon Mar 23 18:23:18 2020
+*** VirtualDeviceServer pid 10682 started logging at Mon Mar 23 18:23:18 2020
+182318.850 <VDCLI~274778> I [VDCLIApplication.cpp:206] Starting server
+*** VDCLI pid 10697 started logging at Mon Mar 23 18:23:20 2020
+*** VDCLI pid 10739 started logging at Mon Mar 23 18:23:26 2020
+*** Unity pid 10021 started logging at Mon Mar 23 18:23:34 2020
+*** Unity pid 10021 started logging at Mon Mar 23 18:23:35 2020
+*** VirtualDeviceServer pid 10682 started logging at Mon Mar 23 18:23:36 2020
+182318.912 <VirtualDeviceServer~274785> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+182318.966 <VirtualDeviceServer~274785> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:58942
+182336.026 <VirtualDeviceServer~274785> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 10021 (10021)
+182336.027 <Unity~275204> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+182335.027 <Unity~InputShimSparse> E [ChannelFactory.cpp:153] Failed to create channel - Input Controller 1 Gesture State
+182335.027 <Unity~InputShimSparse> E [ChannelFactory.cpp:153] Failed to create channel - Input Controller 2 Gesture State
+182336.031 <Unity~275209> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** Unity pid 10021 started logging at Mon Mar 23 18:23:36 2020
+182336.919 <VirtualDeviceServer~274785> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 10021 (10021)
+182336.911 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+182336.912 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+182336.916 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+182337.924 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+182337.926 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+182338.054 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+182338.092 <VirtualDeviceServer~274785> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+182338.091 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+182338.170 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+182338.605 <Unity~Main Thread> W [NotImplemented.inl:51] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+182430.665 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+182338.654 <Unity~Main Thread> W [NotImplemented.inl:51] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+182543.149 <Unity~275209> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+182543.188 <VirtualDeviceServer~274785> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 10021 (10021)
+182430.667 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+182543.190 <Unity~275204> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+*** VDCLI pid 11133 started logging at Mon Mar 23 18:27:29 2020
+182729.643 <VirtualDeviceServer~274785> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+*** VDCLI pid 11169 started logging at Mon Mar 23 18:27:30 2020
+182730.273 <VDCLI~279395> I [VirtualDeviceFrontend.cpp:1413] Application ML1 is not running
+*** VDCLI pid 11171 started logging at Mon Mar 23 18:27:30 2020
+182730.523 <VDCLI~279410> I [VDCLIApplication.cpp:188] Killing server
+182735.555 <VDCLI~279410> E [VirtualDeviceFrontend.cpp:1454] Failed to kill device application for GA306AC00018, timeout on waiting for the application to terminate
+182740.556 <VDCLI~279410> W [VirtualDeviceFrontend.cpp:597] Server shutdown request never received a reply
+*** VDCLI pid 11275 started logging at Mon Mar 23 18:27:45 2020
+182750.449 <VDCLI~279859> W [VirtualDeviceServerUtils.cpp:149] Server 'default' at SOCKET:localhost:58942 appears to be dead; removing
+*** VDCLI pid 11309 started logging at Mon Mar 23 18:27:50 2020
+*** VirtualDeviceServer pid 11311 started logging at Mon Mar 23 18:27:50 2020
+182750.504 <VDCLI~279980> I [VDCLIApplication.cpp:206] Starting server
+*** MockML1SparseDevice pid 11332 started logging at Mon Mar 23 18:27:52 2020
+*** PeripheralSparseDevice pid 11339 started logging at Mon Mar 23 18:27:52 2020
+182752.232 <MockML1SparseDevice~280079> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+182752.963 <MockML1SparseDevice~280079> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+*** VirtualRoomServer pid 11342 started logging at Mon Mar 23 18:27:53 2020
+182752.702 <PeripheralSparseDevice~280107> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+182754.341 <PeripheralSparseDevice~280107> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+182754.596 <VirtualRoomServer~280190> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+182754.977 <VirtualRoomServer~280190> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+182756.021 <VirtualRoomServer~280190> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+180454.423 <the_lab~246332> I [Viewer.cpp:118] Viewer(0x7fd707c50820) is disposed
+182756.144 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+182756.039 <VirtualRoomServer~280190> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+182756.064 <VirtualRoomServer~280190> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+182756.093 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+182756.095 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+182756.229 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+182756.154 <the_lab~280408> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+182756.171 <the_lab~280408> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+182756.171 <the_lab~280408> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+182756.171 <the_lab~280408> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+182756.171 <the_lab~280408> I [Viewer.cpp:83] Viewer(0x7fd747d96b80) is created
+182756.409 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+182756.236 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+182756.493 <VirtualRoomServer~280190> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b6, width: 1, height: 1, layers: 1
+182756.414 <the_lab~280408> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+182756.414 <the_lab~280408> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+182756.414 <the_lab~280408> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+182756.517 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39f, width: 1024, height: 1024, layers: 1
+182756.494 <VirtualRoomServer~280190> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x39f, width: 1024, height: 1024, layers: 1
+182757.301 <VirtualRoomServer~280443> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+182757.301 <VirtualRoomServer~280443> I [RoomLoader.cpp:114] server indicates loading in progress
+182757.302 <VirtualRoomServer~280443> I [RoomLoader.cpp:245] Extracted room path /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c/ already exists for room archive, skipping unpack
+182757.364 <VirtualRoomServer~280443> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+182759.179 <VirtualRoomServer~280190> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3db, width: 1742, height: 422, layers: 1
+182756.518 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x2b6, width: 1, height: 1, layers: 1
+182759.203 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3db, width: 1742, height: 422, layers: 1
+182759.199 <VirtualRoomServer~280190> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3de, width: 1742, height: 1344, layers: 1
+182759.289 <VirtualRoomServer~280190> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b3, width: 1024, height: 1024, layers: 1
+182759.226 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3de, width: 1742, height: 1344, layers: 1
+182759.315 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b3, width: 1024, height: 1024, layers: 1
+182759.300 <VirtualRoomServer~280190> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1a9, width: 1742, height: 422, layers: 1
+182759.734 <VirtualRoomServer~280443> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+183032.974 <Unity~284125> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+183032.974 <Unity~284126> I [VDSConnectionManager.cpp:155] Input library is not connected.
+182759.323 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1a9, width: 1742, height: 422, layers: 1
+183033.046 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1a9, width: 1742, height: 422, layers: 1 (repeated 1 time)
+*** VirtualDeviceServer pid 11311 started logging at Mon Mar 23 18:30:34 2020
+182750.589 <VirtualDeviceServer~279989> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+182750.642 <VirtualDeviceServer~279989> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:62101
+183034.011 <VirtualDeviceServer~279989> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 10021 (10021)
+183032.975 <Unity~284125> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:62101'
+183034.012 <Unity~284125> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+183032.987 <Unity~284126> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:62101'
+183033.017 <Unity~InputShimSparse> E [ChannelFactory.cpp:153] Failed to create channel - Input Controller 1 Gesture State
+183033.017 <Unity~InputShimSparse> E [ChannelFactory.cpp:153] Failed to create channel - Input Controller 2 Gesture State
+183034.021 <Unity~284126> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+183034.064 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+183034.067 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+183034.069 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+183035.078 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+183035.085 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+183033.050 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3de, width: 1742, height: 1344, layers: 1
+183035.137 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23a, width: 1280, height: 960, layers: 2
+183035.140 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23a, width: 1280, height: 960, layers: 2
+183044.404 <MockML1SparseDevice~MockML1Graphics> W [GraphicsViewSparseDevice.cpp:354] Frame timeout 244
+183045.700 <VirtualDeviceServer~274785> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:59664
+183045.703 <VirtualDeviceServer~274785> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+183034.071 <VirtualDeviceServer~279989> W [SharedMemoryBlock.cpp:65] Found existing mutex 'Frame Buffer_unknown.mux'
+183034.072 <VirtualDeviceServer~279989> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 10021 (10021)
+183045.943 <VirtualDeviceServer~279989> W [VDSComms.cpp:338] This server at SOCKET:localhost:62101 was purged but is still alive, re-registering
+*** VDCLI pid 11859 started logging at Mon Mar 23 18:31:20 2020
+183120.662 <VDCLI~284743> I [VDCLIApplication.cpp:188] Killing server
+183045.457 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23a, width: 1280, height: 960, layers: 2 (repeated 1 time)
+182759.735 <VirtualRoomServer~280443> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+183120.710 <VirtualRoomServer~280190> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+183120.698 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x1a9, width: 1742, height: 422, layers: 1
+183120.702 <the_lab~280409> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3de, width: 1742, height: 1344, layers: 1
+183120.975 <the_lab~280408> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+182754.361 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+183121.125 <MockML1SparseDevice~MockML1Graphics> E [MessageUtils.h:286] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract
+183035.080 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+183035.089 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+183035.118 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+183035.122 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x23a, width: 1280, height: 960, layers: 2
+183121.126 <Unity~GraphicsShimSpa> E [Client.cpp:764] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract
+183121.275 <MockML1SparseDevice~MockML1Graphics> E [MessageUtils.h:286] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract (repeated 36 times)
+183121.418 <Unity~PerceptionShimS> V [SparseDevice.cpp:1316] (PerceptionShimSparseDevice) Virtual Device Server stopping
+183121.419 <VirtualDeviceServer~279989> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+183121.422 <Unity~InputShimSparse> V [SparseDevice.cpp:1316] (InputShimSparseDevice) Virtual Device Server stopping
+*** VDCLI pid 11860 started logging at Mon Mar 23 18:31:21 2020
+*** VDCLI pid 11861 started logging at Mon Mar 23 18:31:21 2020
+*** VirtualDeviceServer pid 11862 started logging at Mon Mar 23 18:31:21 2020
+183121.539 <VDCLI~284859> I [VDCLIApplication.cpp:206] Starting server
+*** VirtualRoomServer pid 11873 started logging at Mon Mar 23 18:31:22 2020
+*** PeripheralSparseDevice pid 11876 started logging at Mon Mar 23 18:31:23 2020
+*** MockML1SparseDevice pid 11878 started logging at Mon Mar 23 18:31:23 2020
+183123.877 <MockML1SparseDevice~284965> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+183124.559 <MockML1SparseDevice~284965> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+183123.314 <PeripheralSparseDevice~284944> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+183125.001 <PeripheralSparseDevice~284944> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+183125.115 <VirtualRoomServer~284929> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+183125.272 <VirtualRoomServer~284929> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+183120.975 <the_lab~280408> I [Viewer.cpp:118] Viewer(0x7fd747d96b80) is disposed
+183125.349 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+183125.748 <VirtualRoomServer~284929> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+183125.771 <VirtualRoomServer~284929> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+183125.781 <VirtualRoomServer~284929> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+183125.801 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+183125.804 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+183125.870 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+183125.357 <the_lab~285107> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+183125.358 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+183125.376 <the_lab~285107> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+183125.376 <the_lab~285107> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+183125.376 <the_lab~285107> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+183125.376 <the_lab~285107> I [Viewer.cpp:83] Viewer(0x7fd737c6c4b0) is created
+183125.382 <the_lab~285107> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+183125.382 <the_lab~285107> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+183125.382 <the_lab~285107> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+183125.983 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b4, width: 1024, height: 1024, layers: 1
+183125.877 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+183125.965 <VirtualRoomServer~284929> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x375, width: 512, height: 512, layers: 1
+183125.965 <VirtualRoomServer~284929> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b4, width: 1024, height: 1024, layers: 1
+183126.046 <VirtualRoomServer~284929> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183121.275 <Unity~GraphicsShimSpa> E [Client.cpp:764] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract (repeated 36 times)
+183126.046 <VirtualRoomServer~284929> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183126.094 <VirtualRoomServer~285152> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+183126.094 <VirtualRoomServer~285152> I [RoomLoader.cpp:114] server indicates loading in progress
+183126.094 <VirtualRoomServer~285152> I [RoomLoader.cpp:245] Extracted room path /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c/ already exists for room archive, skipping unpack
+183126.125 <VirtualRoomServer~285152> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+183127.149 <VirtualRoomServer~285152> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+183125.984 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x375, width: 512, height: 512, layers: 1
+183126.070 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183126.076 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183151.033 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183151.038 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183152.981 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183157.513 <Unity~284126> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+183212.544 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:62101
+183212.545 <Unity~284125> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+183302.980 <Unity~286228> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+183302.981 <Unity~286230> I [VDSConnectionManager.cpp:155] Input library is not connected.
+183152.986 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183303.033 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183302.981 <Unity~286230> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:57318'
+183302.996 <Unity~InputShimSparse> E [ChannelFactory.cpp:153] Failed to create channel - Input Controller 1 Gesture State
+183302.996 <Unity~InputShimSparse> E [ChannelFactory.cpp:153] Failed to create channel - Input Controller 2 Gesture State
+183304.008 <Unity~286230> I [ShimContext.inl:129] [Input Shim] Connection to VDS established
+*** VirtualDeviceServer pid 11862 started logging at Mon Mar 23 18:33:04 2020
+183121.581 <VirtualDeviceServer~284866> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+183121.621 <VirtualDeviceServer~284866> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:57318
+183304.031 <VirtualDeviceServer~284866> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 10021 (10021)
+183302.993 <Unity~286228> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:57318'
+183304.032 <Unity~286228> I [ShimContext.inl:129] [Perception Shim] Connection to VDS established
+183126.277 <Unity~GraphicsShimSpa> E [Client.cpp:764] 
+183126.277 <Unity~GraphicsShimSpa> V [SparseDevice.cpp:1316] (GraphicsShimSparseDevice) Virtual Device Server stopping
+183304.052 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1039] Graphics Contract: Starting channel request...
+183304.056 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1042] Graphics Contract: Finished channel request...
+183304.058 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:66] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+183305.070 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1079] Graphics Contract: Starting channel request...
+183305.076 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+183303.039 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183305.130 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3cf, width: 1280, height: 960, layers: 2
+183417.420 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183417.425 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183504.588 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1 (repeated 1 time)
+183504.590 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183506.851 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183506.854 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183615.798 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1 (repeated 1 time)
+*** VDCLI pid 12173 started logging at Mon Mar 23 18:36:23 2020
+183623.771 <VDCLI~288398> I [VDCLIApplication.cpp:188] Killing server
+183305.128 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3cf, width: 1280, height: 960, layers: 2
+183623.836 <MockML1SparseDevice~MockML1Graphics> E [MessageUtils.h:286] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract
+183305.071 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1082] Graphics Contract: Finished channel request...
+183305.081 <Unity~UnityGfxDeviceW> I [Client.cpp:216] Hardware acceleration is set to the default platform value
+183305.111 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+183305.114 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3cf, width: 1280, height: 960, layers: 2
+183623.836 <Unity~GraphicsShimSpa> E [Client.cpp:764] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract
+183623.968 <MockML1SparseDevice~MockML1Graphics> E [MessageUtils.h:286] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract (repeated 32 times)
+183125.018 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+183615.802 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183624.173 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3ba, width: 1742, height: 422, layers: 1
+183127.149 <VirtualRoomServer~285152> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+183624.264 <VirtualRoomServer~284929> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+183624.269 <Unity~PerceptionShimS> I [SparseDevice.cpp:1079] Pcf Data: Starting channel request...
+183624.302 <VirtualRoomServer~VirtualRoomPers> E [MessageUtils.h:286] unhandled request: sparse device application 'Virtual Room' is shutting down, command type: ml.sd.MLPersistentCoordinateFrameRequestAll
+183624.178 <the_lab~285108> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x3b6, width: 1742, height: 1344, layers: 1
+183624.555 <the_lab~285107> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+183624.270 <Unity~PerceptionShimS> I [SparseDevice.cpp:1082] Pcf Data: Finished channel request...
+183624.583 <Unity~PerceptionShimS> E [MessageUtils.h:281] unhandled request: sparse device application '' is shutting down, command type: ml.sd.NotifyServerStopping
+183304.062 <VirtualDeviceServer~284866> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 10021 (10021)
+183624.584 <VirtualDeviceServer~284866> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+183624.589 <Unity~InputShimSparse> E [MessageUtils.h:281] unhandled request: sparse device application '' is shutting down, command type: ml.sd.NotifyServerStopping
+183623.968 <Unity~GraphicsShimSpa> E [Client.cpp:764] unhandled request: sparse device application 'Simulator' is shutting down, command type: ml.sd.StartNewContract (repeated 32 times)
+183624.589 <Unity~InputShimSparse> V [SparseDevice.cpp:1316] (InputShimSparseDevice) Virtual Device Server stopping
+183848.516 <Unity~286230> I [ShimContext.inl:150] [Input Shim] Connection to VDS dropped
+183624.583 <Unity~PerceptionShimS> V [SparseDevice.cpp:1316] (PerceptionShimSparseDevice) Virtual Device Server stopping
+183903.555 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:57318
+183628.970 <Unity~GraphicsShimSpa> E [Client.cpp:764] 
+183628.970 <Unity~GraphicsShimSpa> E [MessageUtils.h:281] unhandled request: sparse device application '' is shutting down, command type: ml.sd.NotifyServerStopping
+183628.970 <Unity~GraphicsShimSpa> V [SparseDevice.cpp:1316] (GraphicsShimSparseDevice) Virtual Device Server stopping
+183903.555 <Unity~286228> I [ShimContext.inl:150] [Perception Shim] Connection to VDS dropped
+183624.555 <the_lab~285107> I [Viewer.cpp:118] Viewer(0x7fd737c6c4b0) is disposed

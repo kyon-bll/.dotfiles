@@ -1,7 +1,7 @@
 # anyenv
-# set -x PATH $HOME/.anyenv/bin $PATH
-# status --is-interactive; and source (anyenv init -|psub)
-# なんかエラー出るからコメントアウト
+#set -x PATH $HOME/.anyenv/bin $PATH
+#eval (anyenv init - | source)
+# zshrc の方に設定
 
 # peco
 function peco_select_history

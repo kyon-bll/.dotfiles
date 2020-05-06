@@ -1,0 +1,2633 @@
+*** the_lab pid 446 started logging at Fri Apr 10 13:15:55 2020
+*** the_lab pid 3952 started logging at Fri Apr 10 16:26:27 2020
+*** VDCLI pid 3956 started logging at Fri Apr 10 16:26:39 2020
+*** VDCLI pid 3957 started logging at Fri Apr 10 16:26:39 2020
+*** VirtualDeviceServer pid 3958 started logging at Fri Apr 10 16:26:39 2020
+162639.348 <VDCLI~126999> I [VDCLIApplication.cpp:206] Starting server
+*** MockML1SparseDevice pid 3970 started logging at Fri Apr 10 16:26:40 2020
+*** PeripheralSparseDevice pid 3973 started logging at Fri Apr 10 16:26:40 2020
+162640.098 <MockML1SparseDevice~127076> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+162640.714 <MockML1SparseDevice~127076> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+*** VirtualRoomServer pid 3974 started logging at Fri Apr 10 16:26:41 2020
+*** VDCLI pid 3977 started logging at Fri Apr 10 16:26:41 2020
+162640.609 <PeripheralSparseDevice~127097> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+162642.294 <PeripheralSparseDevice~127097> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+162642.421 <VirtualRoomServer~127162> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+162642.593 <VirtualRoomServer~127162> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+*** the_lab pid 3952 started logging at Fri Apr 10 16:26:42 2020
+162643.029 <VirtualRoomServer~127162> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+162643.040 <VirtualRoomServer~127162> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+162643.059 <VirtualRoomServer~127162> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+162643.071 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+162643.072 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+162643.134 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+162642.712 <the_lab~127294> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+162642.743 <the_lab~127294> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+162642.743 <the_lab~127294> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+162642.743 <the_lab~127294> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+162642.743 <the_lab~127294> I [Viewer.cpp:83] Viewer(0x7f93aa46add0) is created
+162643.204 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+162643.137 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+162643.230 <VirtualRoomServer~127162> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd6, width: 512, height: 512, layers: 1
+162643.230 <VirtualRoomServer~127162> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd7, width: 1024, height: 1024, layers: 1
+162643.462 <VirtualRoomServer~127162> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd8, width: 1354, height: 382, layers: 1
+162643.217 <the_lab~127294> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+162643.217 <the_lab~127294> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+162643.217 <the_lab~127294> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+162643.254 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd7, width: 1024, height: 1024, layers: 1
+162643.255 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd6, width: 512, height: 512, layers: 1
+162643.494 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd8, width: 1354, height: 382, layers: 1
+162643.478 <VirtualRoomServer~127162> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x10b, width: 1354, height: 1648, layers: 1
+162644.730 <VirtualRoomServer~127336> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+162643.514 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x10b, width: 1354, height: 1648, layers: 1
+162644.752 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x10b, width: 1354, height: 1648, layers: 1 (repeated 1 time)
+*** VDCLI pid 3979 started logging at Fri Apr 10 16:26:44 2020
+162645.088 <VDCLI~127342> I [VDCLIApplication.cpp:596] OpenGLVersion: 4.1; MinimumOpenGLVersion: 4.1; IsExternalMemorySupported: true
+162645.132 <VDCLI~127342> I [VDCLIApplication.cpp:605] Monitor 0: Resolution: 2048x1280; Offset: 0x0; DPIScale: 2.000000
+162645.132 <VDCLI~127342> I [VDCLIApplication.cpp:605] Monitor 1: Resolution: 2560x1440; Offset: 2048x0; DPIScale: 2.000000
+162644.730 <VirtualRoomServer~127336> I [RoomLoader.cpp:114] server indicates loading in progress
+162644.814 <VirtualRoomServer~127336> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+162645.642 <VirtualRoomServer~127336> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+*** VDCLI pid 3983 started logging at Fri Apr 10 16:26:53 2020
+162654.208 <VDCLI~127510> I [VDCLIApplication.cpp:188] Killing server
+162644.753 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd8, width: 1354, height: 382, layers: 1
+162654.237 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xd8, width: 1354, height: 382, layers: 1
+162645.643 <VirtualRoomServer~127336> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+162654.246 <VirtualRoomServer~127162> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+162654.241 <the_lab~127297> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x10b, width: 1354, height: 1648, layers: 1
+162654.561 <the_lab~127294> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+162642.306 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+*** VirtualDeviceServer pid 3958 started logging at Fri Apr 10 16:26:55 2020
+162639.408 <VirtualDeviceServer~127006> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+162639.464 <VirtualDeviceServer~127006> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:52479
+162655.018 <VirtualDeviceServer~127006> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 4710 started logging at Fri Apr 10 16:34:11 2020
+*** VDCLI pid 4711 started logging at Fri Apr 10 16:34:11 2020
+*** VirtualDeviceServer pid 4712 started logging at Fri Apr 10 16:34:11 2020
+163411.120 <VDCLI~136640> I [VDCLIApplication.cpp:206] Starting server
+*** VDCLI pid 4727 started logging at Fri Apr 10 16:34:12 2020
+*** MockML1SparseDevice pid 4728 started logging at Fri Apr 10 16:34:13 2020
+*** PeripheralSparseDevice pid 4731 started logging at Fri Apr 10 16:34:13 2020
+163413.361 <MockML1SparseDevice~136746> I [MockML1SparseDeviceApplication.cpp:100] Mock ML1 Sparse Device
+163414.008 <MockML1SparseDevice~136746> I [ViewportsRender.cpp:170] OpenGL Version: 4.1 ATI-3.5.5
+*** VirtualRoomServer pid 4732 started logging at Fri Apr 10 16:34:14 2020
+163413.882 <PeripheralSparseDevice~136766> I [PeripheralSparseDeviceApplication.cpp:50] Peripheral Sparse Device
+163415.601 <PeripheralSparseDevice~136766> I [PeripheralSparseDeviceApplication.cpp:468] Found matching controller configuration manifest ControllerConfigurations/DefaultKeyMouseMappings.json for device Peripheral - Key/Mouse
+163415.710 <VirtualRoomServer~136839> I [ViewportRender.cpp:120] Initializing viewport renderer's gfx system
+162654.561 <the_lab~127294> I [Viewer.cpp:118] Viewer(0x7f93aa46add0) is disposed
+163415.779 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+163415.873 <VirtualRoomServer~136839> I [ViewportRender.cpp:169] OpenGL Version: 4.1 ATI-3.5.5
+163416.355 <VirtualRoomServer~136839> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_Eye.fbm/devtool_gizmo_eye.png
+163416.371 <VirtualRoomServer~136839> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/gizmoHandRight.fbm/devtool_gizmo_hand.png
+163416.383 <VirtualRoomServer~136839> E [Texture.cpp:120] Failed to load texture /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/gizmoModels/devTool_gizmo_hand.fbm/devtool_gizmo_hand.png
+163416.395 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 2: Starting channel request...
+163416.396 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 2: Finished channel request...
+163416.459 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1050] Input Controller 1: Starting channel request...
+163415.782 <the_lab~136964> I [RendererAgent.cpp:346] DriftFX c++ worker thread started...
+163415.783 <the_lab~Java: JavaFX Ap> I [RendererAgent.cpp:86] Using TransferMode ID: 2
+163415.802 <the_lab~136964> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+163415.802 <the_lab~136964> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+163415.802 <the_lab~136964> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+163415.802 <the_lab~136964> I [Viewer.cpp:83] Viewer(0x7f93ad24c970) is created
+163415.808 <the_lab~136964> I [DriftFXSurfaceRenderer.cpp:117] OpenGL Version: 4.1 ATI-3.5.5
+163415.808 <the_lab~136964> I [DriftFXSurfaceRenderer.cpp:118] OpenGL Vendor: ATI Technologies Inc.
+163415.808 <the_lab~136964> I [DriftFXSurfaceRenderer.cpp:119] OpenGL Render: AMD Radeon Pro 5500M OpenGL Engine
+163416.569 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x103, width: 1024, height: 1024, layers: 1
+163416.462 <VirtualRoomServer~VirtualRoomServ> I [SparseDevice.cpp:1053] Input Controller 1: Finished channel request...
+163416.543 <VirtualRoomServer~136839> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x101, width: 512, height: 512, layers: 1
+163416.543 <VirtualRoomServer~136839> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x103, width: 1024, height: 1024, layers: 1
+163416.574 <VirtualRoomServer~136839> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+*** VDCLI pid 4735 started logging at Fri Apr 10 16:34:16 2020
+163416.864 <VDCLI~137015> I [VDCLIApplication.cpp:596] OpenGLVersion: 4.1; MinimumOpenGLVersion: 4.1; IsExternalMemorySupported: true
+163416.924 <VDCLI~137015> I [VDCLIApplication.cpp:605] Monitor 0: Resolution: 2048x1280; Offset: 0x0; DPIScale: 2.000000
+163416.924 <VDCLI~137015> I [VDCLIApplication.cpp:605] Monitor 1: Resolution: 2560x1440; Offset: 2048x0; DPIScale: 2.000000
+163416.575 <VirtualRoomServer~136839> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+163416.592 <VirtualRoomServer~137012> I [RoomLoader.cpp:112] Loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room asynchronously
+163416.592 <VirtualRoomServer~137012> I [RoomLoader.cpp:114] server indicates loading in progress
+163416.592 <VirtualRoomServer~137012> I [RoomLoader.cpp:245] Extracted room path /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c/ already exists for room archive, skipping unpack
+163416.621 <VirtualRoomServer~137012> I [SessionLoader.cpp:131] Loading Session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+163417.476 <VirtualRoomServer~137012> I [SessionLoader.cpp:303] Finished loading session /var/folders/cq/k_x0y9tx60gcclh1829rzd240000gp/T/zi/57e6932fe17423b747ac21144ca703d78db1434e1086c970cd923e1ec495687c//RoomInfo.json
+163416.571 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x101, width: 512, height: 512, layers: 1
+163416.654 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+163416.660 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+163532.317 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+*** Unity pid 4942 started logging at Fri Apr 10 16:37:21 2020
+163532.321 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+163721.702 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+*** Unity pid 4942 started logging at Fri Apr 10 16:37:21 2020
+*** VirtualDeviceServer pid 4712 started logging at Fri Apr 10 16:37:22 2020
+163411.156 <VirtualDeviceServer~136647> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+163411.173 <VirtualDeviceServer~136647> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:54278
+163722.891 <VirtualDeviceServer~136647> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 4942 (4942)
+163722.892 <Unity~140540> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+163722.899 <Unity~140547> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 4942 started logging at Fri Apr 10 16:37:23 2020
+163723.564 <VirtualDeviceServer~136647> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 4942 (4942)
+163723.553 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+163723.555 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+163723.559 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:67] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+163724.571 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+163724.578 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:67] GraphicsCommandHandler::OnCreateClient
+163721.713 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+163724.646 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x104, width: 1280, height: 960, layers: 2
+163732.219 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+163732.224 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+163736.103 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+163724.644 <MockML1SparseDevice~MockML1Graphics> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x104, width: 1280, height: 960, layers: 2
+163741.292 <MockML1SparseDevice~MockML1Graphics> I [GraphicsCommandHandler.cpp:117] GraphicsCommandHandler::OnDestroyClient
+163741.309 <Unity~140547> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+163741.331 <VirtualDeviceServer~136647> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 4942 (4942)
+163741.335 <Unity~140540> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+163736.107 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+163818.566 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1 (repeated 1 time)
+163818.567 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+163921.290 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+*** VDCLI pid 5019 started logging at Fri Apr 10 16:39:30 2020
+163930.313 <VDCLI~141595> I [VDCLIApplication.cpp:188] Killing server
+163921.294 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+163930.345 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0xc4, width: 1354, height: 382, layers: 1
+163417.476 <VirtualRoomServer~137012> I [RoomLoader.cpp:120] Finished loading room archive /Users/kyon/MagicLeap/tools/zi/v2.1.4.20200303/data/VirtualRooms/ExampleRooms/Lounge.room
+163930.355 <VirtualRoomServer~136839> I [ViewportRender.cpp:217] Shutting down viewport renderer's gfx system
+163930.351 <the_lab~136974> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x40, width: 1354, height: 1648, layers: 1
+163930.645 <the_lab~136964> I [RendererAgent.cpp:425] DriftFX c++ worker thread stopping...
+163415.616 <PeripheralSparseDevice~PeripheralKeyMo> I [PeripheralSparseDevice.cpp:158] Configuration settings changed, mapping actions...
+163931.125 <VirtualDeviceServer~136647> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 5020 started logging at Fri Apr 10 16:39:31 2020
+*** VDCLI pid 5021 started logging at Fri Apr 10 16:39:31 2020
+*** VirtualDeviceServer pid 5022 started logging at Fri Apr 10 16:39:31 2020
+163931.256 <VDCLI~141727> I [VDCLIApplication.cpp:206] Starting server
+*** VDCLI pid 5031 started logging at Fri Apr 10 16:39:31 2020
+*** VDCLI pid 5041 started logging at Fri Apr 10 16:39:32 2020
+163940.190 <Unity~142029> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+163940.190 <Unity~142030> I [VDSConnectionManager.cpp:155] Input library is not connected.
+163940.191 <Unity~142030> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:61649'
+163941.222 <Unity~142030> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+163940.190 <Unity~142029> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:61649'
+163941.222 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+*** VirtualDeviceServer pid 5022 started logging at Fri Apr 10 16:39:41 2020
+163931.292 <VirtualDeviceServer~141734> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+163931.309 <VirtualDeviceServer~141734> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:61649
+163941.222 <VirtualDeviceServer~141734> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 4942 (4942)
+163724.573 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+163724.596 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+163724.630 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+163724.632 <Unity~UnityGfxDeviceW> I [GLExternalOSXSurfaceResource.cpp:111] External surface memory in use!  Handle: 0x104, width: 1280, height: 960, layers: 2
+163941.252 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+163941.252 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+163941.265 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+163941.268 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+163941.270 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:67] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+163942.279 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+163942.289 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+163942.397 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+163941.272 <VirtualDeviceServer~141734> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 4942 (4942)
+163942.428 <VirtualDeviceServer~141734> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+163947.432 <VirtualDeviceServer~141734> E [SocketServerClient.cpp:199] Failed to allocate read port to device
+163942.426 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+163947.433 <Unity~GraphicsShimSpa> E [MessageUtils.h:206] got protocol error from ml.vds.SetPortableSharedMemoryConfiguration: Failed to connect sync pipes for Frame Buffer
+
+163947.432 <VirtualDeviceServer~141734> E [MessageUtils.h:286] Failed to connect sync pipes for Frame Buffer
+
+163947.433 <VirtualDeviceServer~141734> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+163947.472 <VirtualDeviceServer~141734> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device offline
+
+
+163947.577 <VirtualDeviceServer~142102> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62593:
+
+error: device offline
+
+
+164007.858 <Unity~142030> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+163947.583 <VirtualDeviceServer~142101> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62346:
+
+error: device offline
+
+
+163947.586 <VirtualDeviceServer~142106> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62586:
+
+error: device offline
+
+
+163947.586 <VirtualDeviceServer~142100> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62324:
+
+error: device offline
+
+
+163947.587 <VirtualDeviceServer~142098> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62172:
+
+error: device offline
+
+
+163947.587 <VirtualDeviceServer~142122> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62537:
+
+error: device offline
+
+
+163947.590 <VirtualDeviceServer~142108> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62336:
+
+error: device offline
+
+
+163947.591 <VirtualDeviceServer~142107> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62328:
+
+error: device offline
+
+
+163947.592 <VirtualDeviceServer~142118> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62380:
+
+error: device offline
+
+
+163947.592 <VirtualDeviceServer~142099> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62517:
+
+error: device offline
+
+
+163947.592 <VirtualDeviceServer~142116> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62498:
+
+error: device offline
+
+
+163947.592 <VirtualDeviceServer~142119> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62509:
+
+error: device offline
+
+
+163947.592 <VirtualDeviceServer~142104> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62197:
+
+error: device offline
+
+
+163947.593 <VirtualDeviceServer~142127> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62340:
+
+error: device offline
+
+
+163947.595 <VirtualDeviceServer~142105> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62351:
+
+error: device offline
+
+
+163947.595 <VirtualDeviceServer~142126> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62570:
+
+error: device offline
+
+
+163947.595 <VirtualDeviceServer~142125> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62181:
+
+error: device offline
+
+
+163947.596 <VirtualDeviceServer~142123> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62020:
+
+error: device offline
+
+
+163947.598 <VirtualDeviceServer~142111> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62373:
+
+error: device offline
+
+
+163947.598 <VirtualDeviceServer~142103> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62358:
+
+error: device offline
+
+
+163947.598 <VirtualDeviceServer~142110> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62362:
+
+error: device offline
+
+
+163947.598 <VirtualDeviceServer~142113> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62488:
+
+error: device offline
+
+
+163947.599 <VirtualDeviceServer~142112> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62561:
+
+error: device offline
+
+
+163947.601 <VirtualDeviceServer~142117> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62545:
+
+error: device offline
+
+
+163947.601 <VirtualDeviceServer~142120> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62208:
+
+error: device offline
+
+
+163947.601 <VirtualDeviceServer~142115> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62384:
+
+error: device offline
+
+
+163947.601 <VirtualDeviceServer~142124> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62369:
+
+error: device offline
+
+
+163947.601 <VirtualDeviceServer~141734> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 1, pid 1, host GA306AC00018
+164007.864 <VirtualDeviceServer~141734> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 4942 (4942)
+163941.231 <Unity~142029> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+163941.231 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+164007.866 <Unity~142029> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+*** VDCLI pid 5132 started logging at Fri Apr 10 16:40:16 2020
+164017.550 <VirtualDeviceServer~141734> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+164026.689 <VirtualDeviceServer~141734> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+164026.724 <VirtualDeviceServer~141734> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device offline
+
+
+164026.848 <VirtualDeviceServer~142866> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51884:
+
+error: device offline
+
+
+*** VDCLI pid 5219 started logging at Fri Apr 10 16:40:48 2020
+164026.848 <VirtualDeviceServer~142865> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51654:
+
+error: device offline
+
+
+164026.848 <VirtualDeviceServer~142893> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52053:
+
+error: device offline
+
+
+164026.849 <VirtualDeviceServer~142871> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51681:
+
+error: device offline
+
+
+164026.849 <VirtualDeviceServer~142868> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51875:
+
+error: device offline
+
+
+164026.849 <VirtualDeviceServer~142867> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51640:
+
+error: device offline
+
+
+164026.849 <VirtualDeviceServer~142892> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52020:
+
+error: device offline
+
+
+164026.850 <VirtualDeviceServer~142891> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52035:
+
+error: device offline
+
+
+164026.852 <VirtualDeviceServer~142872> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52009:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142888> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51919:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142883> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51673:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142894> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52074:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142886> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52013:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142869> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51750:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142890> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52024:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142874> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51779:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142885> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51788:
+
+error: device offline
+
+
+164026.854 <VirtualDeviceServer~142876> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51668:
+
+error: device offline
+
+
+164026.855 <VirtualDeviceServer~142875> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51740:
+
+error: device offline
+
+
+164026.855 <VirtualDeviceServer~142882> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51908:
+
+error: device offline
+
+
+164026.856 <VirtualDeviceServer~142884> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52070:
+
+error: device offline
+
+
+164026.856 <VirtualDeviceServer~142881> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51820:
+
+error: device offline
+
+
+164026.857 <VirtualDeviceServer~142877> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51809:
+
+error: device offline
+
+
+164026.859 <VirtualDeviceServer~142889> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51853:
+
+error: device offline
+
+
+164026.860 <VirtualDeviceServer~142878> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52031:
+
+error: device offline
+
+
+164026.860 <VirtualDeviceServer~142873> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51685:
+
+error: device offline
+
+
+164026.861 <VirtualDeviceServer~142870> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52057:
+
+error: device offline
+
+
+164026.861 <VirtualDeviceServer~142879> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 51843:
+
+error: device offline
+
+
+164026.861 <VirtualDeviceServer~141734> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 86, pid 1, host GA306AC00018
+164048.877 <VirtualDeviceServer~141734> W [SharedMemoryManager.cpp:152] SharedMemoryManager::ConnectRemoteDevice closing stale connection for 'Frame Buffer' to GA306AC00018
+164048.877 <VirtualDeviceServer~141734> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+164049.112 <VirtualDeviceServer~141734> E [MldbAccessor.cpp:362] Error 1 un-reversing port 33764
+
+error: listener 'tcp:33764' not found
+
+
+164049.112 <VirtualDeviceServer~141734> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+164056.871 <VirtualDeviceServer~141734> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+164106.072 <VirtualDeviceServer~141734> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection. (repeated 3 times)
+163930.645 <the_lab~136964> I [Viewer.cpp:118] Viewer(0x7f93ad24c970) is disposed
+*** the_lab pid 5350 started logging at Fri Apr 10 16:41:35 2020
+*** VDCLI pid 5371 started logging at Fri Apr 10 16:41:42 2020
+*** VDCLI pid 5373 started logging at Fri Apr 10 16:41:48 2020
+164148.284 <VDCLI~144403> I [VDCLIApplication.cpp:188] Killing server
+*** Unity pid 4942 started logging at Fri Apr 10 16:41:48 2020
+163947.433 <Unity~GraphicsShimSpa> E [Client.cpp:447] Failed to setup shared memory
+163947.433 <Unity~UnityGfxDeviceW> E [Client.cpp:454] Failed to setup shared memory
+164148.289 <Unity~GraphicsShimSpa> V [SparseDevice.cpp:1327] (GraphicsShimSparseDevice) Virtual Device Server stopping
+*** VirtualDeviceServer pid 5022 started logging at Fri Apr 10 16:41:48 2020
+164106.247 <VirtualDeviceServer~143556> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 55778:
+
+error: listener 'tcp:55778' not found
+
+
+164106.255 <VirtualDeviceServer~143557> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56169:
+
+error: listener 'tcp:56169' not found
+
+
+164106.262 <VirtualDeviceServer~143561> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56097:
+
+error: listener 'tcp:56097' not found
+
+
+164106.267 <VirtualDeviceServer~143563> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56073:
+
+error: listener 'tcp:56073' not found
+
+
+164106.267 <VirtualDeviceServer~143560> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56207:
+
+error: listener 'tcp:56207' not found
+
+
+164106.268 <VirtualDeviceServer~143573> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56398:
+
+error: listener 'tcp:56398' not found
+
+
+164106.268 <VirtualDeviceServer~143580> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56431:
+
+error: listener 'tcp:56431' not found
+
+
+164106.269 <VirtualDeviceServer~143567> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56082:
+
+error: listener 'tcp:56082' not found
+
+
+164106.269 <VirtualDeviceServer~143569> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56130:
+
+error: listener 'tcp:56130' not found
+
+
+164106.269 <VirtualDeviceServer~143570> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56047:
+
+error: listener 'tcp:56047' not found
+
+
+164106.270 <VirtualDeviceServer~143583> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56108:
+
+error: listener 'tcp:56108' not found
+
+
+164106.270 <VirtualDeviceServer~143576> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56391:
+
+error: listener 'tcp:56391' not found
+
+
+164106.270 <VirtualDeviceServer~143572> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56181:
+
+error: listener 'tcp:56181' not found
+
+
+164106.271 <VirtualDeviceServer~143558> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56086:
+
+error: listener 'tcp:56086' not found
+
+
+164106.271 <VirtualDeviceServer~143562> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56051:
+
+error: listener 'tcp:56051' not found
+
+
+164106.271 <VirtualDeviceServer~143565> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56402:
+
+error: listener 'tcp:56402' not found
+
+
+164106.272 <VirtualDeviceServer~143579> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56058:
+
+error: listener 'tcp:56058' not found
+
+
+164106.272 <VirtualDeviceServer~143577> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56387:
+
+error: listener 'tcp:56387' not found
+
+
+164106.273 <VirtualDeviceServer~143575> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56062:
+
+error: listener 'tcp:56062' not found
+
+
+164106.273 <VirtualDeviceServer~143564> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56449:
+
+error: listener 'tcp:56449' not found
+
+
+164106.273 <VirtualDeviceServer~143585> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56441:
+
+error: listener 'tcp:56441' not found
+
+
+164106.273 <VirtualDeviceServer~143581> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56409:
+
+error: listener 'tcp:56409' not found
+
+
+164106.273 <VirtualDeviceServer~143574> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56069:
+
+error: listener 'tcp:56069' not found
+
+
+164106.273 <VirtualDeviceServer~143566> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56220:
+
+error: listener 'tcp:56220' not found
+
+
+164106.274 <VirtualDeviceServer~143582> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56453:
+
+error: listener 'tcp:56453' not found
+
+
+164106.275 <VirtualDeviceServer~143559> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56034:
+
+error: listener 'tcp:56034' not found
+
+
+164106.278 <VirtualDeviceServer~143571> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56141:
+
+error: listener 'tcp:56141' not found
+
+
+164106.278 <VirtualDeviceServer~143584> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56413:
+
+error: listener 'tcp:56413' not found
+
+
+164106.278 <VirtualDeviceServer~141734> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 135, pid 1, host GA306AC00018
+164148.290 <VirtualDeviceServer~141734> I [VirtualDeviceServerApplication.cpp:173] Virtual Device Server Shutting Down
+*** VDCLI pid 5374 started logging at Fri Apr 10 16:41:48 2020
+*** VDCLI pid 5375 started logging at Fri Apr 10 16:41:48 2020
+*** VirtualDeviceServer pid 5376 started logging at Fri Apr 10 16:41:48 2020
+164148.419 <VDCLI~144423> I [VDCLIApplication.cpp:206] Starting server
+*** VDCLI pid 5392 started logging at Fri Apr 10 16:41:50 2020
+*** VirtualDeviceServer pid 5376 started logging at Fri Apr 10 16:42:09 2020
+164148.456 <VirtualDeviceServer~144430> I [VirtualDeviceServerApplication.cpp:138] Virtual Device Server Version: 2.0 (built Mar  3 2020), Protocol: 13
+164148.473 <VirtualDeviceServer~144430> I [VirtualDeviceServerApplication.cpp:125] Server 'default' running at SOCKET:localhost:63970
+164209.464 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+164209.499 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device offline
+
+
+164209.598 <VirtualDeviceServer~144801> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64340:
+
+error: device offline
+
+
+*** VDCLI pid 5481 started logging at Fri Apr 10 16:42:32 2020
+164209.598 <VirtualDeviceServer~144780> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64474:
+
+error: device offline
+
+
+164209.603 <VirtualDeviceServer~144776> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64679:
+
+error: device offline
+
+
+164209.604 <VirtualDeviceServer~144777> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64350:
+
+error: device offline
+
+
+164209.605 <VirtualDeviceServer~144795> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64698:
+
+error: device offline
+
+
+164209.611 <VirtualDeviceServer~144781> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64239:
+
+error: device offline
+
+
+164209.611 <VirtualDeviceServer~144786> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64672:
+
+error: device offline
+
+
+164209.612 <VirtualDeviceServer~144778> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64360:
+
+error: device offline
+
+
+164209.612 <VirtualDeviceServer~144784> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64612:
+
+error: device offline
+
+
+164209.612 <VirtualDeviceServer~144779> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64430:
+
+error: device offline
+
+
+164209.613 <VirtualDeviceServer~144790> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64462:
+
+error: device offline
+
+
+164209.613 <VirtualDeviceServer~144799> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64502:
+
+error: device offline
+
+
+164209.613 <VirtualDeviceServer~144787> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64437:
+
+error: device offline
+
+
+164209.614 <VirtualDeviceServer~144791> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64664:
+
+error: device offline
+
+
+164209.615 <VirtualDeviceServer~144794> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64480:
+
+error: device offline
+
+
+164209.615 <VirtualDeviceServer~144783> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64706:
+
+error: device offline
+
+
+164209.616 <VirtualDeviceServer~144782> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64521:
+
+error: device offline
+
+
+164209.616 <VirtualDeviceServer~144804> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64656:
+
+error: device offline
+
+
+164209.616 <VirtualDeviceServer~144792> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64365:
+
+error: device offline
+
+
+164209.617 <VirtualDeviceServer~144803> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64633:
+
+error: device offline
+
+
+164209.617 <VirtualDeviceServer~144788> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64531:
+
+error: device offline
+
+
+164209.618 <VirtualDeviceServer~144796> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64514:
+
+error: device offline
+
+
+164209.618 <VirtualDeviceServer~144785> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64497:
+
+error: device offline
+
+
+164209.618 <VirtualDeviceServer~144800> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64455:
+
+error: device offline
+
+
+164209.618 <VirtualDeviceServer~144798> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64620:
+
+error: device offline
+
+
+164209.619 <VirtualDeviceServer~144793> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64641:
+
+error: device offline
+
+
+164209.620 <VirtualDeviceServer~144802> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64540:
+
+error: device offline
+
+
+164209.620 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 1, pid 1, host GA306AC00018
+164248.633 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+164248.665 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.764 <VirtualDeviceServer~145251> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53618:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+*** VDCLI pid 5576 started logging at Fri Apr 10 16:43:34 2020
+164411.963 <Unity~146023> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+164411.964 <Unity~146024> I [VDSConnectionManager.cpp:155] Input library is not connected.
+164411.964 <Unity~146024> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+164412.993 <Unity~146024> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+164411.964 <Unity~146023> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+164412.995 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+164248.775 <VirtualDeviceServer~145252> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53559:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.776 <VirtualDeviceServer~145254> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53736:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.778 <VirtualDeviceServer~145256> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53626:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.778 <VirtualDeviceServer~145255> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53764:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.779 <VirtualDeviceServer~145264> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53916:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.779 <VirtualDeviceServer~145274> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53685:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.783 <VirtualDeviceServer~145253> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53575:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.783 <VirtualDeviceServer~145278> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53921:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.783 <VirtualDeviceServer~145277> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53956:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.784 <VirtualDeviceServer~145261> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53564:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.784 <VirtualDeviceServer~145258> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53648:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.784 <VirtualDeviceServer~145257> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53464:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.784 <VirtualDeviceServer~145269> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53758:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.784 <VirtualDeviceServer~145270> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53570:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.785 <VirtualDeviceServer~145266> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53960:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.785 <VirtualDeviceServer~145276> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53945:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.785 <VirtualDeviceServer~145260> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53886:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.786 <VirtualDeviceServer~145273> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53938:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.786 <VirtualDeviceServer~145271> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53657:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.787 <VirtualDeviceServer~145275> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53949:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.787 <VirtualDeviceServer~145265> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53709:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.788 <VirtualDeviceServer~145259> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53933:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.789 <VirtualDeviceServer~145272> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53892:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.790 <VirtualDeviceServer~145267> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53730:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.790 <VirtualDeviceServer~145262> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53675:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.792 <VirtualDeviceServer~145279> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53701:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+164248.792 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 50, pid 1, host GA306AC00018
+164412.996 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 4942 (4942)
+164413.024 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+164432.709 <Unity~146024> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+164432.715 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 4942 (4942)
+164412.996 <Unity~146023> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+164412.998 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+164432.718 <Unity~146023> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+164413.024 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+164413.024 <Unity~UnityGfxDeviceW> W [Client.cpp:131] Unable to initialize the graphics shim. Please start the graphics view sparse device. Retry in 2 seconds.
+164413.024 <Unity~UnityGfxDeviceW> W [Client.cpp:131] Unable to initialize the graphics shim. Please start the graphics view sparse device. Retry in 2 seconds. (repeated 2 times)
+*** Unity pid 5630 started logging at Fri Apr 10 16:45:09 2020
+*** Unity pid 5630 started logging at Fri Apr 10 16:45:09 2020
+164510.632 <Unity~147187> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+164510.636 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 5630 (5630)
+164510.636 <Unity~147183> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+*** Unity pid 5630 started logging at Fri Apr 10 16:45:10 2020
+164510.680 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+164510.681 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+164510.684 <Unity~GraphicsShimSpa> I [SharedBufferChannelProducerTemplate.h:67] Shared Memory didn't exist for channel Frame Buffer, attempting to create it
+164511.691 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+164511.698 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+164511.793 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+164511.829 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+164510.686 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 5630 (5630)
+164511.841 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+164528.702 <Unity~147187> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+164528.714 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 5630 (5630)
+164510.636 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+164510.637 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+164528.717 <Unity~147183> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+164511.935 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+*** Unity pid 5668 started logging at Fri Apr 10 16:46:39 2020
+*** Unity pid 5668 started logging at Fri Apr 10 16:46:39 2020
+164640.392 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 5668 (5668)
+164640.392 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+164640.395 <Unity~148765> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 5668 started logging at Fri Apr 10 16:46:40 2020
+164640.435 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+164640.439 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+164641.447 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+164641.449 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+164641.590 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+164640.442 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 5668 (5668)
+164641.626 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+164641.766 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+164641.625 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+164641.857 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+164646.390 <Unity~148765> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+164646.406 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 5668 (5668)
+164640.392 <Unity~148761> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+164640.394 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+164646.409 <Unity~148761> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+*** Unity pid 5827 started logging at Fri Apr 10 16:56:28 2020
+*** Unity pid 5827 started logging at Fri Apr 10 16:56:28 2020
+165629.864 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+165629.865 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 5827 (5827)
+165629.871 <Unity~154203> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 5827 started logging at Fri Apr 10 16:56:29 2020
+165629.913 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+165629.915 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+165630.922 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+165630.923 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+165631.054 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+165629.918 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 5827 (5827)
+165631.090 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+165631.193 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+165631.088 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+165631.289 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+165635.174 <Unity~154203> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+165635.189 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 5827 (5827)
+165629.865 <Unity~154199> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+165629.867 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+165635.192 <Unity~154199> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+*** Unity pid 7542 started logging at Fri Apr 10 17:05:27 2020
+*** Unity pid 7542 started logging at Fri Apr 10 17:05:27 2020
+170528.300 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 7542 (7542)
+170528.300 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+170528.306 <Unity~171132> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 7542 started logging at Fri Apr 10 17:05:29 2020
+170529.185 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 7542 (7542)
+170529.179 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+170529.181 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+170530.191 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+170530.307 <Unity~PerceptionShimS> W [ZMQMessagePipes.cpp:213] ZMQ_POLLOUT timed out for SOCKET:localhost:63970
+170530.192 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+170530.343 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+170530.380 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+170530.545 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+170530.379 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+170530.651 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+170530.904 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+170553.499 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Projects/endroll/magicleap/UnityTemplate/data/.././bin/crashpad_handler
+170553.514 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 7542 (7542)
+170553.499 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+170553.508 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+170553.510 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+170554.521 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+170554.522 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+170554.652 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+170554.688 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+170554.888 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+170554.687 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+170554.993 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+170614.096 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Projects/endroll/magicleap/UnityTemplate/data/.././bin/crashpad_handler
+170614.111 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 7542 (7542)
+170614.096 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+170614.104 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+170614.107 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+170615.118 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+170615.120 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+170615.249 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+170615.280 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+170615.418 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+170615.280 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+170615.497 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+170530.959 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+170626.518 <Unity~171132> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+170626.547 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 7542 (7542)
+170530.307 <Unity~171124> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+170530.307 <Unity~PerceptionShimS> E [MessageUtils.h:188] timedOut to send command ml.vds.GetChannelMappings
+170530.307 <Unity~PerceptionShimS> I [SparseDevice.cpp:1098] Pcf Data: Retrying...
+170530.307 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+170530.309 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+170626.551 <Unity~171124> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+170641.533 <Unity~172274> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+170641.533 <Unity~172275> I [VDSConnectionManager.cpp:155] Input library is not connected.
+170641.534 <Unity~172275> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+170642.560 <Unity~172275> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+170642.570 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 7542 (7542)
+170641.533 <Unity~172274> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+170642.570 <Unity~172274> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+170642.592 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Projects/endroll/magicleap/UnityTemplate/data/.././bin/crashpad_handler
+170642.592 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+170642.602 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+170642.603 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+170643.613 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+170643.615 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+170643.748 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+170642.606 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 7542 (7542)
+170643.783 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+170643.986 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+170643.781 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+170644.064 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+170702.153 <Unity~172275> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+170702.189 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 7542 (7542)
+170642.571 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+170642.575 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+170702.195 <Unity~172274> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+171359.424 <VirtualDeviceServer~144430> I [VDSState.cpp:815] *** Pruning sparse device 'ML1GraphicsViewSparseDevice' (#108)
+*** VDCLI pid 12165 started logging at Fri Apr 10 17:41:55 2020
+174156.007 <VirtualDeviceServer~144430> I [RemoteDeviceHandler.cpp:77] Remote client already connected
+174156.615 <VirtualDeviceServer~144430> W [SharedMemoryManager.cpp:152] SharedMemoryManager::ConnectRemoteDevice closing stale connection for 'Frame Buffer' to GA306AC00018
+174156.615 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+174156.851 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+*** Unity pid 12408 started logging at Fri Apr 10 17:43:22 2020
+*** Unity pid 12408 started logging at Fri Apr 10 17:43:23 2020
+174324.326 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+174324.328 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+174324.333 <Unity~222657> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 12408 started logging at Fri Apr 10 17:43:24 2020
+174325.013 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+174325.008 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+174325.010 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+174326.019 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+174326.020 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+174326.118 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+174326.152 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+174326.153 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+174326.279 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+174326.378 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+174324.349 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+174354.992 <Unity~222657> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+174355.005 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+174324.329 <Unity~222651> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+174324.330 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+174355.007 <Unity~222651> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+174445.054 <Unity~223493> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+174445.054 <Unity~223494> I [VDSConnectionManager.cpp:155] Input library is not connected.
+174446.081 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+174445.055 <Unity~223493> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+174446.082 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+174445.068 <Unity~223494> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+174446.088 <Unity~223494> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+174446.115 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+174446.115 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+174446.123 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+174446.125 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+174447.133 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+174447.135 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+174447.247 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+174446.127 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+174447.277 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+174447.501 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+174447.276 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+174447.588 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+174446.096 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+174454.464 <Unity~223494> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+174454.470 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+174446.082 <Unity~223493> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+174446.083 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+174454.473 <Unity~223493> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+174746.723 <Unity~227081> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+174746.723 <Unity~227082> I [VDSConnectionManager.cpp:155] Input library is not connected.
+174746.723 <Unity~227082> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+174747.748 <Unity~227082> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+174746.723 <Unity~227081> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+174747.751 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+174747.752 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+174747.780 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+174747.780 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+174747.791 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+174747.794 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+174748.801 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+174748.804 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+174748.919 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+174747.797 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+174748.952 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+174749.073 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+174748.949 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+174749.155 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+174747.752 <Unity~227081> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+174747.753 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+174749.291 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Mesh Data: Starting channel request...
+174749.291 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Mesh Data: Finished channel request...
+174749.408 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+174749.410 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Hand Tracking Data: Starting channel request...
+174749.418 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Hand Tracking Data: Finished channel request...
+174749.526 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+174747.756 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+175053.852 <Unity~227082> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+175054.195 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+174749.676 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 1 time)
+175054.198 <Unity~227081> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+175107.511 <Unity~228501> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+175107.511 <Unity~228502> I [VDSConnectionManager.cpp:155] Input library is not connected.
+175107.511 <Unity~228501> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175108.535 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+175108.536 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+175107.512 <Unity~228502> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175108.542 <Unity~228502> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+175108.590 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+175108.590 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+175108.598 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+175108.602 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+175109.609 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+175109.610 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+175109.736 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+175108.604 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+175109.767 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+175109.766 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+175109.934 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+175108.537 <Unity~228501> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+175108.537 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+175110.135 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLHandMeshingCreateClient', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+175110.797 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175110.799 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Hand Tracking Data: Starting channel request...
+175110.800 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Hand Tracking Data: Finished channel request...
+175110.927 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175515.719 <Unity~228502> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+175109.863 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+175516.045 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+175111.078 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 1 time)
+175516.048 <Unity~228501> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+175519.501 <Unity~230441> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+175519.501 <Unity~230442> I [VDSConnectionManager.cpp:155] Input library is not connected.
+175520.528 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+175519.502 <Unity~230441> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175520.528 <Unity~230441> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+175519.502 <Unity~230442> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175520.535 <Unity~230442> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+175520.567 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+175520.567 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+175520.574 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+175520.578 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+175521.585 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+175521.588 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+175521.714 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+175520.578 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+175521.749 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+175521.933 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+175521.747 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+175522.002 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+175520.528 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+175520.530 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+175522.293 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175522.295 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Hand Tracking Data: Starting channel request...
+175522.296 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Hand Tracking Data: Finished channel request...
+175522.429 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175520.543 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+175602.303 <Unity~230442> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+175602.600 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+175522.579 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 1 time)
+175602.604 <Unity~230441> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+175608.784 <Unity~230862> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+175608.784 <Unity~230863> I [VDSConnectionManager.cpp:155] Input library is not connected.
+175609.815 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+175608.784 <Unity~230863> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175609.816 <Unity~230863> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+175608.784 <Unity~230862> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175609.816 <Unity~230862> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+175609.846 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+175609.846 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+175609.854 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+175609.857 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+175610.866 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+175610.867 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+175610.998 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+175609.861 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+175611.031 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+175611.211 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+175611.029 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+175611.277 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+175609.816 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+175609.816 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+175611.560 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175611.563 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Hand Tracking Data: Starting channel request...
+175611.564 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Hand Tracking Data: Finished channel request...
+175611.680 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175609.824 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+175618.777 <Unity~230863> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+175619.042 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+175611.830 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 1 time)
+175619.048 <Unity~230862> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+175630.661 <Unity~231078> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+175630.661 <Unity~231079> I [VDSConnectionManager.cpp:155] Input library is not connected.
+175631.692 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+175630.662 <Unity~231078> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175631.693 <Unity~231078> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+175630.662 <Unity~231079> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175631.698 <Unity~231079> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+175631.724 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+175631.724 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+175631.734 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+175631.737 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+175632.745 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+175632.750 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+175632.889 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+175631.738 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+175632.921 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+175633.056 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+175632.919 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+175633.128 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+175631.693 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+175631.696 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+175633.265 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Mesh Data: Starting channel request...
+175633.266 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Mesh Data: Finished channel request...
+175633.383 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175633.385 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Hand Tracking Data: Starting channel request...
+175633.386 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Hand Tracking Data: Finished channel request...
+175633.530 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration
+175631.706 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+175725.208 <Unity~231079> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+175725.318 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+175633.680 <Unity~Main Thread> I [HandTrackingClient.cpp:56] Successfully set hand tracking configuration (repeated 1 time)
+175725.322 <Unity~231078> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+175725.324 <Unity~Main Thread> E [meshing.cpp:249] Failed to get zero iteration context
+175725.324 <Unity~Main Thread> E [meshing.cpp:73] Failed to get zero iteration context
+175736.185 <Unity~231629> I [VDSConnectionManager.cpp:155] Perception library is not connected.
+175736.186 <Unity~231630> I [VDSConnectionManager.cpp:155] Input library is not connected.
+175736.186 <Unity~231630> I [ShimContext.inl:93] Virtual Device shim 'Input' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175737.214 <Unity~231630> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+175737.215 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 12408 (12408)
+175736.186 <Unity~231629> I [ShimContext.inl:93] Virtual Device shim 'Perception' attempting to connect to VDS at 'SOCKET:localhost:63970'
+175737.215 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+175737.269 <Unity~UnityGfxDeviceW> W [CrashMonitor.cpp:124] Failed to find crashpad handler at the default path /Users/kyon/Downloads/UnityTemplate-0.24.0/data/.././bin/crashpad_handler
+175737.269 <Unity~UnityGfxDeviceW> E [CrashMonitor.cpp:145] Failed to find crashpad handler
+175737.274 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+175737.276 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+175738.285 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+175738.288 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+175738.433 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+175737.281 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 12408 (12408)
+175738.463 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+175738.574 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+175738.463 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+175738.641 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+175737.234 <Unity~231629> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+175737.235 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+175738.846 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Planes Data: Starting channel request...
+175737.223 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+175738.868 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+175738.934 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+180031.642 <Unity~231630> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+180031.698 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 12408 (12408)
+175738.847 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Planes Data: Finished channel request...
+180031.701 <Unity~231629> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+*** Unity pid 13055 started logging at Fri Apr 10 18:02:31 2020
+*** Unity pid 13055 started logging at Fri Apr 10 18:02:31 2020
+180232.352 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+180232.352 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 13055 (13055)
+180232.357 <Unity~236370> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 13055 started logging at Fri Apr 10 18:02:32 2020
+180232.398 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+180232.400 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+180233.408 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+180233.410 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+180233.566 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+180232.402 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 13055 (13055)
+180233.601 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+180233.716 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+180233.600 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+180233.814 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+180232.352 <Unity~236366> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+180232.356 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+180233.980 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Mesh Data: Starting channel request...
+180232.373 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+180234.080 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+180234.158 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+180241.720 <Unity~InputShimSparse> I [SparseDevice.cpp:1090] Input Controller System State: Starting channel request...
+180241.721 <Unity~InputShimSparse> I [SparseDevice.cpp:1093] Input Controller System State: Finished channel request...
+180523.026 <Unity~236370> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+180523.036 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 13055 (13055)
+180233.983 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Mesh Data: Finished channel request...
+180234.002 <Unity~Main Thread> E [ShimContext.inl:171] Unable to create feature client
+180523.039 <Unity~236366> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+*** Unity pid 13527 started logging at Fri Apr 10 18:15:34 2020
+*** Unity pid 13527 started logging at Fri Apr 10 18:15:34 2020
+181535.993 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 13527 (13527)
+181535.993 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+181535.998 <Unity~248755> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 13527 started logging at Fri Apr 10 18:15:36 2020
+181536.964 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 13527 (13527)
+181536.959 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+181536.961 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+181537.969 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+181537.970 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+181538.134 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+181538.168 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+181538.373 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+181538.168 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+181538.441 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+181538.643 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+181539.271 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+181556.648 <Unity~InputShimSparse> I [SparseDevice.cpp:1090] Input Controller System State: Starting channel request...
+181556.651 <Unity~InputShimSparse> I [SparseDevice.cpp:1093] Input Controller System State: Finished channel request...
+181609.270 <Unity~248755> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+181609.287 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 13527 (13527)
+181535.993 <Unity~248749> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+181535.994 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+181609.291 <Unity~248749> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+*** Unity pid 14047 started logging at Fri Apr 10 18:16:38 2020
+*** Unity pid 14047 started logging at Fri Apr 10 18:16:38 2020
+181639.348 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+181639.349 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 14047 (14047)
+181639.358 <Unity~249982> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 14047 started logging at Fri Apr 10 18:16:39 2020
+181639.405 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+181639.407 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+181640.416 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+181640.416 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+181640.597 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+181639.412 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 14047 (14047)
+181640.639 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+181640.781 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+181640.636 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+181640.879 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+181639.376 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+181641.074 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+181641.177 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+181641.225 <Unity~InputShimSparse> I [SparseDevice.cpp:1090] Input Controller System State: Starting channel request...
+181641.226 <Unity~InputShimSparse> I [SparseDevice.cpp:1093] Input Controller System State: Finished channel request...
+181649.101 <Unity~249982> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+181649.120 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 14047 (14047)
+181639.350 <Unity~249978> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+181639.350 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+181649.125 <Unity~249978> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+182508.841 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+182508.882 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device offline
+
+
+182509.062 <VirtualDeviceServer~260178> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61703:
+
+error: device offline
+
+
+*** VDCLI pid 14783 started logging at Fri Apr 10 18:26:25 2020
+182509.071 <VirtualDeviceServer~260182> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61692:
+
+error: device offline
+
+
+182509.079 <VirtualDeviceServer~260180> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62071:
+
+error: device offline
+
+
+182509.080 <VirtualDeviceServer~260200> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61832:
+
+error: device offline
+
+
+182509.094 <VirtualDeviceServer~260179> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53666:
+
+error: device offline
+
+
+182509.096 <VirtualDeviceServer~260207> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62063:
+
+error: device offline
+
+
+182509.100 <VirtualDeviceServer~260183> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53565:
+
+error: device offline
+
+
+182509.102 <VirtualDeviceServer~260193> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62031:
+
+error: device offline
+
+
+182509.104 <VirtualDeviceServer~260227> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 52440:
+
+error: device offline
+
+
+182509.104 <VirtualDeviceServer~260233> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53960:
+
+error: device offline
+
+
+182509.104 <VirtualDeviceServer~260194> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61796:
+
+error: device offline
+
+
+182509.104 <VirtualDeviceServer~260181> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53611:
+
+error: device offline
+
+
+182509.105 <VirtualDeviceServer~260206> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53838:
+
+error: device offline
+
+
+182509.105 <VirtualDeviceServer~260213> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61847:
+
+error: device offline
+
+
+182509.105 <VirtualDeviceServer~260197> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61707:
+
+error: device offline
+
+
+182509.105 <VirtualDeviceServer~260223> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53629:
+
+error: device offline
+
+
+182509.105 <VirtualDeviceServer~260230> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53554:
+
+error: device offline
+
+
+182509.106 <VirtualDeviceServer~260190> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61764:
+
+error: device offline
+
+
+182509.107 <VirtualDeviceServer~260222> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61725:
+
+error: device offline
+
+
+182509.107 <VirtualDeviceServer~260191> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53907:
+
+error: device offline
+
+
+182509.107 <VirtualDeviceServer~260185> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61673:
+
+error: device offline
+
+
+182509.108 <VirtualDeviceServer~260225> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53538:
+
+error: device offline
+
+
+182509.112 <VirtualDeviceServer~260216> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53640:
+
+error: device offline
+
+
+182509.113 <VirtualDeviceServer~260198> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53623:
+
+error: device offline
+
+
+182509.113 <VirtualDeviceServer~260226> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53870:
+
+error: device offline
+
+
+182509.115 <VirtualDeviceServer~260205> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 54018:
+
+error: device offline
+
+
+182509.115 <VirtualDeviceServer~260208> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61732:
+
+error: device offline
+
+
+182509.117 <VirtualDeviceServer~260209> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53681:
+
+error: device offline
+
+
+182509.117 <VirtualDeviceServer~260217> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62053:
+
+error: device offline
+
+
+182509.117 <VirtualDeviceServer~260221> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53674:
+
+error: device offline
+
+
+182509.117 <VirtualDeviceServer~260196> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61804:
+
+error: device offline
+
+
+182509.118 <VirtualDeviceServer~260201> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62097:
+
+error: device offline
+
+
+182509.120 <VirtualDeviceServer~260192> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 54004:
+
+error: device offline
+
+
+182509.120 <VirtualDeviceServer~260211> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62082:
+
+error: device offline
+
+
+182509.121 <VirtualDeviceServer~260203> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61875:
+
+error: device offline
+
+
+182509.122 <VirtualDeviceServer~260188> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53919:
+
+error: device offline
+
+
+182509.122 <VirtualDeviceServer~260229> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53695:
+
+error: device offline
+
+
+182509.123 <VirtualDeviceServer~260214> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62035:
+
+error: device offline
+
+
+182509.123 <VirtualDeviceServer~260228> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62075:
+
+error: device offline
+
+
+182509.123 <VirtualDeviceServer~260231> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53973:
+
+error: device offline
+
+
+182509.123 <VirtualDeviceServer~260224> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53606:
+
+error: device offline
+
+
+182509.124 <VirtualDeviceServer~260219> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53848:
+
+error: device offline
+
+
+182509.124 <VirtualDeviceServer~260186> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61696:
+
+error: device offline
+
+
+182509.124 <VirtualDeviceServer~260189> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61776:
+
+error: device offline
+
+
+182509.124 <VirtualDeviceServer~260215> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61894:
+
+error: device offline
+
+
+182509.125 <VirtualDeviceServer~260210> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61906:
+
+error: device offline
+
+
+182509.125 <VirtualDeviceServer~260232> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53881:
+
+error: device offline
+
+
+182509.125 <VirtualDeviceServer~260199> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62086:
+
+error: device offline
+
+
+182509.125 <VirtualDeviceServer~260202> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61862:
+
+error: device offline
+
+
+182509.126 <VirtualDeviceServer~260187> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53645:
+
+error: device offline
+
+
+182509.127 <VirtualDeviceServer~260220> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 62093:
+
+error: device offline
+
+
+182509.127 <VirtualDeviceServer~260218> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53570:
+
+error: device offline
+
+
+182509.128 <VirtualDeviceServer~260212> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53699:
+
+error: device offline
+
+
+182509.128 <VirtualDeviceServer~260184> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 53659:
+
+error: device offline
+
+
+182509.129 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 366, pid 1, host GA306AC00018
+182625.695 <VirtualDeviceServer~144430> W [SharedMemoryManager.cpp:152] SharedMemoryManager::ConnectRemoteDevice closing stale connection for 'Frame Buffer' to GA306AC00018
+182625.695 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+182625.897 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:362] Error 1 un-reversing port 53552
+
+error: listener 'tcp:53552' not found
+
+
+182625.897 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+182657.160 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+182657.198 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.305 <VirtualDeviceServer~262725> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64185:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+*** VDCLI pid 14888 started logging at Fri Apr 10 18:27:30 2020
+182657.312 <VirtualDeviceServer~262723> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63815:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.314 <VirtualDeviceServer~262726> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63873:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.320 <VirtualDeviceServer~262724> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63840:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.321 <VirtualDeviceServer~262727> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63859:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.324 <VirtualDeviceServer~262740> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64211:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.324 <VirtualDeviceServer~262748> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63845:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.324 <VirtualDeviceServer~262732> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63828:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.326 <VirtualDeviceServer~262743> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64051:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.328 <VirtualDeviceServer~262731> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64104:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.328 <VirtualDeviceServer~262742> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64189:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.329 <VirtualDeviceServer~262728> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63906:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.330 <VirtualDeviceServer~262747> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64207:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.330 <VirtualDeviceServer~262737> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63979:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.330 <VirtualDeviceServer~262734> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63833:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.330 <VirtualDeviceServer~262746> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63877:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.331 <VirtualDeviceServer~262739> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63864:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262730> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64196:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262733> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64178:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262745> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64222:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262749> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64174:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262750> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63921:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262751> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64087:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262744> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64200:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.333 <VirtualDeviceServer~262736> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64218:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.334 <VirtualDeviceServer~262729> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63998:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.334 <VirtualDeviceServer~262735> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 63795:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.336 <VirtualDeviceServer~262741> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 64027:
+
+error: device unauthorized.
+Try 'mldb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+
+
+182657.336 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 811, pid 1, host GA306AC00018
+182731.249 <VirtualDeviceServer~144430> W [SharedMemoryManager.cpp:152] SharedMemoryManager::ConnectRemoteDevice closing stale connection for 'Frame Buffer' to GA306AC00018
+182731.249 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+182731.413 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:362] Error 1 un-reversing port 59160
+
+error: listener 'tcp:59160' not found
+
+
+*** Unity pid 14743 started logging at Fri Apr 10 18:27:51 2020
+*** Unity pid 14743 started logging at Fri Apr 10 18:27:51 2020
+182752.051 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+182731.413 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+182752.051 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 14743 (14743)
+182752.060 <Unity~263621> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 14743 started logging at Fri Apr 10 18:27:52 2020
+182752.111 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+182752.114 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+182753.124 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1090] Graphics Contract: Starting channel request...
+182753.125 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1093] Graphics Contract: Finished channel request...
+182753.219 <Unity~UnityGfxDeviceW> I [Client.cpp:217] Hardware acceleration is set to the default platform value
+182753.253 <Unity~GraphicsShimSpa> I [SharedMemoryAccessor.cpp:368] Marking shared memory 'Frame Buffer' as portable
+182752.119 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 14743 (14743)
+182753.253 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+182753.437 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+182753.550 <Unity~UnityGfxDeviceW> I [EncoderH264OsxVT.mm:220] Using hardware encoding: true
+182752.052 <Unity~263617> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+182752.052 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+182753.721 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Mesh Data: Starting channel request...
+182752.076 <Unity~InputShimSparse> I [Context.cpp:212] Skipping callback on account of priming the channel
+182753.811 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+182753.883 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+182756.927 <Unity~InputShimSparse> I [SparseDevice.cpp:1090] Input Controller System State: Starting channel request...
+182756.930 <Unity~InputShimSparse> I [SparseDevice.cpp:1093] Input Controller System State: Finished channel request...
+182837.124 <Unity~263621> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+182837.135 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 14743 (14743)
+182753.724 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Mesh Data: Finished channel request...
+182837.138 <Unity~263617> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+182918.385 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+182918.404 <VirtualDeviceServer~144430> I [VDSComms.cpp:797] ... device GA306AC00018 is gone
+182918.524 <VirtualDeviceServer~264477> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56540:
+
+error: device 'GA306AC00018' not found
+
+
+*** VDCLI pid 15023 started logging at Fri Apr 10 18:30:04 2020
+182918.529 <VirtualDeviceServer~264467> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56150:
+
+error: device 'GA306AC00018' not found
+
+
+182918.530 <VirtualDeviceServer~264466> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56430:
+
+error: device 'GA306AC00018' not found
+
+
+182918.530 <VirtualDeviceServer~264465> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56144:
+
+error: device 'GA306AC00018' not found
+
+
+182918.533 <VirtualDeviceServer~264473> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56484:
+
+error: device 'GA306AC00018' not found
+
+
+182918.534 <VirtualDeviceServer~264480> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56468:
+
+error: device 'GA306AC00018' not found
+
+
+182918.535 <VirtualDeviceServer~264494> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56300:
+
+error: device 'GA306AC00018' not found
+
+
+182918.535 <VirtualDeviceServer~264471> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56368:
+
+error: device 'GA306AC00018' not found
+
+
+182918.535 <VirtualDeviceServer~264470> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56518:
+
+error: device 'GA306AC00018' not found
+
+
+182918.535 <VirtualDeviceServer~264468> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56096:
+
+error: device 'GA306AC00018' not found
+
+
+182918.535 <VirtualDeviceServer~264491> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59131:
+
+error: device 'GA306AC00018' not found
+
+
+182918.536 <VirtualDeviceServer~264492> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56507:
+
+error: device 'GA306AC00018' not found
+
+
+182918.536 <VirtualDeviceServer~264484> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56544:
+
+error: device 'GA306AC00018' not found
+
+
+182918.536 <VirtualDeviceServer~264475> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56390:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264472> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56274:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264485> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56450:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264469> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56472:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264488> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56511:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264490> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56529:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264479> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56139:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264474> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56437:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264476> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56155:
+
+error: device 'GA306AC00018' not found
+
+
+182918.537 <VirtualDeviceServer~264486> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56533:
+
+error: device 'GA306AC00018' not found
+
+
+182918.538 <VirtualDeviceServer~264478> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56446:
+
+error: device 'GA306AC00018' not found
+
+
+182918.539 <VirtualDeviceServer~264489> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56522:
+
+error: device 'GA306AC00018' not found
+
+
+182918.540 <VirtualDeviceServer~264493> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56461:
+
+error: device 'GA306AC00018' not found
+
+
+182918.541 <VirtualDeviceServer~264481> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56457:
+
+error: device 'GA306AC00018' not found
+
+
+182918.541 <VirtualDeviceServer~264482> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 56494:
+
+error: device 'GA306AC00018' not found
+
+
+182918.541 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 860, pid 1, host GA306AC00018
+183004.567 <VirtualDeviceServer~144430> W [SharedMemoryManager.cpp:152] SharedMemoryManager::ConnectRemoteDevice closing stale connection for 'Frame Buffer' to GA306AC00018
+183004.567 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+183004.853 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:362] Error 1 un-reversing port 54448
+
+error: listener 'tcp:54448' not found
+
+
+183004.853 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+183018.579 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+183018.617 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device offline
+
+
+183018.725 <VirtualDeviceServer~265325> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60082:
+
+error: device offline
+
+
+*** VDCLI pid 15298 started logging at Fri Apr 10 18:32:17 2020
+183018.726 <VirtualDeviceServer~265337> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60099:
+
+error: device offline
+
+
+183018.728 <VirtualDeviceServer~265315> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59742:
+
+error: device offline
+
+
+183018.729 <VirtualDeviceServer~265314> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59493:
+
+error: device offline
+
+
+183018.735 <VirtualDeviceServer~265339> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59776:
+
+error: device offline
+
+
+183018.735 <VirtualDeviceServer~265317> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59764:
+
+error: device offline
+
+
+183018.738 <VirtualDeviceServer~265332> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59816:
+
+error: device offline
+
+
+183018.738 <VirtualDeviceServer~265335> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60090:
+
+error: device offline
+
+
+183018.738 <VirtualDeviceServer~265316> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59720:
+
+error: device offline
+
+
+183018.739 <VirtualDeviceServer~265327> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59805:
+
+error: device offline
+
+
+183018.739 <VirtualDeviceServer~265318> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59787:
+
+error: device offline
+
+
+183018.740 <VirtualDeviceServer~265322> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59794:
+
+error: device offline
+
+
+183018.740 <VirtualDeviceServer~265324> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59753:
+
+error: device offline
+
+
+183018.740 <VirtualDeviceServer~265326> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60035:
+
+error: device offline
+
+
+183018.741 <VirtualDeviceServer~265340> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60114:
+
+error: device offline
+
+
+183018.741 <VirtualDeviceServer~265336> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60121:
+
+error: device offline
+
+
+183018.742 <VirtualDeviceServer~265330> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59760:
+
+error: device offline
+
+
+183018.742 <VirtualDeviceServer~265338> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60052:
+
+error: device offline
+
+
+183018.743 <VirtualDeviceServer~265334> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59809:
+
+error: device offline
+
+
+183018.743 <VirtualDeviceServer~265321> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59772:
+
+error: device offline
+
+
+183018.743 <VirtualDeviceServer~265328> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59737:
+
+error: device offline
+
+
+183018.743 <VirtualDeviceServer~265323> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59798:
+
+error: device offline
+
+
+183018.743 <VirtualDeviceServer~265342> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60110:
+
+error: device offline
+
+
+183018.744 <VirtualDeviceServer~265331> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59783:
+
+error: device offline
+
+
+183018.745 <VirtualDeviceServer~265320> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60125:
+
+error: device offline
+
+
+183018.746 <VirtualDeviceServer~265333> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59820:
+
+error: device offline
+
+
+183018.747 <VirtualDeviceServer~265341> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60103:
+
+error: device offline
+
+
+183018.748 <VirtualDeviceServer~265319> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 59749:
+
+error: device offline
+
+
+183018.748 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 945, pid 1, host GA306AC00018
+183218.436 <VirtualDeviceServer~144430> W [SharedMemoryManager.cpp:152] SharedMemoryManager::ConnectRemoteDevice closing stale connection for 'Frame Buffer' to GA306AC00018
+183218.436 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+183218.713 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:362] Error 1 un-reversing port 54064
+
+error: listener 'tcp:54064' not found
+
+
+183218.713 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+183218.780 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+183227.855 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection. (repeated 1 time)
+183227.897 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device offline
+
+
+183228.004 <VirtualDeviceServer~269336> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61022:
+
+error: device offline
+
+
+*** VDCLI pid 15450 started logging at Fri Apr 10 18:32:58 2020
+183228.008 <VirtualDeviceServer~269319> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60375:
+
+error: device offline
+
+
+183228.008 <VirtualDeviceServer~269320> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60688:
+
+error: device offline
+
+
+183228.012 <VirtualDeviceServer~269341> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61026:
+
+error: device offline
+
+
+183228.017 <VirtualDeviceServer~269321> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60711:
+
+error: device offline
+
+
+183228.017 <VirtualDeviceServer~269322> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61044:
+
+error: device offline
+
+
+183228.017 <VirtualDeviceServer~269332> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61011:
+
+error: device offline
+
+
+183228.018 <VirtualDeviceServer~269337> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60677:
+
+error: device offline
+
+
+183228.018 <VirtualDeviceServer~269324> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60673:
+
+error: device offline
+
+
+183228.021 <VirtualDeviceServer~269327> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60684:
+
+error: device offline
+
+
+183228.021 <VirtualDeviceServer~269339> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60991:
+
+error: device offline
+
+
+183228.021 <VirtualDeviceServer~269346> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61065:
+
+error: device offline
+
+
+183228.023 <VirtualDeviceServer~269343> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61015:
+
+error: device offline
+
+
+183228.023 <VirtualDeviceServer~269331> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60729:
+
+error: device offline
+
+
+183228.023 <VirtualDeviceServer~269344> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60733:
+
+error: device offline
+
+
+183228.024 <VirtualDeviceServer~269330> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60722:
+
+error: device offline
+
+
+183228.024 <VirtualDeviceServer~269328> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60707:
+
+error: device offline
+
+
+183228.024 <VirtualDeviceServer~269345> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61054:
+
+error: device offline
+
+
+183228.024 <VirtualDeviceServer~269323> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60574:
+
+error: device offline
+
+
+183228.024 <VirtualDeviceServer~269326> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60661:
+
+error: device offline
+
+
+183228.024 <VirtualDeviceServer~269329> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60718:
+
+error: device offline
+
+
+183228.025 <VirtualDeviceServer~269325> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60696:
+
+error: device offline
+
+
+183228.027 <VirtualDeviceServer~269347> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61061:
+
+error: device offline
+
+
+183228.028 <VirtualDeviceServer~269342> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 61003:
+
+error: device offline
+
+
+183228.030 <VirtualDeviceServer~269340> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60744:
+
+error: device offline
+
+
+183228.030 <VirtualDeviceServer~269334> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60740:
+
+error: device offline
+
+
+183228.031 <VirtualDeviceServer~269338> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60700:
+
+error: device offline
+
+
+183228.031 <VirtualDeviceServer~269333> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 60666:
+
+error: device offline
+
+
+183228.031 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 994, pid 1, host GA306AC00018
+183258.821 <VirtualDeviceServer~144430> W [SharedMemoryManager.cpp:152] SharedMemoryManager::ConnectRemoteDevice closing stale connection for 'Frame Buffer' to GA306AC00018
+183258.821 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:334] SharedMemoryManager::DisconnectRemoteDevice disconnecting memory Frame Buffer
+183259.014 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:362] Error 1 un-reversing port 43646
+
+error: listener 'tcp:43646' not found
+
+
+*** Unity pid 15393 started logging at Fri Apr 10 18:33:05 2020
+*** Unity pid 15393 started logging at Fri Apr 10 18:33:05 2020
+183259.014 <VirtualDeviceServer~144430> I [SharedMemoryManager.cpp:300] SharedMemoryManager::ConnectRemoteSyncFor connecting memory 'Frame Buffer' to GA306AC00018
+183306.398 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:110] registering MLSDK application 'Unity' for pid = 15393 (15393)
+183306.398 <Unity~PerceptionShimS> I [SparseDevice.cpp:1090] Pcf Data: Starting channel request...
+183306.407 <Unity~270869> I [ShimContext.inl:131] [Input Shim] Connection to VDS established
+*** Unity pid 15393 started logging at Fri Apr 10 18:33:06 2020
+183306.461 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:121] still running MLSDK application 'Unity' for pid = 15393 (15393)
+183307.042 <VirtualDeviceServer~144430> I [VDSComms.cpp:785] Did not see activity from sparse device for GA306AC00018, checking device connection.
+183307.083 <VirtualDeviceServer~144430> E [MldbAccessor.cpp:393] Error 1 checking processes
+
+error: device 'GA306AC00018' not found
+
+
+183307.187 <VirtualDeviceServer~270920> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50147:
+
+error: device 'GA306AC00018' not found
+
+
+183306.454 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1050] Graphics Contract: Starting channel request...
+183306.458 <Unity~GraphicsShimSpa> I [SparseDevice.cpp:1053] Graphics Contract: Finished channel request...
+183307.468 <Unity~UnityGfxDeviceW> W [Client.cpp:131] Unable to initialize the graphics shim. Please start the graphics view sparse device. Retry in 2 seconds.
+183306.398 <Unity~270865> I [ShimContext.inl:131] [Perception Shim] Connection to VDS established
+183306.400 <Unity~PerceptionShimS> I [SparseDevice.cpp:1093] Pcf Data: Finished channel request...
+183311.403 <Unity~Main Thread> E [MeshingClient.cpp:79] Rpc pipe is invalid
+183311.471 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputGetConnectedDevices', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+183311.529 <Unity~Main Thread> W [NotImplemented.inl:52] The application called the function 'MLInputSetTabletDeviceCallbacks', which is not implemented for Zero Iteration (other API in its containing library is implemented, however).
+183341.176 <Unity~270869> I [ShimContext.inl:152] [Input Shim] Connection to VDS dropped
+183307.204 <VirtualDeviceServer~270922> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49863:
+
+error: device 'GA306AC00018' not found
+
+
+183307.204 <VirtualDeviceServer~270935> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49792:
+
+error: device 'GA306AC00018' not found
+
+
+183307.204 <VirtualDeviceServer~270932> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49852:
+
+error: device 'GA306AC00018' not found
+
+
+183307.204 <VirtualDeviceServer~270937> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49838:
+
+error: device 'GA306AC00018' not found
+
+
+183307.205 <VirtualDeviceServer~270921> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49771:
+
+error: device 'GA306AC00018' not found
+
+
+183307.205 <VirtualDeviceServer~270933> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49805:
+
+error: device 'GA306AC00018' not found
+
+
+183307.206 <VirtualDeviceServer~270948> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50132:
+
+error: device 'GA306AC00018' not found
+
+
+183307.206 <VirtualDeviceServer~270946> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49820:
+
+error: device 'GA306AC00018' not found
+
+
+183307.206 <VirtualDeviceServer~270929> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49831:
+
+error: device 'GA306AC00018' not found
+
+
+183307.208 <VirtualDeviceServer~270926> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49775:
+
+error: device 'GA306AC00018' not found
+
+
+183307.209 <VirtualDeviceServer~270931> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49758:
+
+error: device 'GA306AC00018' not found
+
+
+183307.209 <VirtualDeviceServer~270928> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49809:
+
+error: device 'GA306AC00018' not found
+
+
+183307.209 <VirtualDeviceServer~270924> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49815:
+
+error: device 'GA306AC00018' not found
+
+
+183307.209 <VirtualDeviceServer~270925> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49493:
+
+error: device 'GA306AC00018' not found
+
+
+183307.211 <VirtualDeviceServer~270936> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50114:
+
+error: device 'GA306AC00018' not found
+
+
+183307.211 <VirtualDeviceServer~270938> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50110:
+
+error: device 'GA306AC00018' not found
+
+
+183307.211 <VirtualDeviceServer~270943> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50165:
+
+error: device 'GA306AC00018' not found
+
+
+183307.211 <VirtualDeviceServer~270927> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49786:
+
+error: device 'GA306AC00018' not found
+
+
+183307.212 <VirtualDeviceServer~270947> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49797:
+
+error: device 'GA306AC00018' not found
+
+
+183307.212 <VirtualDeviceServer~270930> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49842:
+
+error: device 'GA306AC00018' not found
+
+
+183307.212 <VirtualDeviceServer~270939> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49781:
+
+error: device 'GA306AC00018' not found
+
+
+183307.212 <VirtualDeviceServer~270923> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 49827:
+
+error: device 'GA306AC00018' not found
+
+
+183307.214 <VirtualDeviceServer~270934> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50121:
+
+error: device 'GA306AC00018' not found
+
+
+183307.214 <VirtualDeviceServer~270942> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50125:
+
+error: device 'GA306AC00018' not found
+
+
+183307.214 <VirtualDeviceServer~270940> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50169:
+
+error: device 'GA306AC00018' not found
+
+
+183307.214 <VirtualDeviceServer~270941> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50136:
+
+error: device 'GA306AC00018' not found
+
+
+183307.215 <VirtualDeviceServer~270944> E [MldbAccessor.cpp:179] Error 1 removing forwarded port 50142:
+
+error: device 'GA306AC00018' not found
+
+
+183307.215 <VirtualDeviceServer~144430> I [VDSComms.cpp:846] Cleaning up exited process 'com.magicleap.zi_server', id 1043, pid 1, host GA306AC00018
+183341.192 <VirtualDeviceServer~144430> I [VDSMLSDKApplicationCommandHandler.cpp:138] unregistering MLSDK application 'Unity' for pid = 15393 (15393)
+183311.403 <Unity~Main Thread> E [ShimContext.inl:171] Unable to create feature client
+183341.194 <Unity~270865> I [ShimContext.inl:152] [Perception Shim] Connection to VDS dropped
+183307.472 <Unity~UnityGfxDeviceW> W [Client.cpp:131] Unable to initialize the graphics shim. Please start the graphics view sparse device. Retry in 2 seconds. (repeated 2 times)
+183929.555 <VirtualDeviceServer~144430> I [VirtualDeviceServerApplication.cpp:62] Exiting
+*** the_lab pid 432 started logging at Fri Apr 10 18:43:27 2020
