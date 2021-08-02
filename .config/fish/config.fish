@@ -60,13 +60,13 @@ alias gp='git push'
 alias gd='git diff'
 alias gb='git branch'
 alias gba='git branch -a'
-alias gm='git merge'
+alias gm='git merge --no-edit'
 alias gc='git checkout'
 alias gcm='git checkout main'
 alias gcd='git checkout develop'
 alias gcdl='git checkout develop; git pull'
 alias gc.='git checkout .'
-alias gmm='git merge main'
+alias gmm='git merge main --no-edit'
 alias gmd='git merge develop'
 alias gcb='git checkout -b'
 alias gf='git fetch'
@@ -80,4 +80,4 @@ alias gl='git pull'
 # exec bash -c "source $HOME/MagicLeap/mlsdk/v0.23.0/envsetup.sh; exec fish"
 
 # tmux 起動
-ta; t
+# t;

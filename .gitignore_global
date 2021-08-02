@@ -55,7 +55,8 @@ flycheck_*.el
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -92,4 +93,3 @@ Temporary Items
 .history
 
 # End of https://www.gitignore.io/api/visualstudiocode
-.vscode

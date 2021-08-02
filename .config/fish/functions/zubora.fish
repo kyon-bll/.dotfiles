@@ -24,7 +24,8 @@ function zubora -d "zubora 'commit message' [files to add;optional]"
     set -l msg
     set branch (string split / (git rev-parse --abbrev-ref HEAD))
     if test $branch[1] = feature
-        set msg (string join ' ' $argv[1] (string join '' '#' $branch[2]))
+        # set msg (string join ' ' $argv[1] (string join '' '#' $branch[2]))
+        set msg $argv[1]
     else
         set msg $argv[1]
     end
@@ -37,10 +38,11 @@ function zubora -d "zubora 'commit message' [files to add;optional]"
     # git commit -m 'コミットメッセージ' を実行
     set_color normal; git commit -m $msg
 
-    # "> git push" を出力
+    # "> git push origin HEAD" を出力
     set_color white; echo -n "> "
     set_color -o   ; echo -n "git " ; set_color normal
-    set_color cyan ; echo    "push"
+    set_color cyan ; echo    "push origin HEAD"
     # > git push を実行
-    set_color normal; git push
+    set_color normal; git push origin HEAD
+    # set_color normal; git push
 end
