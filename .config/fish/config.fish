@@ -80,4 +80,4 @@ alias gl='git pull'
 # exec bash -c "source $HOME/MagicLeap/mlsdk/v0.23.0/envsetup.sh; exec fish"
 
 # tmux 起動
-# t;
+t;
